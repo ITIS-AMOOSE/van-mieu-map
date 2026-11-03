@@ -2,28 +2,19 @@ import React, { memo } from "react";
 import styles from "./FoodMarkerCallout.module.css";
 import { KhueVanCacIcon } from "../icons/FoodIcons";
 
-const SCALE = 0.65;
-const CARD_H = 54 * SCALE;
-const CARD_RX = 12 * SCALE;
-const PIN_R = 19 * SCALE;
-const PIN_CX = 10 * SCALE + PIN_R;
-const PIN_CY = CARD_H / 2;
-const TAIL_TIP_Y = CARD_H + 9 * SCALE;
-const DOT_R = 2.5 * SCALE;
-const DOT_CY = TAIL_TIP_Y + DOT_R * 0.8;
-const ANCHOR_X = PIN_CX;
-const ANCHOR_Y = DOT_CY + DOT_R;
-
-const TEXT_X = PIN_CX + PIN_R + 10 * SCALE;
-const TITLE_Y = 22 * SCALE;
-const SUBTITLE_Y = 38 * SCALE;
-
 function truncateText(str, max = 22) {
   if (!str) return "";
   if (str.length <= max) return str;
   return str.slice(0, max - 1) + "…";
 }
 
+/**
+ * ROCK-SOLID ANCHORING:
+ * In this design, the absolute coordinate (0, 0) is mathematically the needle tip.
+ * - (0, 0) touches the exact GPS coordinate on the map.
+ * - When zooming in or out, the needle tip NEVER shifts even by 1 pixel.
+ * - When hovering or scaling, transform-origin is (0, 0) so it expands from the anchor point.
+ */
 export const FoodMarkerCallout = memo(function FoodMarkerCallout({
   place,
   isSelected = false,
@@ -33,157 +24,229 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
 }) {
   const isVanMieu = place.isCenterLandmark;
   const rating = Math.min(5, Math.max(1, Math.round(place.rating || 5)));
-  const title = truncateText(place.name, isVanMieu ? 26 : 22);
+  const icon = place.categoryIcon || "🍜";
 
-  // If in compact mode and not hovered/selected, show clean circular pin
-  if (isCompact && !isSelected && !isHovered && !isVanMieu) {
+  // 1. VAN MIEU CENTER LANDMARK
+  if (isVanMieu) {
     return (
       <div
-        className={`${styles.markerContainer} ${styles.compactPin}`}
+        className={`${styles.markerWrapper} ${styles.centerLandmark}`}
         onClick={(e) => {
           e.stopPropagation();
           onClick?.(place);
         }}
-        title={`${place.name} (${place.distance_m}m)`}
       >
-        <div className={styles.compactCircle}>
-          <span className={styles.compactEmoji}>{place.categoryIcon || "🍜"}</span>
-        </div>
-        <div className={styles.compactDot} />
+        {/* Radar Pulse Ring at (0, 0) */}
+        <div className={styles.pulseRing} />
+        {/* Anchor point ground dot */}
+        <div className={styles.anchorDotCenter} />
+
+        <svg
+          className={styles.markerSvg}
+          width="200"
+          height="54"
+          viewBox="-16 -46 200 54"
+        >
+          <defs>
+            <filter id="shadow-vm" x="-20%" y="-20%" width="140%" height="150%">
+              <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#2B0E0E" floodOpacity="0.3" />
+            </filter>
+          </defs>
+
+          {/* Card Pill attached to the right */}
+          <rect
+            filter="url(#shadow-vm)"
+            x="8"
+            y="-42"
+            width="170"
+            height="32"
+            rx="8"
+            fill="#FFF5F2"
+            stroke="#DC2626"
+            strokeWidth="1.8"
+          />
+
+          {/* Needle Pin pointing to (0, 0) */}
+          <path d="M -4 -16 L 0 0 L 4 -16 Z" fill="#991B1B" />
+          <circle cx="0" cy="-26" r="14" fill="#991B1B" stroke="#FFFFFF" strokeWidth="1.5" />
+          <circle cx="0" cy="0" r="2.5" fill="#DC2626" />
+
+          {/* Khue Van Cac Icon */}
+          <g transform="translate(-9, -35)">
+            <KhueVanCacIcon size={18} color="#FFFFFF" />
+          </g>
+
+          {/* Texts */}
+          <text
+            x="24"
+            y="-27"
+            fontSize="12"
+            fontWeight="700"
+            fill="#991B1B"
+            fontFamily="'Be Vietnam Pro', sans-serif"
+          >
+            Văn Miếu – Quốc Tử Giám
+          </text>
+          <text
+            x="24"
+            y="-15"
+            fontSize="10"
+            fontWeight="600"
+            fill="#B45309"
+            fontFamily="'Be Vietnam Pro', sans-serif"
+          >
+            ★ Tâm điểm khảo sát (0m)
+          </text>
+        </svg>
       </div>
     );
   }
 
-  // Full Expanded Card Callout (Figma Frame 333)
-  const subtitle = isVanMieu ? "Tâm điểm khảo sát" : `${place.distance_m}m • ${place.rating || "4.5"}★`;
-  const charWidth = 8.5 * SCALE;
-  const contentWidth = Math.max(title.length, subtitle.length) * charWidth;
-  const cardWidth = Math.max(120 * SCALE, TEXT_X + contentWidth + 18 * SCALE);
+  // 2. COMPACT MODE (Zoomed out view: Clean teardrop needle pin locked at (0, 0))
+  if (isCompact && !isSelected && !isHovered) {
+    return (
+      <div
+        className={`${styles.markerWrapper} ${styles.compactMode}`}
+        onClick={(e) => {
+          e.stopPropagation();
+          onClick?.(place);
+        }}
+        title={`${place.name} (${place.distance_m}m • ${place.rating}★)`}
+      >
+        {/* Anchor Ground Dot */}
+        <div className={styles.anchorDot} />
 
-  const shadowId = `shadow-${place.place_id || "vm"}`;
-  const pinColor = isVanMieu ? "#B91C1C" : isSelected ? "#991B1B" : "#7A1E1E";
-  const pinAccent = isVanMieu ? "#F59E0B" : isSelected ? "#EA580C" : "#C2410C";
+        <svg
+          className={styles.markerSvg}
+          width="32"
+          height="38"
+          viewBox="-16 -36 32 38"
+        >
+          <defs>
+            <filter id={`sh-c-${place.place_id}`} x="-30%" y="-30%" width="160%" height="160%">
+              <feDropShadow dx="0" dy="1.5" stdDeviation="2" floodColor="#2B0E0E" floodOpacity="0.25" />
+            </filter>
+          </defs>
+
+          {/* Teardrop needle path pointing directly to (0, 0) */}
+          <path
+            filter={`url(#sh-c-${place.place_id})`}
+            d="M 0 0 C -3.5 -6, -13 -13, -13 -21 A 13 13 0 1 1 13 -21 C 13 -13, 3.5 -6, 0 0 Z"
+            fill="#7A1E1E"
+            stroke="#FFFFFF"
+            strokeWidth="1.2"
+          />
+          {/* Inner white circle */}
+          <circle cx="0" cy="-21" r="9.5" fill="#FFFFFF" />
+          {/* Food Category Emoji */}
+          <text x="0" y="-17.5" textAnchor="middle" fontSize="10.5">
+            {icon}
+          </text>
+          {/* Needle tip dot at (0, 0) */}
+          <circle cx="0" cy="0" r="1.5" fill="#DC2626" />
+        </svg>
+      </div>
+    );
+  }
+
+  // 3. FULL EXPANDED CALLOUT (Zoomed in or Selected/Hovered)
+  const title = truncateText(place.name, 22);
+  const subtitleDist = place.distance_m ? `${place.distance_m}m` : "";
+  const charWidth = 6.8;
+  const cardWidth = Math.max(128, title.length * charWidth + 50);
+
+  const pinColor = isSelected ? "#991B1B" : "#7A1E1E";
+  const strokeColor = isSelected ? "#DC2626" : "#EAD9D4";
+  const strokeWidth = isSelected ? 1.8 : 1;
+  const bg = isSelected ? "#FFF5F2" : "#FFFFFF";
 
   return (
     <div
-      className={`${styles.markerContainer} ${isSelected ? styles.selected : ""} ${
+      className={`${styles.markerWrapper} ${isSelected ? styles.selected : ""} ${
         isHovered ? styles.hovered : ""
-      } ${isVanMieu ? styles.centerLandmark : ""}`}
+      }`}
       onClick={(e) => {
         e.stopPropagation();
         onClick?.(place);
       }}
     >
-      {isVanMieu && <div className={styles.pulseRing} />}
+      {/* Anchor Ground Dot at (0, 0) */}
+      <div className={styles.anchorDot} />
+
       <svg
-        className={styles.calloutSvg}
-        width={cardWidth + 8}
-        height={ANCHOR_Y + 8}
-        viewBox={`-${4} -${4} ${cardWidth + 8} ${ANCHOR_Y + 8}`}
-        style={{
-          transform: `translate(-${ANCHOR_X + 4}px, -${ANCHOR_Y + 4}px)`,
-        }}
+        className={styles.markerSvg}
+        width={cardWidth + 30}
+        height="50"
+        viewBox={`-16 -44 ${cardWidth + 30} 50`}
       >
         <defs>
-          <filter id={shadowId} x="-20%" y="-20%" width="140%" height="150%">
+          <filter id={`sh-${place.place_id}`} x="-20%" y="-20%" width="140%" height="150%">
             <feDropShadow
               dx="0"
-              dy={isSelected ? 4 : 2}
-              stdDeviation={isSelected ? 4 : 2.5}
+              dy={isSelected ? 3 : 2}
+              stdDeviation={isSelected ? 3.5 : 2.5}
               floodColor="#2B0E0E"
-              floodOpacity={isSelected ? 0.28 : 0.16}
+              floodOpacity={isSelected ? 0.3 : 0.18}
             />
           </filter>
         </defs>
 
-        {/* Card pill background */}
-        <g filter={`url(#${shadowId})`}>
-          <rect
-            className={styles.cardBg}
-            x="0"
-            y="0"
-            width={cardWidth}
-            height={CARD_H}
-            rx={CARD_RX}
-            ry={CARD_RX}
-            fill={isSelected ? "#FFF5F2" : "#FFFFFF"}
-            stroke={isSelected ? "#E11D48" : isVanMieu ? "#D97706" : "#EAD9D4"}
-            strokeWidth={isSelected ? 1.8 : 1}
-          />
-        </g>
-
-        {/* Pin Shape */}
-        <path
-          d={`M ${PIN_CX - 4.5 * SCALE} ${PIN_CY + PIN_R - 2} L ${PIN_CX} ${TAIL_TIP_Y} L ${
-            PIN_CX + 4.5 * SCALE
-          } ${PIN_CY + PIN_R - 2} Z`}
-          fill={pinColor}
+        {/* Card Pill attached to the right of pin */}
+        <rect
+          filter={`url(#sh-${place.place_id})`}
+          x="6"
+          y="-38"
+          width={cardWidth}
+          height="30"
+          rx="7"
+          fill={bg}
+          stroke={strokeColor}
+          strokeWidth={strokeWidth}
         />
-        <circle cx={PIN_CX} cy={PIN_CY} r={PIN_R} fill={pinColor} />
-        <circle cx={PIN_CX} cy={DOT_CY} r={DOT_R} fill={pinAccent} />
 
-        {/* Icon in Pin */}
-        {isVanMieu ? (
-          <g transform={`translate(${PIN_CX - 9}, ${PIN_CY - 9})`}>
-            <KhueVanCacIcon size={18} color="#FFFFFF" />
-          </g>
-        ) : (
-          <text
-            x={PIN_CX}
-            y={PIN_CY + 4.5}
-            textAnchor="middle"
-            fontSize="12"
-            fill="#FFFFFF"
-          >
-            {place.categoryIcon || "🍜"}
-          </text>
-        )}
+        {/* Needle Pin pointing to (0, 0) */}
+        <path d="M -3.5 -14 L 0 0 L 3.5 -14 Z" fill={pinColor} />
+        <circle cx="0" cy="-23" r="12" fill={pinColor} stroke="#FFFFFF" strokeWidth="1.2" />
+        <circle cx="0" cy="0" r="2" fill="#DC2626" />
 
-        {/* Title */}
+        {/* Food Icon inside Pin */}
+        <text x="0" y="-19" textAnchor="middle" fontSize="11" fill="#FFFFFF">
+          {icon}
+        </text>
+
+        {/* Venue Title */}
         <text
-          x={TEXT_X}
-          y={TITLE_Y}
-          className={styles.title}
-          fill={isVanMieu ? "#991B1B" : "#1F2937"}
-          fontSize={11.5 * SCALE + 3}
-          fontWeight="600"
+          x="19"
+          y="-25"
+          fontSize="11"
+          fontWeight="700"
+          fill={isSelected ? "#991B1B" : "#1F2937"}
+          fontFamily="'Be Vietnam Pro', sans-serif"
         >
           {title}
         </text>
 
-        {/* Subtitle / Stars */}
-        {isVanMieu ? (
-          <text
-            x={TEXT_X}
-            y={SUBTITLE_Y}
-            fill="#B45309"
-            fontSize={10.5 * SCALE + 2}
-            fontWeight="600"
-          >
-            ★ Tâm điểm Văn Miếu
-          </text>
-        ) : (
-          <g>
-            <text
-              x={TEXT_X}
-              y={SUBTITLE_Y}
-              fill="#D97706"
-              fontSize={10.5 * SCALE + 2}
-              fontWeight="600"
-            >
-              {"★".repeat(rating)}
-            </text>
-            <text
-              x={TEXT_X + rating * 8 + 4}
-              y={SUBTITLE_Y}
-              fill="#6B7280"
-              fontSize={9.5 * SCALE + 2}
-              fontWeight="500"
-            >
-              {place.distance_m ? `${place.distance_m}m` : ""}
-            </text>
-          </g>
-        )}
+        {/* Stars Rating and Distance */}
+        <text
+          x="19"
+          y="-14"
+          fontSize="10"
+          fontWeight="700"
+          fill="#D97706"
+          fontFamily="'Be Vietnam Pro', sans-serif"
+        >
+          {"★".repeat(rating)}
+        </text>
+        <text
+          x={19 + rating * 7 + 4}
+          y="-14"
+          fontSize="9"
+          fontWeight="600"
+          fill="#6B7280"
+          fontFamily="'Be Vietnam Pro', sans-serif"
+        >
+          {subtitleDist}
+        </text>
       </svg>
     </div>
   );

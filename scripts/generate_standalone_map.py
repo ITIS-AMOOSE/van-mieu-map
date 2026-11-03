@@ -529,52 +529,54 @@ html_content = f'''<!DOCTYPE html>
     .dot-amber {{ width: 8px; height: 8px; border-radius: 50%; background: #d97706; }}
     .dot-red {{ width: 8px; height: 8px; border-radius: 50%; background: #7a1e1e; }}
 
-    /* CUSTOM SVG MARKER */
-    .custom-marker {{
+    /* ZERO-OFFSET EXACT NEEDLE MARKERS */
+    .marker-wrap {{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 0;
+      height: 0;
       cursor: pointer;
       user-select: none;
-      transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+      transform-origin: 0 0;
+      transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1);
     }}
-    .custom-marker:hover {{
-      transform: scale(1.18);
+    .marker-wrap:hover {{
+      transform: scale(1.15);
       z-index: 9999 !important;
     }}
-    .custom-marker.active {{
-      transform: scale(1.22);
+    .marker-wrap.active {{
+      transform: scale(1.18);
       z-index: 10000 !important;
     }}
 
-    /* COMPACT PIN ICON */
-    .compact-pin {{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      transform: translate(-50%, -100%);
-    }}
-    .compact-circle {{
-      width: 28px;
-      height: 28px;
-      border-radius: 50%;
-      background: #ffffff;
-      border: 2px solid #7a1e1e;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 14px;
-      transition: all 0.2s ease;
-    }}
-    .compact-pin:hover .compact-circle {{
-      transform: scale(1.2);
-      border-color: #dc2626;
-      background: #fff5f2;
-    }}
-    .compact-dot {{
+    .anchor-dot {{
+      position: absolute;
+      left: -2px;
+      top: -2px;
       width: 4px;
       height: 4px;
-      background: #7a1e1e;
       border-radius: 50%;
-      margin-top: 1px;
+      background: #7a1e1e;
+      opacity: 0.5;
+      pointer-events: none;
+    }}
+
+    .pulse-ring {{
+      position: absolute;
+      left: -24px;
+      top: -24px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(220, 38, 38, 0.25);
+      animation: pulse 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+      pointer-events: none;
+    }}
+    @keyframes pulse {{
+      0% {{ transform: scale(0.5); opacity: 0.9; }}
+      70% {{ transform: scale(2.4); opacity: 0; }}
+      100% {{ transform: scale(2.6); opacity: 0; }}
     }}
 
     /* DETAIL DRAWER */
@@ -700,21 +702,6 @@ html_content = f'''<!DOCTYPE html>
       font-size: 13.5px;
       font-weight: 700;
       box-shadow: 0 4px 12px rgba(122, 30, 30, 0.2);
-    }}
-    .pulse-ring {{
-      position: absolute;
-      top: 0; left: 0;
-      width: 44px; height: 44px;
-      margin-top: -22px; margin-left: -22px;
-      border-radius: 50%;
-      background: rgba(220, 38, 38, 0.25);
-      animation: pulse 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
-      pointer-events: none;
-    }}
-    @keyframes pulse {{
-      0% {{ transform: scale(0.6); opacity: 0.9; }}
-      70% {{ transform: scale(2.4); opacity: 0; }}
-      100% {{ transform: scale(2.6); opacity: 0; }}
     }}
   </style>
 </head>
@@ -850,7 +837,7 @@ html_content = f'''<!DOCTYPE html>
     let showCircle = true;
     let showHanoi = true;
 
-    // Use MapTiler Streets from DeepCulture v2 (vector, sharp, zero watermark)
+    // Use MapTiler Streets vector from DeepCulture v2
     const MAPTILER_KEY = "3YkDyiBlRz2j0AucReR8";
     const map = new maplibregl.Map({{
       container: "map",
@@ -916,28 +903,34 @@ html_content = f'''<!DOCTYPE html>
 
     function addCenterMarker() {{
       const el = document.createElement("div");
-      el.className = "custom-marker";
+      el.style.width = "0px";
+      el.style.height = "0px";
+      el.style.position = "relative";
       el.innerHTML = `
-        <div class="pulse-ring"></div>
-        <svg width="180" height="48" viewBox="-4 -4 180 48" style="transform: translate(-26px, -44px); overflow: visible;">
-          <defs>
-            <filter id="vm-shadow" x="-20%" y="-20%" width="140%" height="150%">
-              <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#2B0E0E" floodOpacity="0.25"/>
-            </filter>
-          </defs>
-          <rect filter="url(#vm-shadow)" x="0" y="0" width="168" height="34" rx="8" fill="#FFF5F2" stroke="#DC2626" stroke-width="1.6"/>
-          <path d="M 18 31 L 22 39 L 26 31 Z" fill="#991B1B"/>
-          <circle cx="22" cy="17" r="12" fill="#991B1B"/>
-          <text x="22" y="21" text-anchor="middle" font-size="12" fill="#FFFFFF">🏛️</text>
-          <text x="38" y="15" font-size="11.5" font-weight="700" fill="#991B1B" font-family="'Be Vietnam Pro', sans-serif">Văn Miếu – Quốc Tử Giám</text>
-          <text x="38" y="27" font-size="9.5" font-weight="600" fill="#B45309" font-family="'Be Vietnam Pro', sans-serif">★ Tâm điểm khảo sát 2km</text>
-        </svg>
+        <div class="marker-wrap">
+          <div class="pulse-ring"></div>
+          <div style="position: absolute; left: -3px; top: -3px; width: 6px; height: 6px; border-radius: 50%; background: #dc2626;"></div>
+          <svg width="200" height="54" viewBox="-16 -46 200 54" style="position: absolute; left: 0; top: 0; overflow: visible;">
+            <defs>
+              <filter id="vm-shadow" x="-20%" y="-20%" width="140%" height="150%">
+                <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#2B0E0E" floodOpacity="0.3"/>
+              </filter>
+            </defs>
+            <rect filter="url(#vm-shadow)" x="8" y="-42" width="170" height="32" rx="8" fill="#FFF5F2" stroke="#DC2626" stroke-width="1.8"/>
+            <path d="M -4 -16 L 0 0 L 4 -16 Z" fill="#991B1B"/>
+            <circle cx="0" cy="-26" r="14" fill="#991B1B" stroke="#FFFFFF" stroke-width="1.5"/>
+            <circle cx="0" cy="0" r="2.5" fill="#DC2626"/>
+            <text x="0" y="-21" text-anchor="middle" font-size="12" fill="#FFFFFF">🏛️</text>
+            <text x="24" y="-27" font-size="12" font-weight="700" fill="#991B1B" font-family="'Be Vietnam Pro', sans-serif">Văn Miếu – Quốc Tử Giám</text>
+            <text x="24" y="-15" font-size="10" font-weight="600" fill="#B45309" font-family="'Be Vietnam Pro', sans-serif">★ Tâm điểm khảo sát (0m)</text>
+          </svg>
+        </div>
       `;
       el.onclick = () => {{
         map.flyTo({{ center: VAN_MIEU, zoom: 15.5, duration: 800 }});
         openVanMieuDetail();
       }};
-      new maplibregl.Marker({{ element: el, anchor: "bottom" }})
+      new maplibregl.Marker({{ element: el, anchor: "center" }})
         .setLngLat(VAN_MIEU)
         .addTo(map);
     }}
@@ -947,22 +940,32 @@ html_content = f'''<!DOCTYPE html>
       const icon = catMeta.icon || "🍜";
       const isZoomedOut = map.getZoom() < 14.2;
 
-      // If zoomed out and not selected, render compact clean pin
+      // 1. Compact Teardrop Pin pointing directly to (0, 0)
       if (isZoomedOut && !isSelected) {{
         return `
-          <div class="compact-pin" title="${{place.name}} (${{place.distance_m}}m)">
-            <div class="compact-circle">${{icon}}</div>
-            <div class="compact-dot"></div>
+          <div class="marker-wrap" title="${{place.name}} (${{place.distance_m}}m)">
+            <div class="anchor-dot"></div>
+            <svg width="32" height="38" viewBox="-16 -36 32 38" style="position: absolute; left: 0; top: 0; overflow: visible;">
+              <defs>
+                <filter id="sh-c-${{place.place_id}}" x="-30%" y="-30%" width="160%" height="160%">
+                  <feDropShadow dx="0" dy="1.5" stdDeviation="2" floodColor="#2B0E0E" floodOpacity="0.25"/>
+                </filter>
+              </defs>
+              <path filter="url(#sh-c-${{place.place_id}})" d="M 0 0 C -3.5 -6, -13 -13, -13 -21 A 13 13 0 1 1 13 -21 C 13 -13, 3.5 -6, 0 0 Z" fill="#7A1E1E" stroke="#FFFFFF" stroke-width="1.2"/>
+              <circle cx="0" cy="-21" r="9.5" fill="#FFFFFF"/>
+              <text x="0" y="-17.5" text-anchor="middle" font-size="10.5">${{icon}}</text>
+              <circle cx="0" cy="0" r="1.5" fill="#DC2626"/>
+            </svg>
           </div>
         `;
       }}
 
-      // Expanded Card Callout (Frame 333)
+      // 2. Full Expanded Callout pointing directly to (0, 0)
       const name = place.name.length > 20 ? place.name.slice(0, 19) + "…" : place.name;
       const dist = place.distance_m ? `${{place.distance_m}}m` : "";
       const rating = Math.min(5, Math.max(1, Math.round(place.rating || 5)));
       const stars = "★".repeat(rating);
-      const width = Math.max(136, name.length * 6.5 + 46);
+      const width = Math.max(128, name.length * 6.8 + 48);
 
       const pinColor = isSelected ? "#991B1B" : "#7A1E1E";
       const strokeColor = isSelected ? "#DC2626" : "#EAD9D4";
@@ -970,20 +973,24 @@ html_content = f'''<!DOCTYPE html>
       const bg = isSelected ? "#FFF5F2" : "#FFFFFF";
 
       return `
-        <svg width="${{width + 8}}" height="46" viewBox="-4 -4 ${{width + 8}} 46" style="transform: translate(-23px, -40px); overflow: visible;">
-          <defs>
-            <filter id="sh-${{place.place_id}}" x="-20%" y="-20%" width="140%" height="150%">
-              <feDropShadow dx="0" dy="2" stdDeviation="2.5" floodColor="#2B0E0E" floodOpacity="0.16"/>
-            </filter>
-          </defs>
-          <rect filter="url(#sh-${{place.place_id}})" x="0" y="0" width="${{width}}" height="32" rx="7" fill="${{bg}}" stroke="${{strokeColor}}" stroke-width="${{strokeWidth}}"/>
-          <path d="M 16 29 L 19 36 L 22 29 Z" fill="${{pinColor}}"/>
-          <circle cx="19" cy="16" r="11" fill="${{pinColor}}"/>
-          <text x="19" y="20" text-anchor="middle" font-size="11" fill="#FFFFFF">${{icon}}</text>
-          <text x="34" y="14" font-size="10.5" font-weight="600" fill="#1F2937" font-family="'Be Vietnam Pro', sans-serif">${{name}}</text>
-          <text x="34" y="25" font-size="9.5" font-weight="700" fill="#D97706" font-family="'Be Vietnam Pro', sans-serif">${{stars}}</text>
-          <text x="${{34 + rating * 7 + 4}}" y="25" font-size="8.5" font-weight="500" fill="#6B7280" font-family="'Be Vietnam Pro', sans-serif">${{dist}}</text>
-        </svg>
+        <div class="marker-wrap${{isSelected ? ' active' : ''}}">
+          <div class="anchor-dot"></div>
+          <svg width="${{width + 30}}" height="50" viewBox="-16 -44 ${{width + 30}} 50" style="position: absolute; left: 0; top: 0; overflow: visible;">
+            <defs>
+              <filter id="sh-${{place.place_id}}" x="-20%" y="-20%" width="140%" height="150%">
+                <feDropShadow dx="0" dy="2" stdDeviation="2.5" floodColor="#2B0E0E" floodOpacity="0.2"/>
+              </filter>
+            </defs>
+            <rect filter="url(#sh-${{place.place_id}})" x="6" y="-38" width="${{width}}" height="30" rx="7" fill="${{bg}}" stroke="${{strokeColor}}" stroke-width="${{strokeWidth}}"/>
+            <path d="M -3.5 -14 L 0 0 L 3.5 -14 Z" fill="${{pinColor}}"/>
+            <circle cx="0" cy="-23" r="12" fill="${{pinColor}}" stroke="#FFFFFF" stroke-width="1.2"/>
+            <circle cx="0" cy="0" r="2" fill="#DC2626"/>
+            <text x="0" y="-19" text-anchor="middle" font-size="11" fill="#FFFFFF">${{icon}}</text>
+            <text x="19" y="-25" font-size="11" font-weight="700" fill="${{isSelected ? '#991B1B' : '#1F2937'}}" font-family="'Be Vietnam Pro', sans-serif">${{name}}</text>
+            <text x="19" y="-14" font-size="10" font-weight="700" fill="#D97706" font-family="'Be Vietnam Pro', sans-serif">${{stars}}</text>
+            <text x="${{19 + rating * 7 + 4}}" y="-14" font-size="9" font-weight="600" fill="#6B7280" font-family="'Be Vietnam Pro', sans-serif">${{dist}}</text>
+          </svg>
+        </div>
       `;
     }}
 
@@ -994,14 +1001,16 @@ html_content = f'''<!DOCTYPE html>
       const filtered = getFilteredPlaces();
       filtered.forEach(place => {{
         const el = document.createElement("div");
-        el.className = "custom-marker" + (selectedPlaceId === place.place_id ? " active" : "");
+        el.style.width = "0px";
+        el.style.height = "0px";
+        el.style.position = "relative";
         el.innerHTML = createMarkerHtml(place, selectedPlaceId === place.place_id);
         el.onclick = (e) => {{
           e.stopPropagation();
           selectPlace(place);
         }};
 
-        const marker = new maplibregl.Marker({{ element: el, anchor: "bottom" }})
+        const marker = new maplibregl.Marker({{ element: el, anchor: "center" }})
           .setLngLat([place.lng, place.lat])
           .addTo(map);
 
@@ -1357,4 +1366,4 @@ with open(r'E:\Demo Văn Miếu\food_map_preview.html', 'w', encoding='utf-8') a
 with open(r'E:\Demo Văn Miếu\Demo Văn Miếu\food_map_preview.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
 
-print("Updated food_map_preview.html with clean MapTiler streets vector style!")
+print("Updated food_map_preview.html with zero-offset needle tip anchoring!")
