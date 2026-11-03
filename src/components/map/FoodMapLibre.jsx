@@ -13,6 +13,7 @@ import {
   MAP_MIN_ZOOM,
   MAP_MAX_ZOOM,
   SURVEY_RADIUS_METERS,
+  VENUE_MIN_ZOOM,
   BASEMAP_STYLES,
   HANOI_BBOX
 } from "./mapConstants";
@@ -295,10 +296,15 @@ export default function FoodMapLibre({
     });
     markersRef.current = [];
 
-    const isCompactMode = currentZoom < 14.2;
+    // When zoomed out far (< VENUE_MIN_ZOOM), hide all restaurant markers (only show Center Van Mieu)
+    const showVenues = currentZoom >= VENUE_MIN_ZOOM;
 
     places.forEach((place) => {
       if (typeof place.lat !== "number" || typeof place.lng !== "number") return;
+
+      const isSelected = selectedPlace?.place_id === place.place_id;
+      // If zoomed out, only show if it is actively selected
+      if (!showVenues && !isSelected) return;
 
       const catMeta = categoryMeta[place.primary_category] || {};
       const placeWithMeta = {
@@ -306,7 +312,6 @@ export default function FoodMapLibre({
         categoryIcon: catMeta.icon || "🍜",
       };
 
-      const isSelected = selectedPlace?.place_id === place.place_id;
       const isHovered = hoveredPlaceId === place.place_id;
 
       const el = document.createElement("div");
@@ -320,7 +325,7 @@ export default function FoodMapLibre({
           place={placeWithMeta}
           isSelected={isSelected}
           isHovered={isHovered}
-          isCompact={isCompactMode}
+          isCompact={false}
           onClick={() => onSelectPlace?.(place)}
         />
       );
@@ -404,8 +409,19 @@ export default function FoodMapLibre({
           <KhueVanCacIcon size={18} color="#991B1B" />
           <span className={styles.bannerTitle}>Tâm điểm: Văn Miếu Quốc Tử Giám</span>
         </div>
-        <div className={styles.bannerBadge}>
-          Bán kính 2.0km • {places.length} quán ăn đang hiển thị
+        <div
+          className={styles.bannerBadge}
+          onClick={() => {
+            if (currentZoom < VENUE_MIN_ZOOM) {
+              mapRef.current?.flyTo({ center: VAN_MIEU_COORDS, zoom: 15.0, duration: 800 });
+            }
+          }}
+          style={{ cursor: currentZoom < VENUE_MIN_ZOOM ? "pointer" : "default" }}
+          title={currentZoom < VENUE_MIN_ZOOM ? "Bấm để phóng to vào vùng quán ăn Văn Miếu" : ""}
+        >
+          {currentZoom >= VENUE_MIN_ZOOM
+            ? `Bán kính 2.0km • ${places.length} quán ăn đang hiển thị`
+            : `Bán kính 2.0km • Phóng to gần để xem ${places.length} quán ăn 🔍`}
         </div>
       </div>
 

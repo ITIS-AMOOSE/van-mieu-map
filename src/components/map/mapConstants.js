@@ -7,6 +7,7 @@ export const MAP_DEFAULT_ZOOM = 14.8;
 export const MAP_MIN_ZOOM = 10;
 export const MAP_MAX_ZOOM = 19;
 export const SURVEY_RADIUS_METERS = 2000;
+export const VENUE_MIN_ZOOM = 14.0; // Hide restaurant markers below this zoom level
 
 export const HANOI_BBOX = [105.2889615, 20.5645154, 106.0200407, 21.3854176]; // [minLng, minLat, maxLng, maxLat]
 

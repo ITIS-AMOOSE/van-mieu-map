@@ -428,6 +428,10 @@ html_content = f'''<!DOCTYPE html>
       padding: 2px 10px;
       border-radius: 9999px;
       border: 1px solid #fde68a;
+      transition: all 0.2s ease;
+    }}
+    .banner-badge:hover {{
+      background: #fef3c7;
     }}
 
     /* MAP CONTROLS */
@@ -785,7 +789,7 @@ html_content = f'''<!DOCTYPE html>
       <div class="top-banner">
         <span style="font-size: 16px;">🏛️</span>
         <span class="banner-title">Tâm điểm: Văn Miếu Quốc Tử Giám</span>
-        <span class="banner-badge" id="banner-count">Bán kính 2.0km • 70 quán ăn</span>
+        <span class="banner-badge" id="banner-count" style="cursor: pointer;">Bán kính 2.0km • 70 quán ăn</span>
       </div>
 
       <!-- Map Controls -->
@@ -826,6 +830,7 @@ html_content = f'''<!DOCTYPE html>
   <script>
     const DATA = {json_data_str};
     const VAN_MIEU = [105.835953, 21.02879];
+    const VENUE_MIN_ZOOM = 14.0; // Hide restaurant markers when zoom < 14.0
 
     let currentViewMode = "places";
     let activeCategory = "all";
@@ -938,29 +943,8 @@ html_content = f'''<!DOCTYPE html>
     function createMarkerHtml(place, isSelected) {{
       const catMeta = DATA.category_meta[place.primary_category] || {{}};
       const icon = catMeta.icon || "🍜";
-      const isZoomedOut = map.getZoom() < 14.2;
 
-      // 1. Compact Teardrop Pin pointing directly to (0, 0)
-      if (isZoomedOut && !isSelected) {{
-        return `
-          <div class="marker-wrap" title="${{place.name}} (${{place.distance_m}}m)">
-            <div class="anchor-dot"></div>
-            <svg width="32" height="38" viewBox="-16 -36 32 38" style="position: absolute; left: 0; top: 0; overflow: visible;">
-              <defs>
-                <filter id="sh-c-${{place.place_id}}" x="-30%" y="-30%" width="160%" height="160%">
-                  <feDropShadow dx="0" dy="1.5" stdDeviation="2" floodColor="#2B0E0E" floodOpacity="0.25"/>
-                </filter>
-              </defs>
-              <path filter="url(#sh-c-${{place.place_id}})" d="M 0 0 C -3.5 -6, -13 -13, -13 -21 A 13 13 0 1 1 13 -21 C 13 -13, 3.5 -6, 0 0 Z" fill="#7A1E1E" stroke="#FFFFFF" stroke-width="1.2"/>
-              <circle cx="0" cy="-21" r="9.5" fill="#FFFFFF"/>
-              <text x="0" y="-17.5" text-anchor="middle" font-size="10.5">${{icon}}</text>
-              <circle cx="0" cy="0" r="1.5" fill="#DC2626"/>
-            </svg>
-          </div>
-        `;
-      }}
-
-      // 2. Full Expanded Callout pointing directly to (0, 0)
+      // Full Expanded Callout pointing directly to (0, 0)
       const name = place.name.length > 20 ? place.name.slice(0, 19) + "…" : place.name;
       const dist = place.distance_m ? `${{place.distance_m}}m` : "";
       const rating = Math.min(5, Math.max(1, Math.round(place.rating || 5)));
@@ -998,26 +982,39 @@ html_content = f'''<!DOCTYPE html>
       markers.forEach(m => m.remove());
       markers = [];
 
+      const currentZoom = map.getZoom();
+      const showVenues = currentZoom >= VENUE_MIN_ZOOM;
       const filtered = getFilteredPlaces();
-      filtered.forEach(place => {{
-        const el = document.createElement("div");
-        el.style.width = "0px";
-        el.style.height = "0px";
-        el.style.position = "relative";
-        el.innerHTML = createMarkerHtml(place, selectedPlaceId === place.place_id);
-        el.onclick = (e) => {{
-          e.stopPropagation();
-          selectPlace(place);
-        }};
 
-        const marker = new maplibregl.Marker({{ element: el, anchor: "center" }})
-          .setLngLat([place.lng, place.lat])
-          .addTo(map);
+      if (showVenues || selectedPlaceId) {{
+        filtered.forEach(place => {{
+          const isSelected = selectedPlaceId === place.place_id;
+          if (!showVenues && !isSelected) return;
 
-        markers.push(marker);
-      }});
+          const el = document.createElement("div");
+          el.style.width = "0px";
+          el.style.height = "0px";
+          el.style.position = "relative";
+          el.innerHTML = createMarkerHtml(place, isSelected);
+          el.onclick = (e) => {{
+            e.stopPropagation();
+            selectPlace(place);
+          }};
 
-      document.getElementById("banner-count").innerText = `Bán kính 2.0km • ${{filtered.length}} quán ăn`;
+          const marker = new maplibregl.Marker({{ element: el, anchor: "center" }})
+            .setLngLat([place.lng, place.lat])
+            .addTo(map);
+
+          markers.push(marker);
+        }});
+      }}
+
+      const bannerBadge = document.getElementById("banner-count");
+      if (showVenues) {{
+        bannerBadge.innerText = `Bán kính 2.0km • ${{filtered.length}} quán ăn đang hiển thị`;
+      }} else {{
+        bannerBadge.innerText = `Bán kính 2.0km • Phóng to gần để xem ${{filtered.length}} quán ăn 🔍`;
+      }}
     }}
 
     function getFilteredPlaces() {{
@@ -1326,6 +1323,11 @@ html_content = f'''<!DOCTYPE html>
       map.flyTo({{ center: VAN_MIEU, zoom: 15.5, duration: 800 }});
       openVanMieuDetail();
     }});
+    document.getElementById("banner-count").addEventListener("click", () => {{
+      if (map.getZoom() < VENUE_MIN_ZOOM) {{
+        map.flyTo({{ center: VAN_MIEU, zoom: 15.0, duration: 800 }});
+      }}
+    }});
     document.getElementById("btn-fit-hanoi").addEventListener("click", () => {{
       map.fitBounds([[105.2889615, 20.5645154], [106.0200407, 21.3854176]], {{ padding: 40, duration: 900 }});
     }});
@@ -1366,4 +1368,4 @@ with open(r'E:\Demo Văn Miếu\food_map_preview.html', 'w', encoding='utf-8') a
 with open(r'E:\Demo Văn Miếu\Demo Văn Miếu\food_map_preview.html', 'w', encoding='utf-8') as f:
     f.write(html_content)
 
-print("Updated food_map_preview.html with zero-offset needle tip anchoring!")
+print("Regenerated food_map_preview.html with zoom-adaptive venue marker visibility!")
