@@ -1,0 +1,309 @@
+﻿dish_id,variant_id,name_vi,name_en_machine,group,role,quantity_raw
+DISH_001,,Xương ống bò,,broth,typical,Xương ống bò 1 kg
+DISH_001,,Bắp bò,,main,typical,Bắp bò 0.8 kg
+DISH_001,,Hành tây,,seasoning,typical,Hành tây 2 củ
+DISH_001,,Gừng nhỏ,,seasoning,typical,Gừng nhỏ 1 củ
+DISH_001,,Trái thảo,,seasoning,typical,Trái thảo 2 quả
+DISH_001,,Hoa hồi,,seasoning,typical,Hoa hồi 10 cái
+DISH_001,,Thanh quế nhỏ,,seasoning,typical,Thanh quế nhỏ 1 cái
+DISH_002,,Gà,,main,typical,Gà 1.8 kg
+DISH_002,,Xương gà,,broth,typical,Xương gà 1.6 kg
+DISH_002,,Bánh phở,,main,typical,Bánh phở 1 kg
+DISH_002,,Nước,,main,typical,Nước 3.1 lít
+DISH_002,,Hành khô,,seasoning,typical,Hành khô 50 gr
+DISH_002,,Gừng,,seasoning,typical,Gừng 50 gr
+DISH_002,,Hạt mùi,,seasoning,typical,Hạt mùi 10 gr
+DISH_002,,Hành tây,,seasoning,typical,Hành tây 1 củ
+DISH_002,,Gia vị thông dụng,,seasoning,typical,Gia vị thông dụng 1 ít
+DISH_002,,Gia vị ăn kèm,,seasoning,typical,Gia vị ăn kèm 1 ít
+DISH_003,,Bún tươi,,main,typical,Bún tươi 1 kg
+DISH_003,,Thịt ba chỉ,,main,typical,Thịt ba chỉ 700 gr
+DISH_003,,Thịt heo xay nhuyễn,,main,typical,Thịt heo xay nhuyễn 500 gr
+DISH_003,,Cà rốt,,herb_side,typical,Cà rốt 1 củ
+DISH_003,,Đủ đủ xanh,,herb_side,typical,Đủ đủ xanh 1/2 trái
+DISH_003,,Rau sống các loại,,herb_side,typical,Rau sống các loại 500 gr
+DISH_003,,Hành tím băm,,seasoning,typical,Hành tím băm 1 muỗng canh
+DISH_003,,Tỏi băm,,seasoning,typical,Tỏi băm 1.5 muỗng canh
+DISH_003,,Ớt băm,,herb_side,typical,Ớt băm 1 ít
+DISH_003,,Dầu hào,,sauce,typical,Dầu hào 2 muỗng canh
+DISH_003,,Mật ong,,seasoning,typical,Mật ong 3 muỗng canh
+DISH_003,,Nước màu,,sauce,typical,Nước màu 2 muỗng canh
+DISH_003,,Nước mắm,,sauce,typical,Nước mắm 1 chén
+DISH_003,,Giấm,,seasoning,typical,Giấm 1/2 chén
+DISH_003,,Dầu ăn,,seasoning,typical,Dầu ăn 1 ít
+DISH_003,,Gia vị thông dụng,,seasoning,typical,Gia vị thông dụng 1 ít
+DISH_004,,Gan heo,,main,typical,Gan heo 1 kg
+DISH_004,,Thịt nạc lẫn mỡ,,main,typical,Thịt nạc lẫn mỡ 500 gr
+DISH_004,,Mỡ khổ,,seasoning,typical,Mỡ khổ 300 gr
+DISH_004,,Bì heo,,main,typical,Bì heo 300 gr
+DISH_004,,Sữa tươi không đường,,seasoning,typical,Sữa tươi không đường 400 ml
+DISH_004,,Ổ bánh mì,,main,typical,Ổ bánh mì 1 cái
+DISH_004,,Hành tây,,seasoning,typical,Hành tây 1 củ
+DISH_004,,Tỏi,,seasoning,typical,Tỏi 2 củ
+DISH_004,,Trứng gà,,main,typical,Trứng gà 2 quả
+DISH_004,,Gia vị thông dụng,,seasoning,typical,Gia vị thông dụng 1 ít
+DISH_004,,Món ăn kèm /chà bông (ruốc)/rau thơm),,herb_side,typical,Món ăn kèm /chà bông (ruốc)/rau thơm) 1 ít
+DISH_005,,Gà ta,,main,typical,Gà ta 1/2 con
+DISH_005,,Xương ống,,broth,typical,Xương ống 300 gr
+DISH_005,,Sá sùng,,main,typical,Sá sùng 15 gr
+DISH_005,,Chả lụa,,main,typical,Chả lụa 100 gr
+DISH_005,,Trứng gà,,main,typical,Trứng gà 1 quả
+DISH_005,,Ca la thầu,,main,typical,Ca la thầu 30 gr
+DISH_005,,Hành tây,,seasoning,typical,Hành tây 1/4 củ
+DISH_005,,Cà rốt,,herb_side,typical,Cà rốt 1/2 củ
+DISH_005,,Hành tím,,seasoning,typical,Hành tím 4 củ
+DISH_005,,Hành lá/ ngò rí,,herb_side,typical,Hành lá/ ngò rí 1 ít
+DISH_005,,Bún tươi,,main,typical,Bún tươi 600 gr
+DISH_005,,Mắm tôm,,sauce,typical,Mắm tôm 50 gr
+DISH_005,,Nước mắm,,sauce,typical,Nước mắm 1/2 muỗng canh
+DISH_005,,Bột canh,,seasoning,typical,Bột canh 1 muỗng cà phê
+DISH_005,,Tiêu hạt,,seasoning,typical,Tiêu hạt 1 muỗng cà phê
+DISH_006,,Bún lá,,main,typical,Bún lá 1 ít
+DISH_006,,Đậu hũ,,main,typical,Đậu hũ 1 kg
+DISH_006,,Phèo non,,main,typical,Phèo non 600 gr
+DISH_006,,Gan,,main,typical,Gan 200 gr
+DISH_006,,Huyết,,main,typical,Huyết 100 gr
+DISH_006,,Dạ dày,,main,typical,Dạ dày 300 gr
+DISH_006,,Lưỡi heo,,main,typical,Lưỡi heo 1 cái
+DISH_006,,Thịt heo,,main,typical,Thịt heo 500 gr
+DISH_006,,Thịt heo xay,,main,typical,Thịt heo xay 300 gr
+DISH_006,,Khoai tây,,main,typical,Khoai tây 1 củ
+DISH_006,,Nấm mèo,,main,typical,Nấm mèo 500 gr
+DISH_006,,Ớt,,herb_side,typical,Ớt 2 trái
+DISH_006,,Dưa leo,,herb_side,typical,Dưa leo 3 quả
+DISH_006,,Chanh,,herb_side,typical,Chanh 2 quả
+DISH_006,,Rau ăn kèm,,herb_side,typical,Rau ăn kèm 1 ít
+DISH_006,,Hành tím,,seasoning,typical,Hành tím 4 củ
+DISH_006,,Tỏi,,seasoning,typical,Tỏi 4 tép
+DISH_006,,Gừng,,seasoning,typical,Gừng 1 củ
+DISH_006,,Bánh tráng rế,,main,typical,Bánh tráng rế 15 cái
+DISH_006,,Mắm tôm,,sauce,typical,Mắm tôm 500 gr
+DISH_006,,Giấm,,seasoning,typical,Giấm 100 ml
+DISH_006,,Dầu ăn,,seasoning,typical,Dầu ăn 500 ml
+DISH_006,,Gia vị thông dụng,,seasoning,typical,Gia vị thông dụng 1 ít
+DISH_007,,Thịt nạc vai lợn,,main,typical,Thịt nạc vai lợn 200 gr
+DISH_007,,Miến,,main,typical,Miến 100 gr
+DISH_007,,Trứng gà,,main,typical,Trứng gà 3 quả
+DISH_007,,Bánh đa nem,,main,typical,Bánh đa nem 1 gói
+DISH_007,,Giá đỗ,,herb_side,typical,Giá đỗ 1 bát
+DISH_007,,Hành tây,,seasoning,typical,Hành tây 1 củ
+DISH_007,,Cà rốt,,herb_side,typical,Cà rốt 1/2 củ
+DISH_007,,Mộc nhĩ,,main,typical,Mộc nhĩ 15 gr
+DISH_007,,Tỏi,,seasoning,typical,Tỏi 50 gr
+DISH_007,,Ớt,,herb_side,typical,Ớt 50 gr
+DISH_007,,Rau mùi,,herb_side,typical,Rau mùi 1 ít
+DISH_007,,Nước cốt chanh,,herb_side,typical,Nước cốt chanh 2 muỗng cà phê
+DISH_007,,Nước mắm,,sauce,typical,Nước mắm 50 ml
+DISH_007,,Gia vị thông dụng,,seasoning,typical,Gia vị thông dụng 1 ít
+DISH_008,,Cá lăng tươi,,main,typical,Cá lăng tươi 1 con
+DISH_008,,Riềng băm,,seasoning,typical,Riềng băm 2 muỗng canh
+DISH_008,,Gừng băm,,seasoning,typical,Gừng băm 2 muỗng canh
+DISH_008,,Hành tím băm,,seasoning,typical,Hành tím băm 2 muỗng canh
+DISH_008,,Hành lá,,herb_side,typical,Hành lá 5 nhánh
+DISH_008,,Chanh,,herb_side,typical,Chanh 1 trái
+DISH_008,,Ớt tươi,,herb_side,typical,Ớt tươi 1 trái
+DISH_008,,Bột nghệ,,seasoning,typical,Bột nghệ 1 muỗng cà phê
+DISH_008,,Mẻ chua,,seasoning,typical,Mẻ chua 2 muỗng canh
+DISH_008,,Mắm tôm,,sauce,typical,Mắm tôm 2 muỗng canh
+DISH_008,,Đậu phộng rang,,herb_side,typical,Đậu phộng rang 100 gr
+DISH_008,,Bún tươi,,main,typical,Bún tươi 1 kg
+DISH_008,,Rau thơm ăn kèm,,herb_side,typical,Rau thơm ăn kèm 1 ít
+DISH_008,,Dầu ăn,,seasoning,typical,Dầu ăn 2 muỗng canh
+DISH_008,,Muối,,seasoning,typical,Muối 1 ít
+DISH_009,,Bột gạo,,main,typical,Bột gạo 300 g
+DISH_009,,Bột năng,,main,typical,Bột năng 50 g
+DISH_009,,Nước,,main,typical,Nước 500 ml
+DISH_009,,Muối,,seasoning,typical,Muối 1/2 thìa cà phê
+DISH_009,,Dầu ăn,,seasoning,typical,Dầu ăn 1 thìa canh
+DISH_009,,Thịt heo xay,,main,typical,Thịt heo xay 300 g
+DISH_009,,Mộc nhĩ,,main,typical,Mộc nhĩ 20 g
+DISH_009,,Nấm hươn g,,main,typical,Nấm hươn g 20 g
+DISH_009,,Hành tím,,seasoning,typical,Hành tím 1 củ
+DISH_009,,Gia vị thông thường,,seasoning,typical,Gia vị thông thường 1 ít
+DISH_009,,Hành phi,,herb_side,typical,Hành phi 1 ít
+DISH_009,,Rau ăn kèm,,herb_side,typical,Rau ăn kèm 1 ít
+DISH_010,,Bột cà phê pha phin,,main,typical,Bột cà phê pha phin 15 gr
+DISH_010,,Sữa đặc,,seasoning,typical,Sữa đặc 25 ml
+DISH_010,,Trứng gà,,main,typical,Trứng gà 2 quả
+DISH_010,,Mật ong,,seasoning,typical,Mật ong 5 ml
+DISH_010,,Nước nóng,,main,typical,Nước nóng 70 ml
+DISH_011,,Cua đồng,Field crab,broth,typical,Cua đồng 500 gr
+DISH_011,,Bún tươi,Fresh rice noodles,main,typical,Bún tươi 1 kg
+DISH_011,,Cà chua,Tomatoes,broth,typical,Cà chua 3 quả
+DISH_011,,Giấm bỗng,Rice vinegar,seasoning,typical,Giấm bỗng 1/2 chén
+DISH_011,,Đậu phụ,Tofu,main,typical,Đậu phụ rán 3 bìa
+DISH_012,,Ốc nhồi,Snails,main,typical,Ốc nhồi 1 kg
+DISH_012,,Sườn heo,Pork ribs,broth,typical,Sườn heo 400 gr
+DISH_012,,Tía tô,Perilla leaves,herb,typical,Tía tô 1 mớ
+DISH_013,,Lươn đồng,Eel,main,typical,Lươn đồng 500 gr
+DISH_013,,Miến dong,Glass noodles,main,typical,Miến dong 300 gr
+DISH_013,,Rau răm,Vietnamese coriander,herb,typical,Rau răm 1 mớ
+DISH_014,,Vỏ bánh gối,Pastry wrappers,main,typical,Vỏ bánh 15 cái
+DISH_014,,Thịt nạc vai,Ground pork,main,typical,Thịt nạc xay 250 gr
+DISH_014,,Trứng cút,Quail eggs,main,typical,Trứng cút 15 quả
+DISH_015,,Tôm đồng tươi,Fresh shrimp,main,typical,Tôm đồng 300 gr
+DISH_015,,Khoai lang,Sweet potato,main,typical,Khoai lang bào sợi 2 củ
+DISH_015,,Bột mì,Wheat flour,main,typical,Bột mì 200 gr
+DISH_016,,Gạo nếp cái hoa vàng,Glutinous rice,main,typical,Gạo nếp 500 gr
+DISH_016,,Đậu xanh cà vỏ,Mung beans,main,typical,Đậu xanh 200 gr
+DISH_016,,Hành phi mỡ gà,Fried shallots in chicken fat,seasoning,typical,Hành phi 1 bát
+DISH_017,,Sợi mì trứng,Egg noodles,main,typical,Mì trứng 4 vắt
+DISH_017,,Lá hoành thánh,Wonton wrappers,main,typical,Vỏ hoành thánh 20 lá
+DISH_017,,Hẹ tươi,Chinese chives,herb,typical,Hẹ 1 nắm
+DISH_018,,Gạo tẻ xay mịn,Rice flour,main,typical,Bột gạo tẻ 200 gr
+DISH_018,,Xương sườn non,Pork ribs,broth,typical,Sườn non 400 gr
+DISH_018,,Quẩy giòn,Fried crullers,main,typical,Quẩy giòn 5 chiếc
+DISH_019,,Thịt ngan tươi,Duck meat,main,typical,Thịt ngan 1.5 kg
+DISH_019,,Măng chua,Sour bamboo shoots,main,typical,Măng chua 300 gr
+DISH_020,,Bột gạo tẻ,Rice flour,main,typical,Bột gạo 200 gr
+DISH_020,,Thịt nạc băm,Minced pork,main,typical,Thịt băm 200 gr
+DISH_020,,Mộc nhĩ nấm hương,Wood ear mushrooms,main,typical,Mộc nhĩ ngâm 50 gr
+DISH_021,,Bánh phở vuông,Square rice noodle sheets,main,typical,Bánh phở cuốn 500 gr
+DISH_021,,Thịt bò thăn,Beef tenderloin,main,typical,Thịt bò thăn 300 gr
+DISH_021,,Rau xà lách & rau thơm,Lettuce & herbs,vegetable,typical,"Xà lách, mùi tàu, kinh giới 200 gr"
+DISH_021,,Nước mắm chấm tỏi ớt,Garlic chili fish sauce,sauce,typical,Nước mắm tỏi ớt 1 bát con
+DISH_022,,Bánh phở xếp lớp,Layered rice noodle squares,main,typical,Bánh phở cắt vuông 400 gr
+DISH_022,,Thịt bò bắp,Beef shank,main,typical,Thịt bò thái mỏng 250 gr
+DISH_022,,Cải ngọt,Mustard greens,vegetable,typical,Cải ngọt 200 gr
+DISH_022,,Cà rốt & hành tây,Carrot & onion,vegetable,typical,"Cà rốt 1 củ, hành tây 1 củ"
+DISH_023,,Bánh phở tươi,Fresh rice noodles,main,typical,Bánh phở chần 200 gr
+DISH_023,,Thịt gà luộc xé,Shredded boiled chicken,main,typical,Thịt gà ta 120 gr
+DISH_023,,Lạc rang giã dập,Crushed roasted peanuts,garnish,typical,Lạc rang 20 gr
+DISH_023,,Nước sốt chua ngọt,Sweet and sour sauce,sauce,typical,Nước sốt trộn 3 thìa canh
+DISH_024,,Bún sợi to,Thick rice vermicelli,main,typical,Bún sợi to 200 gr
+DISH_024,,Nạm bò & bắp bò,Beef flank & shank,main,typical,Nạm bò 100 gr
+DISH_024,,Chả cua & móng giò,Crab sausage & pork knuckle,main,typical,"Móng giò 1 khoanh, chả cua 2 viên"
+DISH_024,,Nước dùng sả ruốc,Lemongrass shrimp paste broth,broth,typical,Nước hầm xương bò sả 500 ml
+DISH_025,,Bột gạo tẻ & bột năng,Rice & tapioca flour,main,typical,Bột tẻ bột năng khuấy nước hầm xương 150 gr
+DISH_025,,Thịt lợn nạc băm,Minced pork,main,typical,Thịt nạc vai băm 60 gr
+DISH_025,,Mộc nhĩ nấm hương,Wood ear & shiitake mushrooms,main,typical,Mộc nhĩ ngâm thái sợi 20 gr
+DISH_025,,Lá chuối gói bánh,Banana leaves,other,typical,Lá chuối tây hơ mềm 2 lá
+DISH_026,,Đu đủ xanh bào sợi,Julienned green papaya,vegetable,typical,Đu đủ xanh nạo sợi 150 gr
+DISH_026,,Bò khô xé sợi,Shredded beef jerky,main,typical,Bò khô tẩm gia vị 50 gr
+DISH_026,,Rau kinh giới & rau mùi,Vietnamese balm & coriander,vegetable,typical,"Kinh giới, rau mùi 30 gr"
+DISH_026,,Nước giấm đường tỏi ớt,Sweet chili vinegar sauce,sauce,typical,Giấm đường tỏi ớt 50 ml
+DISH_027,,Bún tươi,Fresh rice noodles,main,typical,Bún tươi 200 gr
+DISH_027,,Dọc mùng,Taro stems,vegetable,typical,Dọc mùng bóp muối vắt kiệt 100 gr
+DISH_027,,Sườn sụn / sườn non,Pork ribs / cartilage,main,typical,Sườn heo chặt miếng 120 gr
+DISH_027,,Thịt mọc viên,Pork meatballs,main,typical,Giò sống mộc nhĩ nặn viên 4 viên
+DISH_028,,Gạo nếp cái hoa vàng,Glutinous rice,main,typical,Gạo nếp cái ngâm nở 150 gr
+DISH_028,,Rau khúc,Cudweed leaves,vegetable,typical,Lá rau khúc tươi giã nhuyễn 50 gr
+DISH_028,,Đậu xanh cà vỏ,Split mung beans,main,typical,Đỗ xanh hấp chín tán nhuyễn 60 gr
+DISH_028,,Thịt ba chỉ ướp hạt tiêu,Pork belly with black pepper,main,typical,Thịt ba rọi thái miếng 40 gr
+DISH_029,,Bánh đa đỏ,Hai Phong brown rice noodles,main,typical,Bánh đa đỏ ngâm mềm chần nóng 180 gr
+DISH_029,,Cua đồng,Freshwater field crab,broth,typical,Cua đồng xay giã lấy nước 300 gr
+DISH_029,,Chả lá lốt & chả cá,Betel leaf pork rolls & fish patties,main,typical,"Chả lá lốt 3 cuốn, chả cá 2 miếng"
+DISH_029,,Rau muống / rau cần chần,Water spinach / water celery,vegetable,typical,Rau muống chần xanh 80 gr
+DISH_030,,Rươi tươi,Fresh sandworms,main,typical,Rươi tươi làm sạch 150 gr
+DISH_030,,Thịt heo nạc xay,Minced lean pork,main,typical,Thịt nạc vai băm 50 gr
+DISH_030,,Vỏ quýt thái chỉ,Julienned tangerine peel,garnish,typical,Vỏ quýt tươi băm nhỏ 10 gr
+DISH_030,,Trứng gà & thì là,Chicken egg & dill,main,typical,"Trứng vịt 2 quả, thì là 1 mớ nhỏ"
+DISH_031,,Hạt sen tươi,Fresh lotus seeds,main,typical,Hạt sen tươi thông tâm ninh bở 50 gr
+DISH_031,,Cùi long nhãn tươi,Fresh longan flesh,main,typical,Long nhãn tách hạt lồng sen 80 gr
+DISH_031,,Đường phèn,Rock sugar,seasoning,typical,Đường phèn kết tinh 30 gr
+DISH_031,,Nước hoa bưởi / hoa nhài,Jasmine / pomelo water,broth,typical,Nước hoa nhài thanh mát 150 ml
+DISH_032,,Bún tươi,Fresh rice noodles,main,typical,Bún sợi vừa 200 gr
+DISH_032,,Cá rô phi rán giòn,Deep-fried tilapia fillets,main,typical,Phi lê cá rô tẩm bột chiên vàng 120 gr
+DISH_032,,Nước dùng chua thanh,Sour tomato fish broth,broth,typical,Nước hầm xương cá nấu dấm bỗng 450 ml
+DISH_032,,"Thì là, hành hoa","Dill, scallions",vegetable,typical,"Thì là, hành hoa thái nhỏ 30 gr"
+DISH_033,,Nước riêu cua dấm bỗng,Crab paste & rice vinegar broth,broth,typical,Nước cốt cua đồng nấu gạch 1500 ml
+DISH_033,,Bắp bò hoa,Beef shank slices,main,typical,Bắp bò hoa thái mỏng 300 gr
+DISH_033,,Sườn sụn heo,Soft pork cartilage,main,typical,Sườn sụn non chặt miếng 250 gr
+DISH_033,,Rau sống hoa chuối xà lách,Banana flower & lettuce herbs,vegetable,typical,Mẹt rau sống tổng hợp 350 gr
+DISH_034,,Bánh tráng nướng mỏng,Thin rice paper sheet,main,typical,Bánh tráng mè 1 chiếc
+DISH_034,,Trứng cút,Quail eggs,main,typical,Trứng cút tươi 2 quả
+DISH_034,,Hành hoa & tép khô,Scallions & dried tiny shrimp,garnish,typical,"Mỡ hành 1 thìa, tép khô rang 20 gr"
+DISH_034,,Bò khô & phô mai xé sợi,Beef jerky & shredded cheese,main,typical,"Bò khô xé 15 gr, phô mai 1 lát"
+DISH_035,,Bánh tráng sợi,Rice paper strips,main,typical,Bánh tráng sợi Tây Ninh 100 gr
+DISH_035,,Muối tôm & hành phi,Shrimp salt & fried shallots,garnish,typical,"Muối tôm 1 thìa, hành phi giòn 20 gr"
+DISH_035,,Trứng cút luộc,Hard-boiled quail eggs,main,typical,Trứng cút luộc bóc vỏ 3 quả
+DISH_035,,Rau răm & quả tắc (quất),Vietnamese coriander & kumquat,vegetable,typical,"Rau răm thái khúc, nước cốt 2 quả quất"
+DISH_036,,Thịt heo nạc,Lean pork,main,typical,Thịt mông heo tươi xay nhuyễn 250 gr
+DISH_036,,Bì lợn luộc thái chỉ,Shredded pork skin,main,typical,Bì lợn làm sạch thái tơ 100 gr
+DISH_036,,Bột chiên xù,Breadcrumbs,garnish,typical,Bột chiên xù panko 80 gr
+DISH_036,,Gia vị tỏi ớt tiêu,Garlic chili pepper seasoning,seasoning,typical,"Tỏi băm, tiêu sọ xay 20 gr"
+DISH_037,,Chim bồ câu / chim cút,Pigeon / quail,main,typical,Bồ câu non sơ chế sạch 1 con 350 gr
+DISH_037,,Lá móc mật,Clausena leaves,vegetable,typical,Lá móc mật nhồi bụng chim 20 gr
+DISH_037,,Mật ong & ngũ vị hương,Honey & five-spice powder,seasoning,typical,"Mật ong rừng 2 thìa quết da, ngũ vị hương 1 gói"
+DISH_037,,Muối tiêu chanh,Lime pepper salt,sauce,typical,Bột canh tiêu chanh ớt 1 đĩa chấm
+DISH_038,,Gà ác đen,Black silkie chicken,main,typical,Gà ác nguyên con 400 gr
+DISH_038,,Rau ngải cứu,Fresh mugwort leaves,vegetable,typical,Ngải cứu bánh tẻ rửa sạch 100 gr
+DISH_038,,Vị thuốc bắc hầm gà,Chinese herbal medicinal mix,broth,typical,"Kỷ tử, đương quy, đẳng sâm, táo tàu, ý dĩ 60 gr"
+DISH_038,,Nước hầm dừa tươi,Fresh coconut broth,broth,typical,Nước dừa tươi hầm mềm 300 ml
+DISH_039,,Gạo tấm,Broken rice,main,typical,Gạo tấm thơm vo sạch nấu chín 200 gr
+DISH_039,,Sườn cốt lết heo nướng,Grilled pork chop,main,typical,Sườn cốt lết ướp sả mật ong nướng 1 miếng 150 gr
+DISH_039,,Bì lợn trộn thính & chả trứng,Shredded pork skin & steamed egg meatloaf,main,typical,"Bì thính 30 gr, chả trứng 1 miếng 40 gr"
+DISH_039,,Nước mắm chua ngọt mỡ hành,Sweet fish sauce & scallion oil,sauce,typical,"Nước mắm kẹo tỏi ớt 40 ml, mỡ hành"
+DISH_040,,Bún tươi,Fresh rice vermicelli,main,typical,Bún sợi nhỏ 180 gr
+DISH_040,,Chả cá thu quết,Mackerel fish cakes,main,typical,Chả cá thu chiên vàng & chả hấp 120 gr
+DISH_040,,Nước dùng cá ngọt trong,Clear fish bone broth,broth,typical,Nước hầm đầu cá ninh dứa cà chua 450 ml
+DISH_040,,Dứa lát & cà chua,Pineapple slices & tomatoes,vegetable,typical,"Dứa chín 1/4 quả, cà chua bổ múi cau 2 quả"
+DISH_041,,Bột mì lên men,Fermented wheat flour dough,main,typical,Bột mì ủ men men nở xốp trắng 120 gr
+DISH_041,,Thịt nạc vai băm,Minced pork shoulder,main,typical,Thịt heo vai xay nhuyễn 80 gr
+DISH_041,,Trứng cút luộc,Hard-boiled quail eggs,main,typical,Trứng cút 2 quả
+DISH_041,,"Mộc nhĩ, miến & hành tây","Wood ear, glass noodles & onion",vegetable,typical,Mộc nhĩ miến ngâm thái hạt lựu 25 gr
+DISH_042,,Gạo tẻ & gạo nếp,Rice & sticky rice,main,typical,Gạo giã nấu cháo sánh mịn 350 ml
+DISH_042,,Lòng non & dạ dày heo,Pork small intestine & stomach,main,typical,"Lòng non, bao tử luộc chần giòn 80 gr"
+DISH_042,,Tiết heo nấu cháo,Cooked pork blood jelly,main,typical,Tiết hãm mướt đánh loãng vào cháo 50 gr
+DISH_042,,"Rau húng, hành hoa & hạt tiêu","Thai basil, scallions & pepper",vegetable,typical,"Húng chó, hành hoa, hạt tiêu bắc 25 gr"
+DISH_043,,Dồi trường nhồi tiết đỗ xanh,Pork blood sausage with mung beans,main,typical,Dồi heo chiên giòn thái khoanh 150 gr
+DISH_043,,Lòng non & dạ dày chiên,Crispy fried intestine & stomach,main,typical,Lòng dải chiên vàng 100 gr
+DISH_043,,Mắm tôm bọt chanh,Fermented shrimp paste with lime froth,sauce,typical,Mắm tôm ngon đánh bọt ớt tươi 1 bát con
+DISH_043,,Rau răm & húng quế,Vietnamese coriander & basil,vegetable,typical,"Rau răm, húng quế nhặt sạch 50 gr"
+DISH_044,,Bột gạo hấp chén,Steamed rice flour cake saucers,main,typical,Bột gạo tẻ pha loãng đổ 8 chén hấp chín
+DISH_044,,Tôm chấy xao khô,Savory dry shrimp flakes,main,typical,Tôm đồng giã nhuyễn xao bông vàng 50 gr
+DISH_044,,Tóp mỡ da heo chiên giòn,Crispy pork skin cracklings,garnish,typical,Tóp mỡ giòn rụm rải mặt 30 gr
+DISH_044,,Nước mắm ngọt ớt chỉ thiên,Light sweet chili fish sauce,sauce,typical,Nước mắm ớt xanh pha loãng 60 ml
+DISH_045,,Giò sống quết thịt mỡ,Seasoned ground pork paste with pork fat,main,typical,Thịt heo tươi giã nhuyễn dẻo dai 300 gr
+DISH_045,,Cây củ sả tươi kẹp nướng,Fresh lemongrass stalks,other,typical,Củ sả cây rửa sạch bọc thịt 10 cây
+DISH_045,,Nước tương mè gan heo chấm bùi,Peanut liver dipping sauce,sauce,typical,Nước lèo đậu phộng gan heo bùi béo 1 bát con
+DISH_045,,Bánh tráng cuốn & rau sống xoài non,Rice paper & green mango herbs,vegetable,typical,"Xoài non, chuối chát, khế chua, xà lách 200 gr"
+DISH_046,,Bột bánh xèo pha cốt dừa,Turmeric rice flour coconut batter,main,typical,Bột gạo bột nghệ nước dừa 150 ml
+DISH_046,,Tôm thẻ & thịt ba chỉ,Fresh shrimp & pork belly,main,typical,"Tôm đất 8 con, thịt ba chỉ thái mỏng 100 gr"
+DISH_046,,Giá đỗ & hành hoa,Bean sprouts & green onions,vegetable,typical,Giá đỗ ngọt giòn 80 gr
+DISH_046,,Rau cải xanh & nước mắm chua ngọt,Mustard greens & dipping fish sauce,vegetable,typical,"Rau cải đắng, xà lách, rau thơm 1 đĩa lớn"
+DISH_047,,Viên khúc bạch gelatin sữa phô mai,Milk & cream cheese gelatin cubes,main,typical,Sữa tươi kem whipping phô mai cắt hình lượn sóng 120 gr
+DISH_047,,Long nhãn ngâm ngọt,Sweetened longan fruit,main,typical,Long nhãn giòn ngọt ngấm đường phèn 50 gr
+DISH_047,,Hạnh nhân lát rang vàng,Toasted almond slices,garnish,typical,Hạnh nhân lát sấy giòn bùi 20 gr
+DISH_047,,Nước đường phèn ướp lạnh,Chilled rock sugar syrup,broth,typical,Nước đường phèn thơm dịu 150 ml
+DISH_048,,Tào phớ non mềm mướt,Silken tofu pudding,main,typical,Sữa đậu nành nấu đông mềm mướt 150 gr
+DISH_048,,Thạch găng,Green wild jelly,main,typical,Thạch lá găng vò nước thanh mát 50 gr
+DISH_048,,Trân châu cùi dừa,Coconut stuffed boba pearls,garnish,typical,Trân châu luộc dai giòn 30 gr
+DISH_048,,Nước đường hoa nhài,Jasmine scented sugar syrup,broth,typical,Nước đường ướp bông hoa nhài thơm nức 100 ml
+DISH_049,,Cốm nếp Làng Vòng non,Young green rice flakes from Vong Village,main,typical,Cốm non mộc xanh tự nhiên 200 gr
+DISH_049,,Đường kính & nước dừa,Sugar & coconut water,sauce,typical,Nước dừa tươi hòa đường xào dẻo 80 gr
+DISH_049,,Dừa non nạo sợi,Grated fresh coconut,garnish,typical,Cùi dừa bánh tẻ bào sợi 40 gr
+DISH_049,,Hạt sen ninh nhừ,Simmered tender lotus seeds,garnish,optional,Hạt sen hấp bở rải mặt cốm 20 gr
+DISH_050,,Bánh chưng nếp đỗ thịt,Square sticky rice cake,main,typical,Góc bánh chưng rán ép mâm đồng giòn rụm 200 gr
+DISH_050,,Giò lụa & chả cốm ăn kèm,Pork roll & green rice patties,main,optional,Giò lụa thái mỏng 50 gr
+DISH_050,,Dưa góp đu đủ chua ngọt,Pickled green papaya & carrots,vegetable,typical,Dưa góp giòn sần sật 60 gr
+DISH_050,,Xì dầu & tương ớt,Soy sauce & chili sauce,sauce,typical,Xì dầu tỏi ớt 20 ml
+DISH_001,Tái lăn,Bánh phở,Flat rice noodles,main,typical,Bánh phở
+DISH_001,Tái lăn,Thịt bò tươi,Fresh beef,main,typical,Thịt bò tươi
+DISH_001,Tái lăn,Xương bò,Beef bones,broth,typical,Xương bò
+DISH_001,Tái lăn,Gừng,Ginger,seasoning,typical,Gừng
+DISH_001,Tái lăn,hành hoa,Scallions,seasoning,typical,hành hoa
+DISH_001,Tái lăn,Quế,Cinnamon,seasoning,typical,Quế
+DISH_001,Tái lăn,hồi,Star anise,seasoning,typical,hồi
+DISH_001,Tái lăn,thảo quả,Black cardamom,seasoning,typical,thảo quả
+DISH_001,Chín nạm,Bánh phở,Flat rice noodles,main,typical,Bánh phở
+DISH_001,Chín nạm,Thịt nạm bò,Beef flank,main,typical,Thịt nạm bò
+DISH_001,Chín nạm,Nước hầm xương bò,Beef bone broth,broth,typical,Nước hầm xương bò
+DISH_001,Chín nạm,Hành lá,,seasoning,typical,Hành lá
+DISH_001,Chín nạm,tiêu,Black pepper,seasoning,typical,tiêu
+DISH_001,Chín nạm,chanh ớt,,herb,typical,chanh ớt
+DISH_003,Truyền thống,Bún tươi,,main,typical,Bún tươi
+DISH_003,Truyền thống,Thịt ba chỉ,,main,typical,Thịt ba chỉ
+DISH_003,Truyền thống,Thịt nạc vai băm,,main,typical,Thịt nạc vai băm
+DISH_003,Truyền thống,Nước mắm ngon,,seasoning,typical,Nước mắm ngon
+DISH_003,Truyền thống,Đu đủ,,main,typical,Đu đủ
+DISH_003,Truyền thống,cà rốt,,main,typical,cà rốt
+DISH_003,Truyền thống,Rau sống,,herb,typical,Rau sống
+DISH_007,,Thịt cua bể,,main,typical,Thịt cua bể
+DISH_007,,tôm,,main,typical,tôm
+DISH_007,,Thịt băm,,main,typical,Thịt băm
+DISH_007,,Nấm hương,,main,typical,Nấm hương
+DISH_007,,mộc nhĩ,,main,typical,mộc nhĩ
+DISH_007,,Miến,,main,typical,Miến
+DISH_007,,trứng,,main,typical,trứng
+DISH_007,,Vỏ ram,,main,typical,Vỏ ram

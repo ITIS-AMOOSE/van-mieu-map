@@ -1,0 +1,2779 @@
+{
+  "schema_version": "1.0",
+  "entity": "ingredients",
+  "generated_at": "2026-11-02T16:32:48.346745+00:00",
+  "records": [
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Xương ống bò",
+      "name_en_machine": null,
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Xương ống bò 1 kg"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Bắp bò",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bắp bò 0.8 kg"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Hành tây",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tây 2 củ"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Gừng nhỏ",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gừng nhỏ 1 củ"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Trái thảo",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Trái thảo 2 quả"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Hoa hồi",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hoa hồi 10 cái"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": null,
+      "name_vi": "Thanh quế nhỏ",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Thanh quế nhỏ 1 cái"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Gà",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gà 1.8 kg"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Xương gà",
+      "name_en_machine": null,
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Xương gà 1.6 kg"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Bánh phở",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh phở 1 kg"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Nước",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nước 3.1 lít"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Hành khô",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành khô 50 gr"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Gừng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gừng 50 gr"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Hạt mùi",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hạt mùi 10 gr"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Hành tây",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tây 1 củ"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Gia vị thông dụng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị thông dụng 1 ít"
+    },
+    {
+      "dish_id": "DISH_002",
+      "variant_id": null,
+      "name_vi": "Gia vị ăn kèm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị ăn kèm 1 ít"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún tươi 1 kg"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Thịt ba chỉ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt ba chỉ 700 gr"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Thịt heo xay nhuyễn",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt heo xay nhuyễn 500 gr"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Cà rốt",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Cà rốt 1 củ"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Đủ đủ xanh",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Đủ đủ xanh 1/2 trái"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Rau sống các loại",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Rau sống các loại 500 gr"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Hành tím băm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tím băm 1 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Tỏi băm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Tỏi băm 1.5 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Ớt băm",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Ớt băm 1 ít"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Dầu hào",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Dầu hào 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Mật ong",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Mật ong 3 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Nước màu",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước màu 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Nước mắm",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước mắm 1 chén"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Giấm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Giấm 1/2 chén"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Dầu ăn",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Dầu ăn 1 ít"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": null,
+      "name_vi": "Gia vị thông dụng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị thông dụng 1 ít"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Gan heo",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gan heo 1 kg"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Thịt nạc lẫn mỡ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạc lẫn mỡ 500 gr"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Mỡ khổ",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Mỡ khổ 300 gr"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Bì heo",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bì heo 300 gr"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Sữa tươi không đường",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Sữa tươi không đường 400 ml"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Ổ bánh mì",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Ổ bánh mì 1 cái"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Hành tây",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tây 1 củ"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Tỏi",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Tỏi 2 củ"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Trứng gà",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng gà 2 quả"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Gia vị thông dụng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị thông dụng 1 ít"
+    },
+    {
+      "dish_id": "DISH_004",
+      "variant_id": null,
+      "name_vi": "Món ăn kèm /chà bông (ruốc)/rau thơm)",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Món ăn kèm /chà bông (ruốc)/rau thơm) 1 ít"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Gà ta",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gà ta 1/2 con"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Xương ống",
+      "name_en_machine": null,
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Xương ống 300 gr"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Sá sùng",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Sá sùng 15 gr"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Chả lụa",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Chả lụa 100 gr"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Trứng gà",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng gà 1 quả"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Ca la thầu",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Ca la thầu 30 gr"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Hành tây",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tây 1/4 củ"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Cà rốt",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Cà rốt 1/2 củ"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Hành tím",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tím 4 củ"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Hành lá/ ngò rí",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Hành lá/ ngò rí 1 ít"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún tươi 600 gr"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Mắm tôm",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Mắm tôm 50 gr"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Nước mắm",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước mắm 1/2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Bột canh",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Bột canh 1 muỗng cà phê"
+    },
+    {
+      "dish_id": "DISH_005",
+      "variant_id": null,
+      "name_vi": "Tiêu hạt",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Tiêu hạt 1 muỗng cà phê"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Bún lá",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún lá 1 ít"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Đậu hũ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Đậu hũ 1 kg"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Phèo non",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Phèo non 600 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Gan",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gan 200 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Huyết",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Huyết 100 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Dạ dày",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Dạ dày 300 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Lưỡi heo",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Lưỡi heo 1 cái"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Thịt heo",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt heo 500 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Thịt heo xay",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt heo xay 300 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Khoai tây",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Khoai tây 1 củ"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Nấm mèo",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nấm mèo 500 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Ớt",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Ớt 2 trái"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Dưa leo",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Dưa leo 3 quả"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Chanh",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Chanh 2 quả"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Rau ăn kèm",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Rau ăn kèm 1 ít"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Hành tím",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tím 4 củ"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Tỏi",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Tỏi 4 tép"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Gừng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gừng 1 củ"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Bánh tráng rế",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh tráng rế 15 cái"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Mắm tôm",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Mắm tôm 500 gr"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Giấm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Giấm 100 ml"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Dầu ăn",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Dầu ăn 500 ml"
+    },
+    {
+      "dish_id": "DISH_006",
+      "variant_id": null,
+      "name_vi": "Gia vị thông dụng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị thông dụng 1 ít"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Thịt nạc vai lợn",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạc vai lợn 200 gr"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Miến",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Miến 100 gr"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Trứng gà",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng gà 3 quả"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Bánh đa nem",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh đa nem 1 gói"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Giá đỗ",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Giá đỗ 1 bát"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Hành tây",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tây 1 củ"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Cà rốt",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Cà rốt 1/2 củ"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Mộc nhĩ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Mộc nhĩ 15 gr"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Tỏi",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Tỏi 50 gr"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Ớt",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Ớt 50 gr"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Rau mùi",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Rau mùi 1 ít"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Nước cốt chanh",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Nước cốt chanh 2 muỗng cà phê"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Nước mắm",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước mắm 50 ml"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Gia vị thông dụng",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị thông dụng 1 ít"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Cá lăng tươi",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Cá lăng tươi 1 con"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Riềng băm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Riềng băm 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Gừng băm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gừng băm 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Hành tím băm",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tím băm 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Hành lá",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Hành lá 5 nhánh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Chanh",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Chanh 1 trái"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Ớt tươi",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Ớt tươi 1 trái"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Bột nghệ",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Bột nghệ 1 muỗng cà phê"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Mẻ chua",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Mẻ chua 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Mắm tôm",
+      "name_en_machine": null,
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Mắm tôm 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Đậu phộng rang",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Đậu phộng rang 100 gr"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún tươi 1 kg"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Rau thơm ăn kèm",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Rau thơm ăn kèm 1 ít"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Dầu ăn",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Dầu ăn 2 muỗng canh"
+    },
+    {
+      "dish_id": "DISH_008",
+      "variant_id": null,
+      "name_vi": "Muối",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Muối 1 ít"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Bột gạo",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột gạo 300 g"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Bột năng",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột năng 50 g"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Nước",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nước 500 ml"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Muối",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Muối 1/2 thìa cà phê"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Dầu ăn",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Dầu ăn 1 thìa canh"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Thịt heo xay",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt heo xay 300 g"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Mộc nhĩ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Mộc nhĩ 20 g"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Nấm hươn g",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nấm hươn g 20 g"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Hành tím",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành tím 1 củ"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Gia vị thông thường",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gia vị thông thường 1 ít"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Hành phi",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Hành phi 1 ít"
+    },
+    {
+      "dish_id": "DISH_009",
+      "variant_id": null,
+      "name_vi": "Rau ăn kèm",
+      "name_en_machine": null,
+      "group": "herb_side",
+      "role": "typical",
+      "quantity_raw": "Rau ăn kèm 1 ít"
+    },
+    {
+      "dish_id": "DISH_010",
+      "variant_id": null,
+      "name_vi": "Bột cà phê pha phin",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột cà phê pha phin 15 gr"
+    },
+    {
+      "dish_id": "DISH_010",
+      "variant_id": null,
+      "name_vi": "Sữa đặc",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Sữa đặc 25 ml"
+    },
+    {
+      "dish_id": "DISH_010",
+      "variant_id": null,
+      "name_vi": "Trứng gà",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng gà 2 quả"
+    },
+    {
+      "dish_id": "DISH_010",
+      "variant_id": null,
+      "name_vi": "Mật ong",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Mật ong 5 ml"
+    },
+    {
+      "dish_id": "DISH_010",
+      "variant_id": null,
+      "name_vi": "Nước nóng",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nước nóng 70 ml"
+    },
+    {
+      "dish_id": "DISH_011",
+      "variant_id": null,
+      "name_vi": "Cua đồng",
+      "name_en_machine": "Field crab",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Cua đồng 500 gr"
+    },
+    {
+      "dish_id": "DISH_011",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": "Fresh rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún tươi 1 kg"
+    },
+    {
+      "dish_id": "DISH_011",
+      "variant_id": null,
+      "name_vi": "Cà chua",
+      "name_en_machine": "Tomatoes",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Cà chua 3 quả"
+    },
+    {
+      "dish_id": "DISH_011",
+      "variant_id": null,
+      "name_vi": "Giấm bỗng",
+      "name_en_machine": "Rice vinegar",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Giấm bỗng 1/2 chén"
+    },
+    {
+      "dish_id": "DISH_011",
+      "variant_id": null,
+      "name_vi": "Đậu phụ",
+      "name_en_machine": "Tofu",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Đậu phụ rán 3 bìa"
+    },
+    {
+      "dish_id": "DISH_012",
+      "variant_id": null,
+      "name_vi": "Ốc nhồi",
+      "name_en_machine": "Snails",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Ốc nhồi 1 kg"
+    },
+    {
+      "dish_id": "DISH_012",
+      "variant_id": null,
+      "name_vi": "Sườn heo",
+      "name_en_machine": "Pork ribs",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Sườn heo 400 gr"
+    },
+    {
+      "dish_id": "DISH_012",
+      "variant_id": null,
+      "name_vi": "Tía tô",
+      "name_en_machine": "Perilla leaves",
+      "group": "herb",
+      "role": "typical",
+      "quantity_raw": "Tía tô 1 mớ"
+    },
+    {
+      "dish_id": "DISH_013",
+      "variant_id": null,
+      "name_vi": "Lươn đồng",
+      "name_en_machine": "Eel",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Lươn đồng 500 gr"
+    },
+    {
+      "dish_id": "DISH_013",
+      "variant_id": null,
+      "name_vi": "Miến dong",
+      "name_en_machine": "Glass noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Miến dong 300 gr"
+    },
+    {
+      "dish_id": "DISH_013",
+      "variant_id": null,
+      "name_vi": "Rau răm",
+      "name_en_machine": "Vietnamese coriander",
+      "group": "herb",
+      "role": "typical",
+      "quantity_raw": "Rau răm 1 mớ"
+    },
+    {
+      "dish_id": "DISH_014",
+      "variant_id": null,
+      "name_vi": "Vỏ bánh gối",
+      "name_en_machine": "Pastry wrappers",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Vỏ bánh 15 cái"
+    },
+    {
+      "dish_id": "DISH_014",
+      "variant_id": null,
+      "name_vi": "Thịt nạc vai",
+      "name_en_machine": "Ground pork",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạc xay 250 gr"
+    },
+    {
+      "dish_id": "DISH_014",
+      "variant_id": null,
+      "name_vi": "Trứng cút",
+      "name_en_machine": "Quail eggs",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng cút 15 quả"
+    },
+    {
+      "dish_id": "DISH_015",
+      "variant_id": null,
+      "name_vi": "Tôm đồng tươi",
+      "name_en_machine": "Fresh shrimp",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Tôm đồng 300 gr"
+    },
+    {
+      "dish_id": "DISH_015",
+      "variant_id": null,
+      "name_vi": "Khoai lang",
+      "name_en_machine": "Sweet potato",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Khoai lang bào sợi 2 củ"
+    },
+    {
+      "dish_id": "DISH_015",
+      "variant_id": null,
+      "name_vi": "Bột mì",
+      "name_en_machine": "Wheat flour",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột mì 200 gr"
+    },
+    {
+      "dish_id": "DISH_016",
+      "variant_id": null,
+      "name_vi": "Gạo nếp cái hoa vàng",
+      "name_en_machine": "Glutinous rice",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gạo nếp 500 gr"
+    },
+    {
+      "dish_id": "DISH_016",
+      "variant_id": null,
+      "name_vi": "Đậu xanh cà vỏ",
+      "name_en_machine": "Mung beans",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Đậu xanh 200 gr"
+    },
+    {
+      "dish_id": "DISH_016",
+      "variant_id": null,
+      "name_vi": "Hành phi mỡ gà",
+      "name_en_machine": "Fried shallots in chicken fat",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành phi 1 bát"
+    },
+    {
+      "dish_id": "DISH_017",
+      "variant_id": null,
+      "name_vi": "Sợi mì trứng",
+      "name_en_machine": "Egg noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Mì trứng 4 vắt"
+    },
+    {
+      "dish_id": "DISH_017",
+      "variant_id": null,
+      "name_vi": "Lá hoành thánh",
+      "name_en_machine": "Wonton wrappers",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Vỏ hoành thánh 20 lá"
+    },
+    {
+      "dish_id": "DISH_017",
+      "variant_id": null,
+      "name_vi": "Hẹ tươi",
+      "name_en_machine": "Chinese chives",
+      "group": "herb",
+      "role": "typical",
+      "quantity_raw": "Hẹ 1 nắm"
+    },
+    {
+      "dish_id": "DISH_018",
+      "variant_id": null,
+      "name_vi": "Gạo tẻ xay mịn",
+      "name_en_machine": "Rice flour",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột gạo tẻ 200 gr"
+    },
+    {
+      "dish_id": "DISH_018",
+      "variant_id": null,
+      "name_vi": "Xương sườn non",
+      "name_en_machine": "Pork ribs",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Sườn non 400 gr"
+    },
+    {
+      "dish_id": "DISH_018",
+      "variant_id": null,
+      "name_vi": "Quẩy giòn",
+      "name_en_machine": "Fried crullers",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Quẩy giòn 5 chiếc"
+    },
+    {
+      "dish_id": "DISH_019",
+      "variant_id": null,
+      "name_vi": "Thịt ngan tươi",
+      "name_en_machine": "Duck meat",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt ngan 1.5 kg"
+    },
+    {
+      "dish_id": "DISH_019",
+      "variant_id": null,
+      "name_vi": "Măng chua",
+      "name_en_machine": "Sour bamboo shoots",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Măng chua 300 gr"
+    },
+    {
+      "dish_id": "DISH_020",
+      "variant_id": null,
+      "name_vi": "Bột gạo tẻ",
+      "name_en_machine": "Rice flour",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột gạo 200 gr"
+    },
+    {
+      "dish_id": "DISH_020",
+      "variant_id": null,
+      "name_vi": "Thịt nạc băm",
+      "name_en_machine": "Minced pork",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt băm 200 gr"
+    },
+    {
+      "dish_id": "DISH_020",
+      "variant_id": null,
+      "name_vi": "Mộc nhĩ nấm hương",
+      "name_en_machine": "Wood ear mushrooms",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Mộc nhĩ ngâm 50 gr"
+    },
+    {
+      "dish_id": "DISH_021",
+      "variant_id": null,
+      "name_vi": "Bánh phở vuông",
+      "name_en_machine": "Square rice noodle sheets",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh phở cuốn 500 gr"
+    },
+    {
+      "dish_id": "DISH_021",
+      "variant_id": null,
+      "name_vi": "Thịt bò thăn",
+      "name_en_machine": "Beef tenderloin",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt bò thăn 300 gr"
+    },
+    {
+      "dish_id": "DISH_021",
+      "variant_id": null,
+      "name_vi": "Rau xà lách & rau thơm",
+      "name_en_machine": "Lettuce & herbs",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Xà lách, mùi tàu, kinh giới 200 gr"
+    },
+    {
+      "dish_id": "DISH_021",
+      "variant_id": null,
+      "name_vi": "Nước mắm chấm tỏi ớt",
+      "name_en_machine": "Garlic chili fish sauce",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước mắm tỏi ớt 1 bát con"
+    },
+    {
+      "dish_id": "DISH_022",
+      "variant_id": null,
+      "name_vi": "Bánh phở xếp lớp",
+      "name_en_machine": "Layered rice noodle squares",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh phở cắt vuông 400 gr"
+    },
+    {
+      "dish_id": "DISH_022",
+      "variant_id": null,
+      "name_vi": "Thịt bò bắp",
+      "name_en_machine": "Beef shank",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt bò thái mỏng 250 gr"
+    },
+    {
+      "dish_id": "DISH_022",
+      "variant_id": null,
+      "name_vi": "Cải ngọt",
+      "name_en_machine": "Mustard greens",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Cải ngọt 200 gr"
+    },
+    {
+      "dish_id": "DISH_022",
+      "variant_id": null,
+      "name_vi": "Cà rốt & hành tây",
+      "name_en_machine": "Carrot & onion",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Cà rốt 1 củ, hành tây 1 củ"
+    },
+    {
+      "dish_id": "DISH_023",
+      "variant_id": null,
+      "name_vi": "Bánh phở tươi",
+      "name_en_machine": "Fresh rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh phở chần 200 gr"
+    },
+    {
+      "dish_id": "DISH_023",
+      "variant_id": null,
+      "name_vi": "Thịt gà luộc xé",
+      "name_en_machine": "Shredded boiled chicken",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt gà ta 120 gr"
+    },
+    {
+      "dish_id": "DISH_023",
+      "variant_id": null,
+      "name_vi": "Lạc rang giã dập",
+      "name_en_machine": "Crushed roasted peanuts",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Lạc rang 20 gr"
+    },
+    {
+      "dish_id": "DISH_023",
+      "variant_id": null,
+      "name_vi": "Nước sốt chua ngọt",
+      "name_en_machine": "Sweet and sour sauce",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước sốt trộn 3 thìa canh"
+    },
+    {
+      "dish_id": "DISH_024",
+      "variant_id": null,
+      "name_vi": "Bún sợi to",
+      "name_en_machine": "Thick rice vermicelli",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún sợi to 200 gr"
+    },
+    {
+      "dish_id": "DISH_024",
+      "variant_id": null,
+      "name_vi": "Nạm bò & bắp bò",
+      "name_en_machine": "Beef flank & shank",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nạm bò 100 gr"
+    },
+    {
+      "dish_id": "DISH_024",
+      "variant_id": null,
+      "name_vi": "Chả cua & móng giò",
+      "name_en_machine": "Crab sausage & pork knuckle",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Móng giò 1 khoanh, chả cua 2 viên"
+    },
+    {
+      "dish_id": "DISH_024",
+      "variant_id": null,
+      "name_vi": "Nước dùng sả ruốc",
+      "name_en_machine": "Lemongrass shrimp paste broth",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước hầm xương bò sả 500 ml"
+    },
+    {
+      "dish_id": "DISH_025",
+      "variant_id": null,
+      "name_vi": "Bột gạo tẻ & bột năng",
+      "name_en_machine": "Rice & tapioca flour",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột tẻ bột năng khuấy nước hầm xương 150 gr"
+    },
+    {
+      "dish_id": "DISH_025",
+      "variant_id": null,
+      "name_vi": "Thịt lợn nạc băm",
+      "name_en_machine": "Minced pork",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạc vai băm 60 gr"
+    },
+    {
+      "dish_id": "DISH_025",
+      "variant_id": null,
+      "name_vi": "Mộc nhĩ nấm hương",
+      "name_en_machine": "Wood ear & shiitake mushrooms",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Mộc nhĩ ngâm thái sợi 20 gr"
+    },
+    {
+      "dish_id": "DISH_025",
+      "variant_id": null,
+      "name_vi": "Lá chuối gói bánh",
+      "name_en_machine": "Banana leaves",
+      "group": "other",
+      "role": "typical",
+      "quantity_raw": "Lá chuối tây hơ mềm 2 lá"
+    },
+    {
+      "dish_id": "DISH_026",
+      "variant_id": null,
+      "name_vi": "Đu đủ xanh bào sợi",
+      "name_en_machine": "Julienned green papaya",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Đu đủ xanh nạo sợi 150 gr"
+    },
+    {
+      "dish_id": "DISH_026",
+      "variant_id": null,
+      "name_vi": "Bò khô xé sợi",
+      "name_en_machine": "Shredded beef jerky",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bò khô tẩm gia vị 50 gr"
+    },
+    {
+      "dish_id": "DISH_026",
+      "variant_id": null,
+      "name_vi": "Rau kinh giới & rau mùi",
+      "name_en_machine": "Vietnamese balm & coriander",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Kinh giới, rau mùi 30 gr"
+    },
+    {
+      "dish_id": "DISH_026",
+      "variant_id": null,
+      "name_vi": "Nước giấm đường tỏi ớt",
+      "name_en_machine": "Sweet chili vinegar sauce",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Giấm đường tỏi ớt 50 ml"
+    },
+    {
+      "dish_id": "DISH_027",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": "Fresh rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún tươi 200 gr"
+    },
+    {
+      "dish_id": "DISH_027",
+      "variant_id": null,
+      "name_vi": "Dọc mùng",
+      "name_en_machine": "Taro stems",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Dọc mùng bóp muối vắt kiệt 100 gr"
+    },
+    {
+      "dish_id": "DISH_027",
+      "variant_id": null,
+      "name_vi": "Sườn sụn / sườn non",
+      "name_en_machine": "Pork ribs / cartilage",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Sườn heo chặt miếng 120 gr"
+    },
+    {
+      "dish_id": "DISH_027",
+      "variant_id": null,
+      "name_vi": "Thịt mọc viên",
+      "name_en_machine": "Pork meatballs",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Giò sống mộc nhĩ nặn viên 4 viên"
+    },
+    {
+      "dish_id": "DISH_028",
+      "variant_id": null,
+      "name_vi": "Gạo nếp cái hoa vàng",
+      "name_en_machine": "Glutinous rice",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gạo nếp cái ngâm nở 150 gr"
+    },
+    {
+      "dish_id": "DISH_028",
+      "variant_id": null,
+      "name_vi": "Rau khúc",
+      "name_en_machine": "Cudweed leaves",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Lá rau khúc tươi giã nhuyễn 50 gr"
+    },
+    {
+      "dish_id": "DISH_028",
+      "variant_id": null,
+      "name_vi": "Đậu xanh cà vỏ",
+      "name_en_machine": "Split mung beans",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Đỗ xanh hấp chín tán nhuyễn 60 gr"
+    },
+    {
+      "dish_id": "DISH_028",
+      "variant_id": null,
+      "name_vi": "Thịt ba chỉ ướp hạt tiêu",
+      "name_en_machine": "Pork belly with black pepper",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt ba rọi thái miếng 40 gr"
+    },
+    {
+      "dish_id": "DISH_029",
+      "variant_id": null,
+      "name_vi": "Bánh đa đỏ",
+      "name_en_machine": "Hai Phong brown rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh đa đỏ ngâm mềm chần nóng 180 gr"
+    },
+    {
+      "dish_id": "DISH_029",
+      "variant_id": null,
+      "name_vi": "Cua đồng",
+      "name_en_machine": "Freshwater field crab",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Cua đồng xay giã lấy nước 300 gr"
+    },
+    {
+      "dish_id": "DISH_029",
+      "variant_id": null,
+      "name_vi": "Chả lá lốt & chả cá",
+      "name_en_machine": "Betel leaf pork rolls & fish patties",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Chả lá lốt 3 cuốn, chả cá 2 miếng"
+    },
+    {
+      "dish_id": "DISH_029",
+      "variant_id": null,
+      "name_vi": "Rau muống / rau cần chần",
+      "name_en_machine": "Water spinach / water celery",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Rau muống chần xanh 80 gr"
+    },
+    {
+      "dish_id": "DISH_030",
+      "variant_id": null,
+      "name_vi": "Rươi tươi",
+      "name_en_machine": "Fresh sandworms",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Rươi tươi làm sạch 150 gr"
+    },
+    {
+      "dish_id": "DISH_030",
+      "variant_id": null,
+      "name_vi": "Thịt heo nạc xay",
+      "name_en_machine": "Minced lean pork",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạc vai băm 50 gr"
+    },
+    {
+      "dish_id": "DISH_030",
+      "variant_id": null,
+      "name_vi": "Vỏ quýt thái chỉ",
+      "name_en_machine": "Julienned tangerine peel",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Vỏ quýt tươi băm nhỏ 10 gr"
+    },
+    {
+      "dish_id": "DISH_030",
+      "variant_id": null,
+      "name_vi": "Trứng gà & thì là",
+      "name_en_machine": "Chicken egg & dill",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng vịt 2 quả, thì là 1 mớ nhỏ"
+    },
+    {
+      "dish_id": "DISH_031",
+      "variant_id": null,
+      "name_vi": "Hạt sen tươi",
+      "name_en_machine": "Fresh lotus seeds",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Hạt sen tươi thông tâm ninh bở 50 gr"
+    },
+    {
+      "dish_id": "DISH_031",
+      "variant_id": null,
+      "name_vi": "Cùi long nhãn tươi",
+      "name_en_machine": "Fresh longan flesh",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Long nhãn tách hạt lồng sen 80 gr"
+    },
+    {
+      "dish_id": "DISH_031",
+      "variant_id": null,
+      "name_vi": "Đường phèn",
+      "name_en_machine": "Rock sugar",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Đường phèn kết tinh 30 gr"
+    },
+    {
+      "dish_id": "DISH_031",
+      "variant_id": null,
+      "name_vi": "Nước hoa bưởi / hoa nhài",
+      "name_en_machine": "Jasmine / pomelo water",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước hoa nhài thanh mát 150 ml"
+    },
+    {
+      "dish_id": "DISH_032",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": "Fresh rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún sợi vừa 200 gr"
+    },
+    {
+      "dish_id": "DISH_032",
+      "variant_id": null,
+      "name_vi": "Cá rô phi rán giòn",
+      "name_en_machine": "Deep-fried tilapia fillets",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Phi lê cá rô tẩm bột chiên vàng 120 gr"
+    },
+    {
+      "dish_id": "DISH_032",
+      "variant_id": null,
+      "name_vi": "Nước dùng chua thanh",
+      "name_en_machine": "Sour tomato fish broth",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước hầm xương cá nấu dấm bỗng 450 ml"
+    },
+    {
+      "dish_id": "DISH_032",
+      "variant_id": null,
+      "name_vi": "Thì là, hành hoa",
+      "name_en_machine": "Dill, scallions",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Thì là, hành hoa thái nhỏ 30 gr"
+    },
+    {
+      "dish_id": "DISH_033",
+      "variant_id": null,
+      "name_vi": "Nước riêu cua dấm bỗng",
+      "name_en_machine": "Crab paste & rice vinegar broth",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước cốt cua đồng nấu gạch 1500 ml"
+    },
+    {
+      "dish_id": "DISH_033",
+      "variant_id": null,
+      "name_vi": "Bắp bò hoa",
+      "name_en_machine": "Beef shank slices",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bắp bò hoa thái mỏng 300 gr"
+    },
+    {
+      "dish_id": "DISH_033",
+      "variant_id": null,
+      "name_vi": "Sườn sụn heo",
+      "name_en_machine": "Soft pork cartilage",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Sườn sụn non chặt miếng 250 gr"
+    },
+    {
+      "dish_id": "DISH_033",
+      "variant_id": null,
+      "name_vi": "Rau sống hoa chuối xà lách",
+      "name_en_machine": "Banana flower & lettuce herbs",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Mẹt rau sống tổng hợp 350 gr"
+    },
+    {
+      "dish_id": "DISH_034",
+      "variant_id": null,
+      "name_vi": "Bánh tráng nướng mỏng",
+      "name_en_machine": "Thin rice paper sheet",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh tráng mè 1 chiếc"
+    },
+    {
+      "dish_id": "DISH_034",
+      "variant_id": null,
+      "name_vi": "Trứng cút",
+      "name_en_machine": "Quail eggs",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng cút tươi 2 quả"
+    },
+    {
+      "dish_id": "DISH_034",
+      "variant_id": null,
+      "name_vi": "Hành hoa & tép khô",
+      "name_en_machine": "Scallions & dried tiny shrimp",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Mỡ hành 1 thìa, tép khô rang 20 gr"
+    },
+    {
+      "dish_id": "DISH_034",
+      "variant_id": null,
+      "name_vi": "Bò khô & phô mai xé sợi",
+      "name_en_machine": "Beef jerky & shredded cheese",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bò khô xé 15 gr, phô mai 1 lát"
+    },
+    {
+      "dish_id": "DISH_035",
+      "variant_id": null,
+      "name_vi": "Bánh tráng sợi",
+      "name_en_machine": "Rice paper strips",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh tráng sợi Tây Ninh 100 gr"
+    },
+    {
+      "dish_id": "DISH_035",
+      "variant_id": null,
+      "name_vi": "Muối tôm & hành phi",
+      "name_en_machine": "Shrimp salt & fried shallots",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Muối tôm 1 thìa, hành phi giòn 20 gr"
+    },
+    {
+      "dish_id": "DISH_035",
+      "variant_id": null,
+      "name_vi": "Trứng cút luộc",
+      "name_en_machine": "Hard-boiled quail eggs",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng cút luộc bóc vỏ 3 quả"
+    },
+    {
+      "dish_id": "DISH_035",
+      "variant_id": null,
+      "name_vi": "Rau răm & quả tắc (quất)",
+      "name_en_machine": "Vietnamese coriander & kumquat",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Rau răm thái khúc, nước cốt 2 quả quất"
+    },
+    {
+      "dish_id": "DISH_036",
+      "variant_id": null,
+      "name_vi": "Thịt heo nạc",
+      "name_en_machine": "Lean pork",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt mông heo tươi xay nhuyễn 250 gr"
+    },
+    {
+      "dish_id": "DISH_036",
+      "variant_id": null,
+      "name_vi": "Bì lợn luộc thái chỉ",
+      "name_en_machine": "Shredded pork skin",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bì lợn làm sạch thái tơ 100 gr"
+    },
+    {
+      "dish_id": "DISH_036",
+      "variant_id": null,
+      "name_vi": "Bột chiên xù",
+      "name_en_machine": "Breadcrumbs",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Bột chiên xù panko 80 gr"
+    },
+    {
+      "dish_id": "DISH_036",
+      "variant_id": null,
+      "name_vi": "Gia vị tỏi ớt tiêu",
+      "name_en_machine": "Garlic chili pepper seasoning",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Tỏi băm, tiêu sọ xay 20 gr"
+    },
+    {
+      "dish_id": "DISH_037",
+      "variant_id": null,
+      "name_vi": "Chim bồ câu / chim cút",
+      "name_en_machine": "Pigeon / quail",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bồ câu non sơ chế sạch 1 con 350 gr"
+    },
+    {
+      "dish_id": "DISH_037",
+      "variant_id": null,
+      "name_vi": "Lá móc mật",
+      "name_en_machine": "Clausena leaves",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Lá móc mật nhồi bụng chim 20 gr"
+    },
+    {
+      "dish_id": "DISH_037",
+      "variant_id": null,
+      "name_vi": "Mật ong & ngũ vị hương",
+      "name_en_machine": "Honey & five-spice powder",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Mật ong rừng 2 thìa quết da, ngũ vị hương 1 gói"
+    },
+    {
+      "dish_id": "DISH_037",
+      "variant_id": null,
+      "name_vi": "Muối tiêu chanh",
+      "name_en_machine": "Lime pepper salt",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Bột canh tiêu chanh ớt 1 đĩa chấm"
+    },
+    {
+      "dish_id": "DISH_038",
+      "variant_id": null,
+      "name_vi": "Gà ác đen",
+      "name_en_machine": "Black silkie chicken",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gà ác nguyên con 400 gr"
+    },
+    {
+      "dish_id": "DISH_038",
+      "variant_id": null,
+      "name_vi": "Rau ngải cứu",
+      "name_en_machine": "Fresh mugwort leaves",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Ngải cứu bánh tẻ rửa sạch 100 gr"
+    },
+    {
+      "dish_id": "DISH_038",
+      "variant_id": null,
+      "name_vi": "Vị thuốc bắc hầm gà",
+      "name_en_machine": "Chinese herbal medicinal mix",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Kỷ tử, đương quy, đẳng sâm, táo tàu, ý dĩ 60 gr"
+    },
+    {
+      "dish_id": "DISH_038",
+      "variant_id": null,
+      "name_vi": "Nước hầm dừa tươi",
+      "name_en_machine": "Fresh coconut broth",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước dừa tươi hầm mềm 300 ml"
+    },
+    {
+      "dish_id": "DISH_039",
+      "variant_id": null,
+      "name_vi": "Gạo tấm",
+      "name_en_machine": "Broken rice",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gạo tấm thơm vo sạch nấu chín 200 gr"
+    },
+    {
+      "dish_id": "DISH_039",
+      "variant_id": null,
+      "name_vi": "Sườn cốt lết heo nướng",
+      "name_en_machine": "Grilled pork chop",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Sườn cốt lết ướp sả mật ong nướng 1 miếng 150 gr"
+    },
+    {
+      "dish_id": "DISH_039",
+      "variant_id": null,
+      "name_vi": "Bì lợn trộn thính & chả trứng",
+      "name_en_machine": "Shredded pork skin & steamed egg meatloaf",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bì thính 30 gr, chả trứng 1 miếng 40 gr"
+    },
+    {
+      "dish_id": "DISH_039",
+      "variant_id": null,
+      "name_vi": "Nước mắm chua ngọt mỡ hành",
+      "name_en_machine": "Sweet fish sauce & scallion oil",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước mắm kẹo tỏi ớt 40 ml, mỡ hành"
+    },
+    {
+      "dish_id": "DISH_040",
+      "variant_id": null,
+      "name_vi": "Bún tươi",
+      "name_en_machine": "Fresh rice vermicelli",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún sợi nhỏ 180 gr"
+    },
+    {
+      "dish_id": "DISH_040",
+      "variant_id": null,
+      "name_vi": "Chả cá thu quết",
+      "name_en_machine": "Mackerel fish cakes",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Chả cá thu chiên vàng & chả hấp 120 gr"
+    },
+    {
+      "dish_id": "DISH_040",
+      "variant_id": null,
+      "name_vi": "Nước dùng cá ngọt trong",
+      "name_en_machine": "Clear fish bone broth",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước hầm đầu cá ninh dứa cà chua 450 ml"
+    },
+    {
+      "dish_id": "DISH_040",
+      "variant_id": null,
+      "name_vi": "Dứa lát & cà chua",
+      "name_en_machine": "Pineapple slices & tomatoes",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Dứa chín 1/4 quả, cà chua bổ múi cau 2 quả"
+    },
+    {
+      "dish_id": "DISH_041",
+      "variant_id": null,
+      "name_vi": "Bột mì lên men",
+      "name_en_machine": "Fermented wheat flour dough",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột mì ủ men men nở xốp trắng 120 gr"
+    },
+    {
+      "dish_id": "DISH_041",
+      "variant_id": null,
+      "name_vi": "Thịt nạc vai băm",
+      "name_en_machine": "Minced pork shoulder",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt heo vai xay nhuyễn 80 gr"
+    },
+    {
+      "dish_id": "DISH_041",
+      "variant_id": null,
+      "name_vi": "Trứng cút luộc",
+      "name_en_machine": "Hard-boiled quail eggs",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Trứng cút 2 quả"
+    },
+    {
+      "dish_id": "DISH_041",
+      "variant_id": null,
+      "name_vi": "Mộc nhĩ, miến & hành tây",
+      "name_en_machine": "Wood ear, glass noodles & onion",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Mộc nhĩ miến ngâm thái hạt lựu 25 gr"
+    },
+    {
+      "dish_id": "DISH_042",
+      "variant_id": null,
+      "name_vi": "Gạo tẻ & gạo nếp",
+      "name_en_machine": "Rice & sticky rice",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Gạo giã nấu cháo sánh mịn 350 ml"
+    },
+    {
+      "dish_id": "DISH_042",
+      "variant_id": null,
+      "name_vi": "Lòng non & dạ dày heo",
+      "name_en_machine": "Pork small intestine & stomach",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Lòng non, bao tử luộc chần giòn 80 gr"
+    },
+    {
+      "dish_id": "DISH_042",
+      "variant_id": null,
+      "name_vi": "Tiết heo nấu cháo",
+      "name_en_machine": "Cooked pork blood jelly",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Tiết hãm mướt đánh loãng vào cháo 50 gr"
+    },
+    {
+      "dish_id": "DISH_042",
+      "variant_id": null,
+      "name_vi": "Rau húng, hành hoa & hạt tiêu",
+      "name_en_machine": "Thai basil, scallions & pepper",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Húng chó, hành hoa, hạt tiêu bắc 25 gr"
+    },
+    {
+      "dish_id": "DISH_043",
+      "variant_id": null,
+      "name_vi": "Dồi trường nhồi tiết đỗ xanh",
+      "name_en_machine": "Pork blood sausage with mung beans",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Dồi heo chiên giòn thái khoanh 150 gr"
+    },
+    {
+      "dish_id": "DISH_043",
+      "variant_id": null,
+      "name_vi": "Lòng non & dạ dày chiên",
+      "name_en_machine": "Crispy fried intestine & stomach",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Lòng dải chiên vàng 100 gr"
+    },
+    {
+      "dish_id": "DISH_043",
+      "variant_id": null,
+      "name_vi": "Mắm tôm bọt chanh",
+      "name_en_machine": "Fermented shrimp paste with lime froth",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Mắm tôm ngon đánh bọt ớt tươi 1 bát con"
+    },
+    {
+      "dish_id": "DISH_043",
+      "variant_id": null,
+      "name_vi": "Rau răm & húng quế",
+      "name_en_machine": "Vietnamese coriander & basil",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Rau răm, húng quế nhặt sạch 50 gr"
+    },
+    {
+      "dish_id": "DISH_044",
+      "variant_id": null,
+      "name_vi": "Bột gạo hấp chén",
+      "name_en_machine": "Steamed rice flour cake saucers",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột gạo tẻ pha loãng đổ 8 chén hấp chín"
+    },
+    {
+      "dish_id": "DISH_044",
+      "variant_id": null,
+      "name_vi": "Tôm chấy xao khô",
+      "name_en_machine": "Savory dry shrimp flakes",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Tôm đồng giã nhuyễn xao bông vàng 50 gr"
+    },
+    {
+      "dish_id": "DISH_044",
+      "variant_id": null,
+      "name_vi": "Tóp mỡ da heo chiên giòn",
+      "name_en_machine": "Crispy pork skin cracklings",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Tóp mỡ giòn rụm rải mặt 30 gr"
+    },
+    {
+      "dish_id": "DISH_044",
+      "variant_id": null,
+      "name_vi": "Nước mắm ngọt ớt chỉ thiên",
+      "name_en_machine": "Light sweet chili fish sauce",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước mắm ớt xanh pha loãng 60 ml"
+    },
+    {
+      "dish_id": "DISH_045",
+      "variant_id": null,
+      "name_vi": "Giò sống quết thịt mỡ",
+      "name_en_machine": "Seasoned ground pork paste with pork fat",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt heo tươi giã nhuyễn dẻo dai 300 gr"
+    },
+    {
+      "dish_id": "DISH_045",
+      "variant_id": null,
+      "name_vi": "Cây củ sả tươi kẹp nướng",
+      "name_en_machine": "Fresh lemongrass stalks",
+      "group": "other",
+      "role": "typical",
+      "quantity_raw": "Củ sả cây rửa sạch bọc thịt 10 cây"
+    },
+    {
+      "dish_id": "DISH_045",
+      "variant_id": null,
+      "name_vi": "Nước tương mè gan heo chấm bùi",
+      "name_en_machine": "Peanut liver dipping sauce",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước lèo đậu phộng gan heo bùi béo 1 bát con"
+    },
+    {
+      "dish_id": "DISH_045",
+      "variant_id": null,
+      "name_vi": "Bánh tráng cuốn & rau sống xoài non",
+      "name_en_machine": "Rice paper & green mango herbs",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Xoài non, chuối chát, khế chua, xà lách 200 gr"
+    },
+    {
+      "dish_id": "DISH_046",
+      "variant_id": null,
+      "name_vi": "Bột bánh xèo pha cốt dừa",
+      "name_en_machine": "Turmeric rice flour coconut batter",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bột gạo bột nghệ nước dừa 150 ml"
+    },
+    {
+      "dish_id": "DISH_046",
+      "variant_id": null,
+      "name_vi": "Tôm thẻ & thịt ba chỉ",
+      "name_en_machine": "Fresh shrimp & pork belly",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Tôm đất 8 con, thịt ba chỉ thái mỏng 100 gr"
+    },
+    {
+      "dish_id": "DISH_046",
+      "variant_id": null,
+      "name_vi": "Giá đỗ & hành hoa",
+      "name_en_machine": "Bean sprouts & green onions",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Giá đỗ ngọt giòn 80 gr"
+    },
+    {
+      "dish_id": "DISH_046",
+      "variant_id": null,
+      "name_vi": "Rau cải xanh & nước mắm chua ngọt",
+      "name_en_machine": "Mustard greens & dipping fish sauce",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Rau cải đắng, xà lách, rau thơm 1 đĩa lớn"
+    },
+    {
+      "dish_id": "DISH_047",
+      "variant_id": null,
+      "name_vi": "Viên khúc bạch gelatin sữa phô mai",
+      "name_en_machine": "Milk & cream cheese gelatin cubes",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Sữa tươi kem whipping phô mai cắt hình lượn sóng 120 gr"
+    },
+    {
+      "dish_id": "DISH_047",
+      "variant_id": null,
+      "name_vi": "Long nhãn ngâm ngọt",
+      "name_en_machine": "Sweetened longan fruit",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Long nhãn giòn ngọt ngấm đường phèn 50 gr"
+    },
+    {
+      "dish_id": "DISH_047",
+      "variant_id": null,
+      "name_vi": "Hạnh nhân lát rang vàng",
+      "name_en_machine": "Toasted almond slices",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Hạnh nhân lát sấy giòn bùi 20 gr"
+    },
+    {
+      "dish_id": "DISH_047",
+      "variant_id": null,
+      "name_vi": "Nước đường phèn ướp lạnh",
+      "name_en_machine": "Chilled rock sugar syrup",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước đường phèn thơm dịu 150 ml"
+    },
+    {
+      "dish_id": "DISH_048",
+      "variant_id": null,
+      "name_vi": "Tào phớ non mềm mướt",
+      "name_en_machine": "Silken tofu pudding",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Sữa đậu nành nấu đông mềm mướt 150 gr"
+    },
+    {
+      "dish_id": "DISH_048",
+      "variant_id": null,
+      "name_vi": "Thạch găng",
+      "name_en_machine": "Green wild jelly",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thạch lá găng vò nước thanh mát 50 gr"
+    },
+    {
+      "dish_id": "DISH_048",
+      "variant_id": null,
+      "name_vi": "Trân châu cùi dừa",
+      "name_en_machine": "Coconut stuffed boba pearls",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Trân châu luộc dai giòn 30 gr"
+    },
+    {
+      "dish_id": "DISH_048",
+      "variant_id": null,
+      "name_vi": "Nước đường hoa nhài",
+      "name_en_machine": "Jasmine scented sugar syrup",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước đường ướp bông hoa nhài thơm nức 100 ml"
+    },
+    {
+      "dish_id": "DISH_049",
+      "variant_id": null,
+      "name_vi": "Cốm nếp Làng Vòng non",
+      "name_en_machine": "Young green rice flakes from Vong Village",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Cốm non mộc xanh tự nhiên 200 gr"
+    },
+    {
+      "dish_id": "DISH_049",
+      "variant_id": null,
+      "name_vi": "Đường kính & nước dừa",
+      "name_en_machine": "Sugar & coconut water",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Nước dừa tươi hòa đường xào dẻo 80 gr"
+    },
+    {
+      "dish_id": "DISH_049",
+      "variant_id": null,
+      "name_vi": "Dừa non nạo sợi",
+      "name_en_machine": "Grated fresh coconut",
+      "group": "garnish",
+      "role": "typical",
+      "quantity_raw": "Cùi dừa bánh tẻ bào sợi 40 gr"
+    },
+    {
+      "dish_id": "DISH_049",
+      "variant_id": null,
+      "name_vi": "Hạt sen ninh nhừ",
+      "name_en_machine": "Simmered tender lotus seeds",
+      "group": "garnish",
+      "role": "optional",
+      "quantity_raw": "Hạt sen hấp bở rải mặt cốm 20 gr"
+    },
+    {
+      "dish_id": "DISH_050",
+      "variant_id": null,
+      "name_vi": "Bánh chưng nếp đỗ thịt",
+      "name_en_machine": "Square sticky rice cake",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Góc bánh chưng rán ép mâm đồng giòn rụm 200 gr"
+    },
+    {
+      "dish_id": "DISH_050",
+      "variant_id": null,
+      "name_vi": "Giò lụa & chả cốm ăn kèm",
+      "name_en_machine": "Pork roll & green rice patties",
+      "group": "main",
+      "role": "optional",
+      "quantity_raw": "Giò lụa thái mỏng 50 gr"
+    },
+    {
+      "dish_id": "DISH_050",
+      "variant_id": null,
+      "name_vi": "Dưa góp đu đủ chua ngọt",
+      "name_en_machine": "Pickled green papaya & carrots",
+      "group": "vegetable",
+      "role": "typical",
+      "quantity_raw": "Dưa góp giòn sần sật 60 gr"
+    },
+    {
+      "dish_id": "DISH_050",
+      "variant_id": null,
+      "name_vi": "Xì dầu & tương ớt",
+      "name_en_machine": "Soy sauce & chili sauce",
+      "group": "sauce",
+      "role": "typical",
+      "quantity_raw": "Xì dầu tỏi ớt 20 ml"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "Bánh phở",
+      "name_en_machine": "Flat rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh phở"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "Thịt bò tươi",
+      "name_en_machine": "Fresh beef",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt bò tươi"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "Xương bò",
+      "name_en_machine": "Beef bones",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Xương bò"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "Gừng",
+      "name_en_machine": "Ginger",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Gừng"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "hành hoa",
+      "name_en_machine": "Scallions",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "hành hoa"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "Quế",
+      "name_en_machine": "Cinnamon",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Quế"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "hồi",
+      "name_en_machine": "Star anise",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "hồi"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Tái lăn",
+      "name_vi": "thảo quả",
+      "name_en_machine": "Black cardamom",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "thảo quả"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Chín nạm",
+      "name_vi": "Bánh phở",
+      "name_en_machine": "Flat rice noodles",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bánh phở"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Chín nạm",
+      "name_vi": "Thịt nạm bò",
+      "name_en_machine": "Beef flank",
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạm bò"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Chín nạm",
+      "name_vi": "Nước hầm xương bò",
+      "name_en_machine": "Beef bone broth",
+      "group": "broth",
+      "role": "typical",
+      "quantity_raw": "Nước hầm xương bò"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Chín nạm",
+      "name_vi": "Hành lá",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Hành lá"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Chín nạm",
+      "name_vi": "tiêu",
+      "name_en_machine": "Black pepper",
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "tiêu"
+    },
+    {
+      "dish_id": "DISH_001",
+      "variant_id": "Chín nạm",
+      "name_vi": "chanh ớt",
+      "name_en_machine": null,
+      "group": "herb",
+      "role": "typical",
+      "quantity_raw": "chanh ớt"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "Bún tươi",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Bún tươi"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "Thịt ba chỉ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt ba chỉ"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "Thịt nạc vai băm",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt nạc vai băm"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "Nước mắm ngon",
+      "name_en_machine": null,
+      "group": "seasoning",
+      "role": "typical",
+      "quantity_raw": "Nước mắm ngon"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "Đu đủ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Đu đủ"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "cà rốt",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "cà rốt"
+    },
+    {
+      "dish_id": "DISH_003",
+      "variant_id": "Truyền thống",
+      "name_vi": "Rau sống",
+      "name_en_machine": null,
+      "group": "herb",
+      "role": "typical",
+      "quantity_raw": "Rau sống"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Thịt cua bể",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt cua bể"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "tôm",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "tôm"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Thịt băm",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Thịt băm"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Nấm hương",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Nấm hương"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "mộc nhĩ",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "mộc nhĩ"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Miến",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Miến"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "trứng",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "trứng"
+    },
+    {
+      "dish_id": "DISH_007",
+      "variant_id": null,
+      "name_vi": "Vỏ ram",
+      "name_en_machine": null,
+      "group": "main",
+      "role": "typical",
+      "quantity_raw": "Vỏ ram"
+    }
+  ]
+}

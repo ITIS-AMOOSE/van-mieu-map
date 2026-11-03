@@ -1,0 +1,83 @@
+﻿offering_id,dish_id,place_id,availability_basis,menu_item_name_vi,menu_item_name_en,variant,portion,price_min_vnd,price_max_vnd,price_unit,price_status,price_observed_at,menu_scope,venue_allergen_status,source_ids,review_status
+OFFER_001,DISH_003,PLACE_001,official_menu,Bún chả,Kebab Rice Noodles,,,75000.0,90000.0,,listed_price,2026-01,system_wide,unknown,SRC_038 | SRC_082 | SRC_083,needs_review
+OFFER_002,DISH_003,PLACE_001,official_menu,Combo tiết kiệm: Đặc biệt + Nem/ Bánh tôm,,,combo,115000.0,115000.0,,listed_price,2026-01,system_wide,unknown,SRC_083,not_required
+OFFER_003,DISH_003,PLACE_001,official_menu,Combo tiết kiệm: Đặc biệt + Nem + Bánh tôm,,,combo,145000.0,145000.0,,listed_price,2026-01,system_wide,unknown,SRC_083,not_required
+OFFER_004,DISH_009,PLACE_001,official_menu,Bánh cuốn,Stuffed Pancake,,,75000.0,75000.0,,listed_price,2026-01,system_wide,unknown,SRC_083,needs_review
+OFFER_005,DISH_007,PLACE_001,official_menu,Nem hải sản,Seafood Spring Rolls,,,35000.0,35000.0,cái,listed_price,2026-01,system_wide,unknown,SRC_083,not_required
+OFFER_006,DISH_002,PLACE_002,article_mention,,,,,,,,missing,,unknown,unknown,SRC_041 | SRC_043,not_required
+OFFER_007,DISH_001,PLACE_003,article_mention,,,,,,,,missing,,unknown,unknown,SRC_041,not_required
+OFFER_008,DISH_001,PLACE_004,article_mention,,,,,,,,missing,,unknown,unknown,SRC_041,not_required
+OFFER_009,DISH_001,PLACE_005,article_mention,,,,,,,,missing,,unknown,unknown,SRC_041,not_required
+OFFER_010,DISH_001,PLACE_006,article_mention,,,,,,,,missing,,unknown,unknown,SRC_041,not_required
+OFFER_011,DISH_003,PLACE_007,article_mention,,,,,,,,missing,,unknown,unknown,SRC_041,not_required
+OFFER_012,DISH_009,PLACE_008,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_013,DISH_009,PLACE_009,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_014,DISH_009,PLACE_010,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_015,DISH_009,PLACE_011,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_016,DISH_009,PLACE_012,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_017,DISH_009,PLACE_013,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_018,DISH_009,PLACE_014,article_mention,,,,,,,,missing,,unknown,unknown,SRC_049,not_required
+OFFER_019,DISH_008,PLACE_015,article_mention,,,,,350000.0,350000.0,suất,reported_in_article,2025-02-28,unknown,unknown,SRC_057 | SRC_058,needs_review
+OFFER_020,DISH_008,PLACE_016,article_mention,,,,,30000.0,110000.0,suất,reported_in_article,2025-02-28,unknown,unknown,SRC_057 | SRC_058,needs_review
+OFFER_021,DISH_010,PLACE_017,article_mention,,,,,,,,missing,,unknown,unknown,SRC_061 | SRC_063,not_required
+OFFER_022,DISH_010,PLACE_018,article_mention,,,,,,,,missing,,unknown,unknown,SRC_061,not_required
+OFFER_023,DISH_010,PLACE_019,article_mention,,,,,,,,missing,,unknown,unknown,SRC_061,not_required
+OFFER_024,DISH_002,PLACE_020,article_mention,,,,,,,,missing,,unknown,unknown,SRC_043,not_required
+OFFER_025,DISH_002,PLACE_021,article_mention,,,,,,,,missing,,unknown,unknown,SRC_043,not_required
+OFFER_026,DISH_002,PLACE_022,article_mention,,,,,,,,missing,,unknown,unknown,SRC_043,not_required
+OFFER_027,DISH_002,PLACE_023,article_mention,,,,,,,,missing,,unknown,unknown,SRC_043,not_required
+OFFER_028,DISH_002,PLACE_024,article_mention,,,,,,,,missing,,unknown,unknown,SRC_043,not_required
+OFFER_029,DISH_002,PLACE_025,article_mention,,,,,,,,missing,,unknown,unknown,SRC_043,not_required
+OFFER_030,DISH_006,PLACE_026,article_mention,,,,,25000.0,50000.0,,reported_in_article,2026-10-24,unknown,unknown,SRC_073,needs_review
+OFFER_031,DISH_006,PLACE_027,article_mention,,,,,20000.0,50000.0,,reported_in_article,2026-10-24,unknown,unknown,SRC_073,needs_review
+OFFER_032,DISH_006,PLACE_028,article_mention,,,,,,,,missing,,unknown,unknown,SRC_075,not_required
+OFFER_033,DISH_008,PLACE_029,article_mention,,,,,,,,missing,,unknown,unknown,SRC_057,not_required
+OFFER_034,DISH_001,PLACE_030,article_mention,,,,,50000.0,75000.0,bát,reported_in_article,2025-09-30,unknown,unknown,SRC_038,needs_review
+OFFER_035,DISH_007,PLACE_031,article_mention,,,,,,,,missing,,unknown,unknown,SRC_038,needs_review
+OFFER_036,DISH_008,PLACE_031,article_mention,,,,,,,,missing,,unknown,unknown,SRC_038,needs_review
+OFFER_037,DISH_004,PLACE_032,article_mention,,,,,25000.0,40000.0,ổ,reported_in_article,2025-09-30,unknown,unknown,SRC_038,needs_review
+OFFER_038,DISH_005,PLACE_033,article_mention,,,,,40000.0,55000.0,bát,reported_in_article,2025-09-30,unknown,unknown,SRC_038,needs_review
+OFFER_039,DISH_011,PLACE_034,official_menu,Bún riêu cua giò đậu,Crab Noodle Soup with Tofu & Pork Roll,Giò đậu,Bát tiêu chuẩn,45000.0,50000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_040,DISH_012,PLACE_035,official_menu,Bún ốc sườn giòn,Snail Noodle Soup with Pork Ribs,Ốc to sườn,Bát đầy đủ,50000.0,60000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_041,DISH_013,PLACE_036,official_menu,Miến lươn giòn nước,Crispy Eel Glass Noodles Soup,Lươn giòn,Bát tiêu chuẩn,55000.0,65000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_041,verified
+OFFER_042,DISH_014,PLACE_037,official_menu,Bánh gối thịt băm trứng cút,Crispy Pillow Cake with Quail Egg,Thịt băm trứng cút,Đĩa 2 chiếc,24000.0,30000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_043,DISH_015,PLACE_038,official_menu,Bánh tôm giòn,Crispy Shrimp Cake,Tôm đồng,Đĩa 3 chiếc,35000.0,45000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_044,DISH_016,PLACE_039,official_menu,Xôi xéo chả quế,Turmeric Sticky Rice with Cinnamon Pork,Chả quế,Gói tiêu chuẩn,25000.0,35000.0,gói,listed_price,2026-10,takeaway,unknown,SRC_038,verified
+OFFER_045,DISH_017,PLACE_040,official_menu,Mì vằn thắn thập cẩm,Combination Wonton Egg Noodles,Thập cẩm,Bát lớn,50000.0,60000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_046,DISH_018,PLACE_041,official_menu,Cháo sườn quẩy ruốc,Pork Porridge with Crullers & Pork Floss,Quẩy ruốc,Bát tiêu chuẩn,30000.0,35000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_047,DISH_019,PLACE_042,official_menu,Bún ngan đùi măng tiết,Duck Noodle Soup with Bamboo Shoots,Thịt đùi,Bát đầy đủ,45000.0,55000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_043,verified
+OFFER_048,DISH_020,PLACE_043,official_menu,Bánh đúc nóng thịt mộc nhĩ,Hot Savory Rice Cake with Minced Pork,Thịt mộc nhĩ,Bát nhỏ,25000.0,30000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_049,DISH_021,PLACE_044,official_menu,Phở cuốn thập cẩm,Mixed Beef Pho Rolls,Bò xào,Đĩa 10 cuốn,70000.0,80000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_050,DISH_022,PLACE_044,official_menu,Phở chiên phồng bò xào,Crispy Deep-fried Puffed Pho with Sauteed Beef,Bò xào cải,Đĩa lớn,85000.0,95000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_038,verified
+OFFER_051,DISH_023,PLACE_045,official_menu,Phở gà trộn đặc biệt,Special Mixed Chicken Pho Salad,Gà đùi xé,Bát tiêu chuẩn,45000.0,55000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_015,verified
+OFFER_052,DISH_024,PLACE_046,official_menu,Bún bò Huế đầy đủ móng giò chả cua,Special Hue Beef Noodle Soup with Pork Knuckle & Crab Patty,Đầy đủ,Tô lớn,50000.0,65000.0,tô,listed_price,2026-10,dine_in,unknown,SRC_028,verified
+OFFER_053,DISH_025,PLACE_047,official_menu,Bánh giò nóng chả cốm giò lụa,Hot Steamed Rice Pyramidal Dumpling with Pork Roll & Green Rice Patties,Kèm chả cốm,Suất tiêu chuẩn,25000.0,35000.0,suất,listed_price,2026-10,dine_in,unknown,SRC_042,verified
+OFFER_054,DISH_026,PLACE_048,official_menu,Nộm bò khô truyền thống đầy đủ,Traditional Dried Beef Green Papaya Salad,Đầy đủ gan gân bò,Đĩa tiêu chuẩn,40000.0,50000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_018,verified
+OFFER_055,DISH_027,PLACE_049,official_menu,Bún sườn mọc dọc mùng thanh ngọt,Pork Ribs & Meatball Taro Stem Noodle Soup,Sườn mọc,Bát tiêu chuẩn,45000.0,55000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_029,verified
+OFFER_056,DISH_028,PLACE_050,official_menu,Bánh khúc nóng lá khúc nếp nhung,Traditional Steamed Cudweed Rice Cake with Mung Bean & Pork Belly,Bánh khúc nóng,Cái,15000.0,20000.0,cái,listed_price,2026-10,dine_in,unknown,SRC_052,verified
+OFFER_057,DISH_029,PLACE_051,official_menu,Bánh đa cua Hải Phòng chả lá lốt,Hai Phong Red Noodle Soup with Crab & Betel Leaf Wrapped Pork,Bánh đa nước đầy đủ,Bát tiêu chuẩn,40000.0,50000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_033,verified
+OFFER_058,DISH_030,PLACE_052,official_menu,Chả rươi vỏ quýt gia truyền rán giòn,Heritage Pan-fried Sandworm Patty with Tangerine Peel,Chả rươi miếng vừa,Chiếc,50000.0,70000.0,chiếc,listed_price,2026-10,dine_in,unknown,SRC_044,verified
+OFFER_059,DISH_031,PLACE_053,official_menu,Chè hạt sen long nhãn Phố Hiến,Lotus Seed and Longan Sweet Soup in Jasmine Scented Syrup,Ăn kèm đá,Cốc,25000.0,35000.0,cốc,listed_price,2026-10,dine_in,unknown,SRC_055,verified
+OFFER_060,DISH_032,PLACE_054,official_menu,Bún cá rô phi rán giòn cuốn thịt cá,Crispy Fried Tilapia Noodle Soup with Fish Rolls,Cá rô phi rán,Bát tiêu chuẩn,40000.0,55000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_012,verified
+OFFER_061,DISH_033,PLACE_055,official_menu,Set lẩu riêu cua sườn sụn bắp bò tươi,Crab Paste Hotpot with Fresh Beef Shank & Soft Cartilage Platter,Nồi 2-4 người,Nồi tiêu chuẩn,300000.0,450000.0,nồi,listed_price,2026-10,dine_in,unknown,SRC_022,verified
+OFFER_062,DISH_034,PLACE_056,official_menu,Bánh tráng nướng Đà Lạt trứng cút phô mai bò khô,"Crispy Grilled Rice Paper Pizza with Quail Eggs, Cheese & Jerky",Thập cẩm bò phô mai,Cái,25000.0,35000.0,cái,listed_price,2026-10,dine_in,unknown,SRC_031,verified
+OFFER_063,DISH_035,PLACE_056,official_menu,Bánh tráng trộn bò sốt me cay ngọt,Mixed Rice Paper Salad with Spicy Tamarind Dressing & Quail Eggs,Sốt me trứng cút,Suất tiêu chuẩn,25000.0,35000.0,suất,listed_price,2026-10,dine_in,unknown,SRC_031,verified
+OFFER_064,DISH_036,PLACE_057,official_menu,Nem chua rán bột xù ngõ Tạm Thương,Crispy Deep-fried Fermented Pork Rolls with Chili Sauce,Đĩa 10 cái,Đĩa 10 cái,50000.0,60000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_045,verified
+OFFER_065,DISH_037,PLACE_058,official_menu,Chim bồ câu quay mật ong lá móc mật giòn rụm,Honey Glazed Roasted Pigeon with Clausena Leaves,Chim bồ câu nguyên con,Con,90000.0,120000.0,con,listed_price,2026-10,dine_in,unknown,SRC_060,verified
+OFFER_066,DISH_038,PLACE_059,official_menu,Gà ác tần lon thuốc bắc ngải cứu thanh mát,Black Silkie Chicken Stewed with Chinese Herbal Medicine & Mugwort,Gà ác nguyên con lon thiếc,Lon,75000.0,95000.0,lon,listed_price,2026-10,dine_in,unknown,SRC_060,verified
+OFFER_067,DISH_039,PLACE_060,official_menu,Cơm tấm sườn nướng bì chả trứng ốp la giòn rìa,"Broken Rice Platter with Grilled Pork Chop, Pork Skin, Egg Meatloaf & Fried Egg",Sườn bì chả ốp la,Dĩa tiêu chuẩn,45000.0,60000.0,dĩa,listed_price,2026-10,dine_in,unknown,SRC_008,verified
+OFFER_068,DISH_040,PLACE_061,official_menu,Bún chả cá thu Quy Nhơn ngọt thanh,Quy Nhon Mackerel Fish Cake Vermicelli Noodle Soup,Chả cá chiên hấp kết hợp,Tô tiêu chuẩn,40000.0,50000.0,tô,listed_price,2026-10,dine_in,unknown,SRC_014,verified
+OFFER_069,DISH_041,PLACE_062,official_menu,Bánh bao nóng nhân xá xíu thịt trứng cút nấm hương,Steamed Stuffed Pork & Quail Egg Savory Bun,Nhân thịt 2 trứng cút,Cái,15000.0,20000.0,cái,listed_price,2026-10,dine_in,unknown,SRC_065,verified
+OFFER_070,DISH_042,PLACE_063,official_menu,Bát cháo lòng tiết heo sánh thơm rắc tiêu,Savory Pork Offal & Blood Pudding Rice Congee with Fresh Herbs,Lòng tổng hợp,Bát tiêu chuẩn,35000.0,45000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_009,verified
+OFFER_071,DISH_043,PLACE_063,official_menu,Đĩa lòng dồi rán giòn chấm mắm tôm bọt chanh,Crispy Fried Pork Blood Sausage & Stomach Platter with Fermented Shrimp Paste,Đĩa dồi rán thập cẩm,Đĩa vừa,80000.0,120000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_009,verified
+OFFER_072,DISH_044,PLACE_064,official_menu,Khay bánh bèo chén tôm chấy tóp mỡ giòn chuẩn Huế,Hue Savory Steamed Rice Cakes with Crispy Shrimp Flakes & Pork Cracklings,Khay 8 chén,Khay 8 chén,40000.0,50000.0,khay,listed_price,2026-10,dine_in,unknown,SRC_070,verified
+OFFER_073,DISH_045,PLACE_065,official_menu,Nem lụi nướng sả than hoa kèm bánh tráng rau sống,Charcoal Grilled Lemongrass Pork Skewers with Rice Paper & Dipping Sauce,Đĩa 10 que nướng,Đĩa 10 que,70000.0,85000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_072,verified
+OFFER_074,DISH_046,PLACE_066,official_menu,Bánh xèo vàng giòn nhân tôm thịt giá đỗ đượm vị,"Crispy Golden Turmeric Vietnamese Crepe Stuffed with Shrimp, Pork & Bean Sprouts",Bánh xèo tôm thịt lớn,Cái lớn,35000.0,45000.0,cái,listed_price,2026-10,dine_in,unknown,SRC_072,verified
+OFFER_075,DISH_047,PLACE_067,official_menu,Chè khúc bạch phô mai hạnh nhân long nhãn mát lạnh,Cheese Panna Cotta Sweet Soup with Toasted Almonds & Sweet Longan,Khúc bạch phô mai truyền thống,Bát,30000.0,40000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_078,verified
+OFFER_076,DISH_048,PLACE_068,official_menu,Tào phớ thạch găng trân châu dừa ướp hoa nhài thanh dịu,"Silken Tofu Pudding with Green Jelly, Coconut Boba & Fragrant Jasmine Syrup",Thập cẩm thạch găng trân châu,Bát,15000.0,22000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_079,verified
+OFFER_077,DISH_049,PLACE_069,official_menu,Đĩa cốm xào dừa Làng Vòng nếp non dẻo quánh,Traditional Stir-fried Young Green Rice with Coconut Strips from Vong Village,Cốm xào dừa đĩa nhỏ,Đĩa,35000.0,50000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_081,verified
+OFFER_078,DISH_050,PLACE_070,official_menu,Bánh chưng rán mâm đồng giòn vỏ mềm nhân kèm dưa góp,Crispy Pan-fried Vietnamese Square Sticky Rice Cake with Pickles & Pork Roll,Bánh chưng rán góc kèm dưa,Đĩa,25000.0,35000.0,đĩa,listed_price,2026-10,dine_in,unknown,SRC_082,verified
+OFFER_079,DISH_001,PLACE_030,official_menu,Phở bò tái lăn,Stir-fried Rare Beef Pho,Tái lăn,Bát đặc biệt,60000.0,60000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_EXCEL_001,verified
+OFFER_080,DISH_001,PLACE_030,official_menu,Phở bò chín nạm,Well-done Flank Beef Pho,Chín nạm,Bát tiêu chuẩn,50000.0,50000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_EXCEL_001,verified
+OFFER_081,DISH_003,PLACE_001,official_menu,Bún chả truyền thống,Bún chả truyền thống,Truyền thống,Suất đầy đủ,60000.0,60000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_EXCEL_001,verified
+OFFER_082,DISH_007,PLACE_001,official_menu,Nem cua bể,Nem cua bể,,Đĩa 2 chiếc,40000.0,40000.0,bát,listed_price,2026-10,dine_in,unknown,SRC_EXCEL_001,verified

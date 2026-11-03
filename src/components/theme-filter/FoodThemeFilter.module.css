@@ -1,0 +1,80 @@
+.filterContainer {
+  width: 100%;
+  overflow: hidden;
+  padding: 4px 0;
+}
+
+.filterScroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #f1dfd8 transparent;
+}
+
+.filterScroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.filterScroll::-webkit-scrollbar-thumb {
+  background: #e6cec5;
+  border-radius: 4px;
+}
+
+.filterChip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #ffffff;
+  border: 1px solid #ebdcd6;
+  border-radius: 9999px;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #4b5563;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.filterChip:hover {
+  background: #fff5f2;
+  border-color: #fca5a5;
+  color: #991b1b;
+  transform: translateY(-1px);
+}
+
+.filterChip.active {
+  background: #7a1e1e;
+  border-color: #7a1e1e;
+  color: #ffffff;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(122, 30, 30, 0.25);
+}
+
+.icon {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.label {
+  line-height: 1.2;
+}
+
+.badge {
+  font-size: 11px;
+  background: #f3f4f6;
+  color: #6b7280;
+  padding: 1px 6px;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+.active .badge {
+  background: rgba(255, 255, 255, 0.25);
+  color: #ffffff;
+}
+

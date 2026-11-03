@@ -1,0 +1,49 @@
+{
+  "project": "van-mieu-food-crawler",
+  "generated_at": "2026-11-02T16:32:48.363673+00:00",
+  "target_dishes": 50,
+  "focus_category": "all",
+  "summary": {
+    "dishes_count": 50,
+    "dishes_verified_with_places": 50,
+    "places_count": 70,
+    "offerings_count": 82,
+    "ingredients_count": 308,
+    "sources_count": 85
+  },
+  "completeness_rates": {
+    "dishes_completeness": "97.79%",
+    "ingredients_completeness": "79.96%",
+    "places_completeness": "73.96%",
+    "offerings_completeness": "81.85%",
+    "sources_completeness": "84.0%"
+  },
+  "rating_coverage": {
+    "places_with_rating": 37,
+    "places_with_review_count": 37,
+    "rating_sources": [
+      "Foody",
+      "Google Maps"
+    ]
+  },
+  "verification_status": {
+    "verified_offerings_count": 44,
+    "verified_places_count": 70
+  },
+  "export_files": {
+    "csv": {
+      "dishes": "data/output/csv\\dishes.csv",
+      "ingredients": "data/output/csv\\ingredients.csv",
+      "places": "data/output/csv\\places.csv",
+      "offerings": "data/output/csv\\offerings.csv",
+      "sources": "data/output/csv\\sources.csv"
+    },
+    "json": {
+      "dishes": "data/output/json\\dishes.json",
+      "ingredients": "data/output/json\\ingredients.json",
+      "places": "data/output/json\\places.json",
+      "offerings": "data/output/json\\offerings.json",
+      "sources": "data/output/json\\sources.json"
+    }
+  }
+}

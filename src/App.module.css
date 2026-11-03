@@ -1,0 +1,28 @@
+.appContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background: #fbf7f4;
+  font-family: "Be Vietnam Pro", system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+}
+
+.mapContainer {
+  flex: 1;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .appContainer {
+    flex-direction: column-reverse;
+  }
+
+  .mapContainer {
+    height: 55vh;
+  }
+}
+
