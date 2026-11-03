@@ -903,12 +903,11 @@
       const el = document.createElement("div");
       el.style.width = "0px";
       el.style.height = "0px";
-      el.style.position = "relative";
+      el.style.position = "absolute";
       el.innerHTML = `
         <div class="marker-wrap">
           <div class="pulse-ring"></div>
-          <div style="position: absolute; left: -3px; top: -3px; width: 6px; height: 6px; border-radius: 50%; background: #dc2626;"></div>
-          <svg width="200" height="54" viewBox="-16 -46 200 54" style="position: absolute; left: 0; top: 0; overflow: visible;">
+          <svg width="200" height="54" viewBox="-16 -46 200 54" style="position: absolute; left: -16px; top: -46px; width: 200px; height: 54px; overflow: visible;">
             <defs>
               <filter id="vm-shadow" x="-20%" y="-20%" width="140%" height="150%">
                 <feDropShadow dx="0" dy="2" stdDeviation="3" floodColor="#2B0E0E" floodOpacity="0.3"/>
@@ -917,7 +916,7 @@
             <rect filter="url(#vm-shadow)" x="8" y="-42" width="170" height="32" rx="8" fill="#FFF5F2" stroke="#DC2626" stroke-width="1.8"/>
             <path d="M -4 -16 L 0 0 L 4 -16 Z" fill="#991B1B"/>
             <circle cx="0" cy="-26" r="14" fill="#991B1B" stroke="#FFFFFF" stroke-width="1.5"/>
-            <circle cx="0" cy="0" r="2.5" fill="#DC2626"/>
+            <circle cx="0" cy="0" r="3" fill="#DC2626" stroke="#FFFFFF" stroke-width="1"/>
             <text x="0" y="-21" text-anchor="middle" font-size="12" fill="#FFFFFF">🏛️</text>
             <text x="24" y="-27" font-size="12" font-weight="700" fill="#991B1B" font-family="'Be Vietnam Pro', sans-serif">Văn Miếu – Quốc Tử Giám</text>
             <text x="24" y="-15" font-size="10" font-weight="600" fill="#B45309" font-family="'Be Vietnam Pro', sans-serif">★ Tâm điểm khảo sát (0m)</text>
@@ -928,7 +927,7 @@
         map.flyTo({ center: VAN_MIEU, zoom: 15.5, duration: 800 });
         openVanMieuDetail();
       };
-      new maplibregl.Marker({ element: el, anchor: "center" })
+      new maplibregl.Marker({ element: el, anchor: "top-left" })
         .setLngLat(VAN_MIEU)
         .addTo(map);
     }
@@ -951,8 +950,7 @@
 
       return `
         <div class="marker-wrap${isSelected ? ' active' : ''}">
-          <div class="anchor-dot"></div>
-          <svg width="${width + 30}" height="50" viewBox="-16 -44 ${width + 30} 50" style="position: absolute; left: 0; top: 0; overflow: visible;">
+          <svg width="${width + 30}" height="50" viewBox="-16 -44 ${width + 30} 50" style="position: absolute; left: -16px; top: -44px; width: ${width + 30}px; height: 50px; overflow: visible;">
             <defs>
               <filter id="sh-${place.place_id}" x="-20%" y="-20%" width="140%" height="150%">
                 <feDropShadow dx="0" dy="2" stdDeviation="2.5" floodColor="#2B0E0E" floodOpacity="0.2"/>
@@ -961,7 +959,7 @@
             <rect filter="url(#sh-${place.place_id})" x="6" y="-38" width="${width}" height="30" rx="7" fill="${bg}" stroke="${strokeColor}" stroke-width="${strokeWidth}"/>
             <path d="M -3.5 -14 L 0 0 L 3.5 -14 Z" fill="${pinColor}"/>
             <circle cx="0" cy="-23" r="12" fill="${pinColor}" stroke="#FFFFFF" stroke-width="1.2"/>
-            <circle cx="0" cy="0" r="2" fill="#DC2626"/>
+            <circle cx="0" cy="0" r="2.5" fill="#DC2626" stroke="#FFFFFF" stroke-width="0.8"/>
             <text x="0" y="-19" text-anchor="middle" font-size="11" fill="#FFFFFF">${icon}</text>
             <text x="19" y="-25" font-size="11" font-weight="700" fill="${isSelected ? '#991B1B' : '#1F2937'}" font-family="'Be Vietnam Pro', sans-serif">${name}</text>
             <text x="19" y="-14" font-size="10" font-weight="700" fill="#D97706" font-family="'Be Vietnam Pro', sans-serif">${stars}</text>
@@ -987,14 +985,14 @@
           const el = document.createElement("div");
           el.style.width = "0px";
           el.style.height = "0px";
-          el.style.position = "relative";
+          el.style.position = "absolute";
           el.innerHTML = createMarkerHtml(place, isSelected);
           el.onclick = (e) => {
             e.stopPropagation();
             selectPlace(place);
           };
 
-          const marker = new maplibregl.Marker({ element: el, anchor: "center" })
+          const marker = new maplibregl.Marker({ element: el, anchor: "top-left" })
             .setLngLat([place.lng, place.lat])
             .addTo(map);
 

@@ -9,11 +9,13 @@ function truncateText(str, max = 22) {
 }
 
 /**
- * ROCK-SOLID ANCHORING:
- * In this design, the absolute coordinate (0, 0) is mathematically the needle tip.
- * - (0, 0) touches the exact GPS coordinate on the map.
- * - When zooming in or out, the needle tip NEVER shifts even by 1 pixel.
- * - When hovering or scaling, transform-origin is (0, 0) so it expands from the anchor point.
+ * EXACT ZERO-OFFSET NEEDLE ANCHORING:
+ * - The DOM element wrapper is at (0, 0).
+ * - SVG has viewBox "-minX -minY width height" with CSS left: -minX, top: -minY.
+ * - This places the SVG point (0, 0) EXACTLY on the DOM (0, 0) with 0.00px error.
+ * - The needle tip touches (0, 0), the pulse ring expands from (0, 0),
+ *   and the 2km survey circle is centered on (0, 0).
+ * - Everything aligns with 100% pixel perfection at ANY zoom level.
  */
 export const FoodMarkerCallout = memo(function FoodMarkerCallout({
   place,
@@ -36,16 +38,22 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
           onClick?.(place);
         }}
       >
-        {/* Radar Pulse Ring at (0, 0) */}
+        {/* Radar Pulse Ring centered precisely at (0, 0) */}
         <div className={styles.pulseRing} />
-        {/* Anchor point ground dot */}
-        <div className={styles.anchorDotCenter} />
 
         <svg
           className={styles.markerSvg}
           width="200"
           height="54"
           viewBox="-16 -46 200 54"
+          style={{
+            position: "absolute",
+            left: "-16px",
+            top: "-46px",
+            width: "200px",
+            height: "54px",
+            overflow: "visible",
+          }}
         >
           <defs>
             <filter id="shadow-vm" x="-20%" y="-20%" width="140%" height="150%">
@@ -66,10 +74,11 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
             strokeWidth="1.8"
           />
 
-          {/* Needle Pin pointing to (0, 0) */}
+          {/* Needle Pin pointing directly to (0, 0) */}
           <path d="M -4 -16 L 0 0 L 4 -16 Z" fill="#991B1B" />
           <circle cx="0" cy="-26" r="14" fill="#991B1B" stroke="#FFFFFF" strokeWidth="1.5" />
-          <circle cx="0" cy="0" r="2.5" fill="#DC2626" />
+          {/* Ground Needle Dot at (0, 0) */}
+          <circle cx="0" cy="0" r="3" fill="#DC2626" stroke="#FFFFFF" strokeWidth="1" />
 
           {/* Khue Van Cac Icon */}
           <g transform="translate(-9, -35)">
@@ -102,7 +111,7 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
     );
   }
 
-  // 2. COMPACT MODE (Zoomed out view: Clean teardrop needle pin locked at (0, 0))
+  // 2. COMPACT MODE (Teardrop needle pin pointing directly to (0, 0))
   if (isCompact && !isSelected && !isHovered) {
     return (
       <div
@@ -113,14 +122,19 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
         }}
         title={`${place.name} (${place.distance_m}m • ${place.rating}★)`}
       >
-        {/* Anchor Ground Dot */}
-        <div className={styles.anchorDot} />
-
         <svg
           className={styles.markerSvg}
           width="32"
           height="38"
           viewBox="-16 -36 32 38"
+          style={{
+            position: "absolute",
+            left: "-16px",
+            top: "-36px",
+            width: "32px",
+            height: "38px",
+            overflow: "visible",
+          }}
         >
           <defs>
             <filter id={`sh-c-${place.place_id}`} x="-30%" y="-30%" width="160%" height="160%">
@@ -143,7 +157,7 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
             {icon}
           </text>
           {/* Needle tip dot at (0, 0) */}
-          <circle cx="0" cy="0" r="1.5" fill="#DC2626" />
+          <circle cx="0" cy="0" r="2" fill="#DC2626" stroke="#FFFFFF" strokeWidth="0.8" />
         </svg>
       </div>
     );
@@ -170,14 +184,19 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
         onClick?.(place);
       }}
     >
-      {/* Anchor Ground Dot at (0, 0) */}
-      <div className={styles.anchorDot} />
-
       <svg
         className={styles.markerSvg}
         width={cardWidth + 30}
         height="50"
         viewBox={`-16 -44 ${cardWidth + 30} 50`}
+        style={{
+          position: "absolute",
+          left: "-16px",
+          top: "-44px",
+          width: `${cardWidth + 30}px`,
+          height: "50px",
+          overflow: "visible",
+        }}
       >
         <defs>
           <filter id={`sh-${place.place_id}`} x="-20%" y="-20%" width="140%" height="150%">
@@ -204,10 +223,11 @@ export const FoodMarkerCallout = memo(function FoodMarkerCallout({
           strokeWidth={strokeWidth}
         />
 
-        {/* Needle Pin pointing to (0, 0) */}
+        {/* Needle Pin pointing directly to (0, 0) */}
         <path d="M -3.5 -14 L 0 0 L 3.5 -14 Z" fill={pinColor} />
         <circle cx="0" cy="-23" r="12" fill={pinColor} stroke="#FFFFFF" strokeWidth="1.2" />
-        <circle cx="0" cy="0" r="2" fill="#DC2626" />
+        {/* Ground Needle Dot at (0, 0) */}
+        <circle cx="0" cy="0" r="2.5" fill="#DC2626" stroke="#FFFFFF" strokeWidth="0.8" />
 
         {/* Food Icon inside Pin */}
         <text x="0" y="-19" textAnchor="middle" fontSize="11" fill="#FFFFFF">

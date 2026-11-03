@@ -252,7 +252,7 @@ export default function FoodMapLibre({
     const el = document.createElement("div");
     el.style.width = "0px";
     el.style.height = "0px";
-    el.style.position = "relative";
+    el.style.position = "absolute";
     el.style.overflow = "visible";
     const root = createRoot(el);
     root.render(
@@ -273,7 +273,7 @@ export default function FoodMapLibre({
 
     const marker = new maplibregl.Marker({
       element: el,
-      anchor: "center",
+      anchor: "top-left",
     })
       .setLngLat(VAN_MIEU_COORDS)
       .addTo(map);
@@ -317,7 +317,7 @@ export default function FoodMapLibre({
       const el = document.createElement("div");
       el.style.width = "0px";
       el.style.height = "0px";
-      el.style.position = "relative";
+      el.style.position = "absolute";
       el.style.overflow = "visible";
       const root = createRoot(el);
       root.render(
@@ -332,7 +332,7 @@ export default function FoodMapLibre({
 
       const marker = new maplibregl.Marker({
         element: el,
-        anchor: "center",
+        anchor: "top-left",
       })
         .setLngLat([place.lng, place.lat])
         .addTo(map);
