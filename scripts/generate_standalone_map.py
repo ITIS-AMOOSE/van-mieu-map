@@ -1096,7 +1096,7 @@ html_content = f'''<!DOCTYPE html>
           card.className = "card-item" + (isSel ? " selected" : "");
           card.innerHTML = `
             <div class="card-thumb-wrap">
-              <img src="${{p.image_url}}" class="card-thumb" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300'">
+              <img src="${{p.online_image_url || p.image_url}}" class="card-thumb" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300'">
               <span class="card-cat-badge">${{catMeta.icon || '🍜'}} ${{catMeta.label || 'Món ngon'}}</span>
             </div>
             <div class="card-info">
@@ -1124,7 +1124,7 @@ html_content = f'''<!DOCTYPE html>
           card.className = "card-item";
           card.innerHTML = `
             <div class="card-thumb-wrap">
-              <img src="${{d.image_url}}" class="card-thumb" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300'">
+              <img src="${{d.online_image_url || d.image_url}}" class="card-thumb" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300'">
               <span class="card-cat-badge">${{catMeta.icon || '🍲'}} ${{catMeta.label || 'Đặc sản'}}</span>
             </div>
             <div class="card-info">
@@ -1163,7 +1163,7 @@ html_content = f'''<!DOCTYPE html>
 
       sheet.innerHTML = `
         <div class="detail-img-wrap">
-          <img src="${{place.image_url}}" class="detail-img" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800'">
+          <img src="${{place.online_image_url || place.image_url}}" class="detail-img" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800'">
           <button class="detail-close" onclick="closeDetail()">✕</button>
           <div class="detail-img-overlay">
             <span style="background: rgba(220, 38, 38, 0.9); color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; align-self: flex-start;">${{catMeta.icon || '📍'}} ${{catMeta.label || 'Quán ăn'}}</span>
@@ -1185,10 +1185,13 @@ html_content = f'''<!DOCTYPE html>
           <h3 style="font-size: 15px; font-weight: 700; color: #1F2937; margin-top: 8px;">Món ăn phục vụ (${{dishes.length}})</h3>
           <div style="display: flex; flex-direction: column; gap: 8px;">
             ${{dishes.map(d => `
-              <div style="background: #fbf7f4; border: 1px solid #ebdcd6; border-radius: 8px; padding: 10px; display: flex; justify-content: space-between; align-items: center;">
-                <div>
-                  <strong style="font-size: 13.5px; color: #1F2937;">${{d.dish_name_vi}}</strong>
-                  ${{d.variant ? `<div style="font-size: 11.5px; color: #78716c;">Biến thể: ${{d.variant}}</div>` : ''}}
+              <div style="background: #fbf7f4; border: 1px solid #ebdcd6; border-radius: 8px; padding: 8px 10px; display: flex; justify-content: space-between; align-items: center; gap: 10px;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                  <img src="${{d.online_image_url || d.image_url}}" style="width: 44px; height: 44px; border-radius: 8px; object-fit: cover; border: 1px solid #ebdcd6;" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=200'">
+                  <div>
+                    <strong style="font-size: 13.5px; color: #1F2937;">${{d.dish_name_vi}}</strong>
+                    ${{d.variant ? `<div style="font-size: 11.5px; color: #78716c;">Biến thể: ${{d.variant}}</div>` : ''}}
+                  </div>
                 </div>
                 <span style="font-weight: 700; color: #b91c1c; font-size: 13px;">${{d.price_min_vnd ? d.price_min_vnd.toLocaleString() + 'đ' : 'Theo giá quán'}}</span>
               </div>
@@ -1206,7 +1209,7 @@ html_content = f'''<!DOCTYPE html>
 
       sheet.innerHTML = `
         <div class="detail-img-wrap">
-          <img src="${{dish.image_url}}" class="detail-img" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800'">
+          <img src="${{dish.online_image_url || dish.image_url}}" class="detail-img" onerror="this.src='https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800'">
           <button class="detail-close" onclick="closeDetail()">✕</button>
           <div class="detail-img-overlay">
             <span style="background: rgba(220, 38, 38, 0.9); color: #fff; font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 4px; align-self: flex-start;">${{catMeta.icon || '🍲'}} ${{catMeta.label || 'Món ăn'}}</span>

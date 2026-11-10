@@ -200,8 +200,23 @@ export default function FoodDetailSheet({
                           if (onSelectDish) onSelectDish({ dish_id: d.dish_id });
                         }}
                       >
-                        <span className={styles.miniDishName}>{d.dish_name_vi}</span>
-                        {d.variant && <span className={styles.miniDishVariant}>({d.variant})</span>}
+                        <div className={styles.miniDishLeft}>
+                          {d.image_url && (
+                            <img
+                              src={d.image_url}
+                              alt={d.dish_name_vi}
+                              className={styles.miniDishThumb}
+                              loading="lazy"
+                              onError={(e) => {
+                                e.target.src = d.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=200";
+                              }}
+                            />
+                          )}
+                          <div>
+                            <span className={styles.miniDishName}>{d.dish_name_vi}</span>
+                            {d.variant && <span className={styles.miniDishVariant}>({d.variant})</span>}
+                          </div>
+                        </div>
                         <span className={styles.miniDishPrice}>{formatPrice(d.price_min_vnd)}</span>
                       </div>
                     ))}
@@ -216,18 +231,33 @@ export default function FoodDetailSheet({
                 <div className={styles.menuList}>
                   {dishesServed.map((item, idx) => (
                     <div key={idx} className={styles.menuItem}>
-                      <div className={styles.menuItemHeader}>
-                        <h4 className={styles.menuItemName}>{item.menu_item_name_vi || item.dish_name_vi}</h4>
-                        <span className={styles.menuItemPrice}>
-                          {formatPriceRange(item.price_min_vnd, item.price_max_vnd)}
-                        </span>
-                      </div>
-                      {item.menu_item_name_en && (
-                        <p className={styles.menuItemEn}>{item.menu_item_name_en}</p>
-                      )}
-                      <div className={styles.menuItemDetails}>
-                        {item.variant && <span className={styles.pillTag}>Biến thể: {item.variant}</span>}
-                        {item.portion && <span className={styles.pillTag}>Khẩu phần: {item.portion}</span>}
+                      <div className={styles.menuItemRow}>
+                        {item.image_url && (
+                          <img
+                            src={item.image_url}
+                            alt={item.dish_name_vi}
+                            className={styles.menuItemThumb}
+                            loading="lazy"
+                            onError={(e) => {
+                              e.target.src = item.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=200";
+                            }}
+                          />
+                        )}
+                        <div className={styles.menuItemContent}>
+                          <div className={styles.menuItemHeader}>
+                            <h4 className={styles.menuItemName}>{item.menu_item_name_vi || item.dish_name_vi}</h4>
+                            <span className={styles.menuItemPrice}>
+                              {formatPriceRange(item.price_min_vnd, item.price_max_vnd)}
+                            </span>
+                          </div>
+                          {item.menu_item_name_en && (
+                            <p className={styles.menuItemEn}>{item.menu_item_name_en}</p>
+                          )}
+                          <div className={styles.menuItemDetails}>
+                            {item.variant && <span className={styles.pillTag}>Biến thể: {item.variant}</span>}
+                            {item.portion && <span className={styles.pillTag}>Khẩu phần: {item.portion}</span>}
+                          </div>
+                        </div>
                       </div>
                     </div>
                   ))}
@@ -262,7 +292,7 @@ export default function FoodDetailSheet({
             alt={dish.name_vi}
             className={styles.headerImage}
             onError={(e) => {
-              e.target.src = "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800";
+              e.target.src = dish.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800";
             }}
           />
           <button className={styles.closeBtn} onClick={onClose} title="Đóng">

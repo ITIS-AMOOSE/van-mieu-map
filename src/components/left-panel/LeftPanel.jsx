@@ -213,7 +213,7 @@ export default function LeftPanel({
                       className={styles.cardThumb}
                       loading="lazy"
                       onError={(e) => {
-                        e.target.src = "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300";
+                        e.target.src = place.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300";
                       }}
                     />
                     <span className={styles.catBadge}>
@@ -273,7 +273,7 @@ export default function LeftPanel({
                       className={styles.cardThumb}
                       loading="lazy"
                       onError={(e) => {
-                        e.target.src = "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300";
+                        e.target.src = dish.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300";
                       }}
                     />
                     <span className={styles.catBadge}>

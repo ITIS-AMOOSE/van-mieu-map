@@ -306,7 +306,7 @@
   background: #fdfaf8;
   border: 1px solid #ebdcd6;
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 6px 10px;
   cursor: pointer;
   transition: all 0.2s ease;
 }
@@ -314,6 +314,21 @@
 .miniDishCard:hover {
   border-color: #fca5a5;
   background: #fff5f2;
+}
+
+.miniDishLeft {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.miniDishThumb {
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid #ebdcd6;
 }
 
 .miniDishName {
@@ -344,7 +359,26 @@
   background: #ffffff;
   border: 1px solid #ebdcd6;
   border-radius: 10px;
-  padding: 12px;
+  padding: 10px 12px;
+}
+
+.menuItemRow {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.menuItemThumb {
+  width: 54px;
+  height: 54px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid #ebdcd6;
+}
+
+.menuItemContent {
+  flex: 1;
 }
 
 .menuItemHeader {

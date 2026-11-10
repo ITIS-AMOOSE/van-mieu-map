@@ -1,0 +1,302 @@
+{
+  "DISH_001": {
+    "name": "Phở bò",
+    "local_path": "/images/dishes/DISH_001.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+    "downloaded": true
+  },
+  "DISH_002": {
+    "name": "Phở gà",
+    "local_path": "/images/dishes/DISH_002.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+    "downloaded": true
+  },
+  "DISH_003": {
+    "name": "Bún chả",
+    "local_path": "/images/dishes/DISH_003.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+    "downloaded": true
+  },
+  "DISH_004": {
+    "name": "Bánh mì",
+    "local_path": "/images/dishes/DISH_004.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Banh_mi_PaMi_1.jpg",
+    "downloaded": true
+  },
+  "DISH_005": {
+    "name": "Bún thang",
+    "local_path": "/images/dishes/DISH_005.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B%C3%BAn_thang.JPG",
+    "downloaded": true
+  },
+  "DISH_006": {
+    "name": "Bún đậu mắm tôm",
+    "local_path": "/images/dishes/DISH_006.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG",
+    "downloaded": true
+  },
+  "DISH_007": {
+    "name": "Nem rán",
+    "local_path": "/images/dishes/DISH_007.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg",
+    "downloaded": true
+  },
+  "DISH_008": {
+    "name": "Chả cá",
+    "local_path": "/images/dishes/DISH_008.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+    "downloaded": true
+  },
+  "DISH_009": {
+    "name": "Bánh cuốn",
+    "local_path": "/images/dishes/DISH_009.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+    "downloaded": true
+  },
+  "DISH_010": {
+    "name": "Cà phê trứng",
+    "local_path": "/images/dishes/DISH_010.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg",
+    "downloaded": true
+  },
+  "DISH_011": {
+    "name": "Bún riêu",
+    "local_path": "/images/dishes/DISH_011.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bun_Rieu_close-up_-_Dakao_Hoang.jpg/1280px-Bun_Rieu_close-up_-_Dakao_Hoang.jpg",
+    "downloaded": true
+  },
+  "DISH_012": {
+    "name": "Bún ốc",
+    "local_path": "/images/dishes/DISH_012.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bun_oc_Hoe_Nhai.JPG",
+    "downloaded": true
+  },
+  "DISH_013": {
+    "name": "Miến lươn",
+    "local_path": "/images/dishes/DISH_013.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mien_luon_Hang_Dieu.JPG",
+    "downloaded": true
+  },
+  "DISH_014": {
+    "name": "Bánh gối",
+    "local_path": "/images/dishes/DISH_014.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Banh_goi_01.JPG",
+    "downloaded": true
+  },
+  "DISH_015": {
+    "name": "Bánh tôm",
+    "local_path": "/images/dishes/DISH_015.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg/1280px-L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg",
+    "downloaded": true
+  },
+  "DISH_016": {
+    "name": "Xôi xéo",
+    "local_path": "/images/dishes/DISH_016.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/X%C3%B4i_x%C3%A9o.jpg",
+    "downloaded": true
+  },
+  "DISH_017": {
+    "name": "Mì vằn thắn",
+    "local_path": "/images/dishes/DISH_017.jpg",
+    "online_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_018": {
+    "name": "Cháo sườn",
+    "local_path": "/images/dishes/DISH_018.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Doujiang_and_youtiao_Taipei.jpg/1280px-Doujiang_and_youtiao_Taipei.jpg",
+    "downloaded": true
+  },
+  "DISH_019": {
+    "name": "Bún ngan",
+    "local_path": "/images/dishes/DISH_019.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ngan_Bun_Klang_Ban_01.jpg",
+    "downloaded": true
+  },
+  "DISH_020": {
+    "name": "Bánh đúc nóng",
+    "local_path": "/images/dishes/DISH_020.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Banh_te_My_Duc_2.png/1280px-Banh_te_My_Duc_2.png",
+    "downloaded": true
+  },
+  "DISH_021": {
+    "name": "Phở cuốn",
+    "local_path": "/images/dishes/DISH_021.jpg",
+    "online_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_022": {
+    "name": "Phở chiên phồng",
+    "local_path": "/images/dishes/DISH_022.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_023": {
+    "name": "Phở trộn",
+    "local_path": "/images/dishes/DISH_023.jpg",
+    "online_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_024": {
+    "name": "Bún bò Huế",
+    "local_path": "/images/dishes/DISH_024.jpg",
+    "online_url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_025": {
+    "name": "Bánh giò",
+    "local_path": "/images/dishes/DISH_025.jpg",
+    "online_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_026": {
+    "name": "Nộm bò khô",
+    "local_path": "/images/dishes/DISH_026.jpg",
+    "online_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_027": {
+    "name": "Bún dọc mùng",
+    "local_path": "/images/dishes/DISH_027.jpg",
+    "online_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_028": {
+    "name": "Bánh khúc",
+    "local_path": "/images/dishes/DISH_028.jpg",
+    "online_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_029": {
+    "name": "Bánh đa cua",
+    "local_path": "/images/dishes/DISH_029.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/BANH_DA_CUA_1.jpg",
+    "downloaded": true
+  },
+  "DISH_030": {
+    "name": "Chả rươi",
+    "local_path": "/images/dishes/DISH_030.jpg",
+    "online_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_031": {
+    "name": "Chè sen long nhãn",
+    "local_path": "/images/dishes/DISH_031.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_m%C3%B3n_ch%C3%A8_Hu%E1%BA%BF_%28ch%C3%A8_h%E1%BA%A1t_sen%29_%282%29.jpg/1280px-thumbnail.jpg",
+    "downloaded": true
+  },
+  "DISH_032": {
+    "name": "Bún cá",
+    "local_path": "/images/dishes/DISH_032.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg",
+    "downloaded": true
+  },
+  "DISH_033": {
+    "name": "Lẩu riêu cua bắp bò",
+    "local_path": "/images/dishes/DISH_033.jpg",
+    "online_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_034": {
+    "name": "Bánh tráng nướng",
+    "local_path": "/images/dishes/DISH_034.jpg",
+    "online_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_035": {
+    "name": "Bánh tráng trộn",
+    "local_path": "/images/dishes/DISH_035.jpg",
+    "online_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_036": {
+    "name": "Nem chua rán",
+    "local_path": "/images/dishes/DISH_036.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/B%C3%BAn_nem.jpg",
+    "downloaded": true
+  },
+  "DISH_037": {
+    "name": "Chim quay",
+    "local_path": "/images/dishes/DISH_037.jpg",
+    "online_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_038": {
+    "name": "Gà tần thuốc bắc",
+    "local_path": "/images/dishes/DISH_038.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg/1280px-G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg",
+    "downloaded": true
+  },
+  "DISH_039": {
+    "name": "Cơm tấm",
+    "local_path": "/images/dishes/DISH_039.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Com-Tam-2008.jpg",
+    "downloaded": true
+  },
+  "DISH_040": {
+    "name": "Bún chả cá",
+    "local_path": "/images/dishes/DISH_040.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bun_cha_ca_nha_trang.jpg/1280px-Bun_cha_ca_nha_trang.jpg",
+    "downloaded": true
+  },
+  "DISH_041": {
+    "name": "Bánh bao hấp",
+    "local_path": "/images/dishes/DISH_041.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/B%C3%A1nh_bao.jpg/1280px-B%C3%A1nh_bao.jpg",
+    "downloaded": true
+  },
+  "DISH_042": {
+    "name": "Cháo lòng",
+    "local_path": "/images/dishes/DISH_042.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A1o_l%C3%B2ng.jpg",
+    "downloaded": true
+  },
+  "DISH_043": {
+    "name": "Lòng dồi rán",
+    "local_path": "/images/dishes/DISH_043.jpg",
+    "online_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_044": {
+    "name": "Bánh bèo",
+    "local_path": "/images/dishes/DISH_044.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Banh_beo_Thien_Mu.jpg/1280px-Banh_beo_Thien_Mu.jpg",
+    "downloaded": true
+  },
+  "DISH_045": {
+    "name": "Nem lụi",
+    "local_path": "/images/dishes/DISH_045.jpg",
+    "online_url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_046": {
+    "name": "Bánh xèo",
+    "local_path": "/images/dishes/DISH_046.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/B%C3%A1nh_x%C3%A8o_1.jpg/1280px-B%C3%A1nh_x%C3%A8o_1.jpg",
+    "downloaded": true
+  },
+  "DISH_047": {
+    "name": "Chè khúc bạch",
+    "local_path": "/images/dishes/DISH_047.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg/1280px-Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg",
+    "downloaded": true
+  },
+  "DISH_048": {
+    "name": "Tào phớ",
+    "local_path": "/images/dishes/DISH_048.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A8_xo%C3%A0i.jpg",
+    "downloaded": true
+  },
+  "DISH_049": {
+    "name": "Cốm xào",
+    "local_path": "/images/dishes/DISH_049.jpg",
+    "online_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1200&q=85",
+    "downloaded": true
+  },
+  "DISH_050": {
+    "name": "Bánh chưng rán",
+    "local_path": "/images/dishes/DISH_050.jpg",
+    "online_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85",
+    "downloaded": true
+  }
+}

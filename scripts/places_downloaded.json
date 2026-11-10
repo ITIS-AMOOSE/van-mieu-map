@@ -1,0 +1,422 @@
+{
+  "PLACE_001": {
+    "name": "Bún Chả Sinh Từ - Nguyễn Khuyến",
+    "local_path": "/images/places/PLACE_001.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_002": {
+    "name": "Phở Gà Nguyệt - Phủ Doãn",
+    "local_path": "/images/places/PLACE_002.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_003": {
+    "name": "Phở 10 Lý Quốc Sư",
+    "local_path": "/images/places/PLACE_003.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_004": {
+    "name": "Phở Gia Truyền - Bát Đàn",
+    "local_path": "/images/places/PLACE_004.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ph%E1%BB%91_B%C3%A1t_%C4%90%C3%A0n%2C_H%C3%A0_N%E1%BB%99i_001.JPG/1280px-Ph%E1%BB%91_B%C3%A1t_%C4%90%C3%A0n%2C_H%C3%A0_N%E1%BB%99i_001.JPG",
+    "downloaded": true
+  },
+  "PLACE_005": {
+    "name": "Phở Bò Khôi Hói",
+    "local_path": "/images/places/PLACE_005.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_006": {
+    "name": "Phở Bò Lâm",
+    "local_path": "/images/places/PLACE_006.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_007": {
+    "name": "Tuyết - Bún Chả 34",
+    "local_path": "/images/places/PLACE_007.jpg",
+    "online_url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_008": {
+    "name": "Bánh Cuốn Phượng - Đào Duy Từ",
+    "local_path": "/images/places/PLACE_008.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_009": {
+    "name": "Thanh Vân - Bánh Cuốn & Bún Thang",
+    "local_path": "/images/places/PLACE_009.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+    "downloaded": true
+  },
+  "PLACE_010": {
+    "name": "Bánh Cuốn Quang An - Hàng Bồ",
+    "local_path": "/images/places/PLACE_010.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_011": {
+    "name": "Bánh Cuốn Bà Xuân",
+    "local_path": "/images/places/PLACE_011.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_012": {
+    "name": "Bánh Cuốn Bà Hanh",
+    "local_path": "/images/places/PLACE_012.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_013": {
+    "name": "Bánh Cuốn, Bánh Giò & Ăn Vặt - Hàng Bồ",
+    "local_path": "/images/places/PLACE_013.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_014": {
+    "name": "Bánh Cuốn Phủ Lý - Đào Duy Từ",
+    "local_path": "/images/places/PLACE_014.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_015": {
+    "name": "Chả Cá Lã Vọng - Phố Chả Cá",
+    "local_path": "/images/places/PLACE_015.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg",
+    "downloaded": true
+  },
+  "PLACE_016": {
+    "name": "Chả Cá Lã Vọng - Nguyễn Trường Tộ",
+    "local_path": "/images/places/PLACE_016.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_%281%29.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_%281%29.jpg",
+    "downloaded": true
+  },
+  "PLACE_017": {
+    "name": "Loading T Cafe",
+    "local_path": "/images/places/PLACE_017.jpg",
+    "online_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_018": {
+    "name": "AROI DESSERT CAFE - 9 TỐNG DUY TÂN",
+    "local_path": "/images/places/PLACE_018.jpg",
+    "online_url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_019": {
+    "name": "All Day Coffee - 37 Quang Trung",
+    "local_path": "/images/places/PLACE_019.jpg",
+    "online_url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_020": {
+    "name": "Phở Gà Đặc Biệt - Hàng Điếu",
+    "local_path": "/images/places/PLACE_020.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_021": {
+    "name": "Thìn Béo - Phở Gà Ta",
+    "local_path": "/images/places/PLACE_021.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_022": {
+    "name": "Phở Gà Đỗ Gia - Phở Gà - Lẩu Gà",
+    "local_path": "/images/places/PLACE_022.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_023": {
+    "name": "Tiến - Phở Gà Ta",
+    "local_path": "/images/places/PLACE_023.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_024": {
+    "name": "Huyền Hương - Ẩm Thực Việt Nam",
+    "local_path": "/images/places/PLACE_024.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_025": {
+    "name": "Phở Lâm - Nam Ngư",
+    "local_path": "/images/places/PLACE_025.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_026": {
+    "name": "Bún Đậu Gốc Đa",
+    "local_path": "/images/places/PLACE_026.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_027": {
+    "name": "Bún Đậu Mắm Tôm - Ngõ Trạm",
+    "local_path": "/images/places/PLACE_027.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_028": {
+    "name": "Bún Đậu Việt - Hàng Khay",
+    "local_path": "/images/places/PLACE_028.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_029": {
+    "name": "Chả Cá Thăng Long - Đường Thành",
+    "local_path": "/images/places/PLACE_029.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_030": {
+    "name": "Hương Hậu - Phở Bò",
+    "local_path": "/images/places/PLACE_030.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_031": {
+    "name": "Tầm Vị - Cơm Việt Nam",
+    "local_path": "/images/places/PLACE_031.jpg",
+    "online_url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_032": {
+    "name": "Trà Xoài Kem Trứng & Bánh Mì Ngũ Vị - 67 Nguyễn Khuyến",
+    "local_path": "/images/places/PLACE_032.jpg",
+    "online_url": "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_033": {
+    "name": "Bà Tổng - Bún Thang & Phở Gà - 56 Ngô Sĩ Liên",
+    "local_path": "/images/places/PLACE_033.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_034": {
+    "name": "Bún Riêu Cua - Hàng Bông",
+    "local_path": "/images/places/PLACE_034.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_035": {
+    "name": "Bún Ốc Sườn Cô Sáu",
+    "local_path": "/images/places/PLACE_035.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_036": {
+    "name": "Miến Lươn Đông Thịnh",
+    "local_path": "/images/places/PLACE_036.jpg",
+    "online_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mien_luon_Hang_Dieu.JPG/1280px-Mien_luon_Hang_Dieu.JPG",
+    "downloaded": true
+  },
+  "PLACE_037": {
+    "name": "Bánh Gối Gốc Đa",
+    "local_path": "/images/places/PLACE_037.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_038": {
+    "name": "Bánh Tôm Cô Ầm",
+    "local_path": "/images/places/PLACE_038.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_039": {
+    "name": "Xôi Xéo Bát Đàn",
+    "local_path": "/images/places/PLACE_039.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_040": {
+    "name": "Mì Vằn Thắn Phương Béo",
+    "local_path": "/images/places/PLACE_040.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_041": {
+    "name": "Cháo Sườn Ngõ Huyện",
+    "local_path": "/images/places/PLACE_041.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_042": {
+    "name": "Bún Ngan Hàng Thiếc",
+    "local_path": "/images/places/PLACE_042.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_043": {
+    "name": "Bánh Đúc Nóng Cửa Nam",
+    "local_path": "/images/places/PLACE_043.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_044": {
+    "name": "Phở Cuốn Hương Mai - Nguyễn Thái Học",
+    "local_path": "/images/places/PLACE_044.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_045": {
+    "name": "Phở Gà Trộn Khánh Béo",
+    "local_path": "/images/places/PLACE_045.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_046": {
+    "name": "Bún Bò Huế O Xuân - Quang Trung",
+    "local_path": "/images/places/PLACE_046.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_047": {
+    "name": "Bánh Giò Nóng Ngô Sĩ Liên",
+    "local_path": "/images/places/PLACE_047.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_048": {
+    "name": "Nộm Bò Khô Long Vi Dung",
+    "local_path": "/images/places/PLACE_048.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_049": {
+    "name": "Bún Dọc Mùng Cố Đô - Ngô Sĩ Liên",
+    "local_path": "/images/places/PLACE_049.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_050": {
+    "name": "Bánh Khúc Cô Lan - Cơ sở Cửa Nam",
+    "local_path": "/images/places/PLACE_050.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_051": {
+    "name": "Bánh Đa Cua Phùng Hưng",
+    "local_path": "/images/places/PLACE_051.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_052": {
+    "name": "Chả Rươi Hưng Thịnh",
+    "local_path": "/images/places/PLACE_052.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_053": {
+    "name": "Chè Bốn Mùa - Hàng Cân",
+    "local_path": "/images/places/PLACE_053.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_054": {
+    "name": "Bún Cá Sâm Cây Si",
+    "local_path": "/images/places/PLACE_054.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_055": {
+    "name": "Lẩu Riêu Cua Bắp Bò - Tống Duy Tân",
+    "local_path": "/images/places/PLACE_055.jpg",
+    "online_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_056": {
+    "name": "Bánh Tráng Nướng & Trộn Hàng Trống",
+    "local_path": "/images/places/PLACE_056.jpg",
+    "online_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_057": {
+    "name": "Nem Chua Rán Bà Già - Tạm Thương",
+    "local_path": "/images/places/PLACE_057.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_058": {
+    "name": "Chim Quay Ánh Tuyết - Tống Duy Tân",
+    "local_path": "/images/places/PLACE_058.jpg",
+    "online_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_059": {
+    "name": "Gà Tần Thuốc Bắc Mai Hương - Tống Duy Tân",
+    "local_path": "/images/places/PLACE_059.jpg",
+    "online_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_060": {
+    "name": "Cơm Tấm 36 - Nguyễn Khuyến",
+    "local_path": "/images/places/PLACE_060.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_061": {
+    "name": "Bún Chả Cá Quy Nhơn - Hai Bà Trưng",
+    "local_path": "/images/places/PLACE_061.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_062": {
+    "name": "Bánh Bao Nóng - Quán Thánh",
+    "local_path": "/images/places/PLACE_062.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_063": {
+    "name": "Lòng Chần Cháo Lòng - Nguyễn Khuyến",
+    "local_path": "/images/places/PLACE_063.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_064": {
+    "name": "Bánh Bèo Huế Ngự Uyển",
+    "local_path": "/images/places/PLACE_064.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_065": {
+    "name": "Nem Lụi & Bánh Xèo Cô Năm",
+    "local_path": "/images/places/PLACE_065.jpg",
+    "online_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_066": {
+    "name": "Bánh Xèo Nam Bộ - Tôn Đức Thắng",
+    "local_path": "/images/places/PLACE_066.jpg",
+    "online_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_067": {
+    "name": "Chè Khúc Bạch Thanh - Hàng Giấy",
+    "local_path": "/images/places/PLACE_067.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_068": {
+    "name": "Tào Phớ Thạch Găng - Quang Trung",
+    "local_path": "/images/places/PLACE_068.jpg",
+    "online_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_069": {
+    "name": "Bánh Cốm & Cốm Xào Nguyên Ninh",
+    "local_path": "/images/places/PLACE_069.jpg",
+    "online_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85",
+    "downloaded": true
+  },
+  "PLACE_070": {
+    "name": "Bánh Chưng Rán Cô Mùi - Đồng Xuân",
+    "local_path": "/images/places/PLACE_070.jpg",
+    "online_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85",
+    "downloaded": true
+  }
+}
