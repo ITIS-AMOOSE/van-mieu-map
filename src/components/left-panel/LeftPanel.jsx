@@ -213,7 +213,7 @@ export default function LeftPanel({
                       className={styles.cardThumb}
                       loading="lazy"
                       onError={(e) => {
-                        e.target.src = place.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300";
+                        e.target.src = place.online_image_url || "/images/dishes/DISH_001.jpg";
                       }}
                     />
                     <span className={styles.catBadge}>
@@ -243,6 +243,12 @@ export default function LeftPanel({
                         {formatPriceRange(place.price_min_vnd, place.price_max_vnd)}
                       </span>
                     </div>
+
+                    {place.image_source && (
+                      <span className={styles.cardSourceText} title={`Nguồn ảnh: ${place.image_source}`}>
+                        📷 {place.image_source}
+                      </span>
+                    )}
                   </div>
                 </div>
               );
@@ -273,7 +279,7 @@ export default function LeftPanel({
                       className={styles.cardThumb}
                       loading="lazy"
                       onError={(e) => {
-                        e.target.src = dish.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=300";
+                        e.target.src = dish.online_image_url || "/images/dishes/DISH_001.jpg";
                       }}
                     />
                     <span className={styles.catBadge}>
@@ -310,6 +316,12 @@ export default function LeftPanel({
                           </span>
                         ))}
                       </div>
+                    )}
+
+                    {dish.image_source && (
+                      <span className={styles.cardSourceText} title={`Nguồn ảnh: ${dish.image_source}`}>
+                        📷 {dish.image_source}
+                      </span>
                     )}
                   </div>
                 </div>

@@ -95,8 +95,51 @@
   font-weight: 700;
   padding: 3px 8px;
   border-radius: 6px;
-  margin-bottom: 6px;
   letter-spacing: 0.02em;
+}
+
+.headerTagRow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+
+.sourceTag {
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+  color: #fef08a;
+  font-size: 10.5px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: 6px;
+  border: 1px solid rgba(254, 240, 138, 0.35);
+  max-width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sourcePill {
+  display: inline-flex;
+  align-items: center;
+  font-size: 10.5px;
+  color: #78350f;
+  background: #fef3c7;
+  padding: 2px 8px;
+  border-radius: 4px;
+  border: 1px solid #fde68a;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.miniDishSource {
+  display: block;
+  font-size: 10px;
+  color: #92400e;
+  font-weight: 500;
+  margin-top: 2px;
 }
 
 .sheetTitle {

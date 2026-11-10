@@ -25,7 +25,7 @@ export default function FoodDetailSheet({
         <div className={styles.sheetContainer} onClick={(e) => e.stopPropagation()}>
           <div className={styles.headerImageWrapper}>
             <img
-              src="https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=800"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hanoi_Temple_of_Literature_01.jpg/1200px-Hanoi_Temple_of_Literature_01.jpg"
               alt="Văn Miếu Quốc Tử Giám"
               className={styles.headerImage}
             />
@@ -33,7 +33,12 @@ export default function FoodDetailSheet({
               ✕
             </button>
             <div className={styles.imageOverlay}>
-              <span className={styles.heritageTag}>🏛️ Di Tích Quốc Gia Đặc Biệt</span>
+              <div className={styles.headerTagRow}>
+                <span className={styles.heritageTag}>🏛️ Di Tích Quốc Gia Đặc Biệt</span>
+                <span className={styles.sourceTag} title="Nguồn ảnh: Wikimedia Commons (CC BY-SA)">
+                  📷 Wikimedia Commons (Jean-Pierre Dalbéra)
+                </span>
+              </div>
               <h2 className={styles.sheetTitle}>Văn Miếu – Quốc Tử Giám</h2>
               <p className={styles.sheetSubtitle}>Tâm điểm khảo sát ẩm thực tinh hoa Hà Nội</p>
             </div>
@@ -102,16 +107,23 @@ export default function FoodDetailSheet({
               alt={place.name}
               className={styles.headerImage}
               onError={(e) => {
-                e.target.src = "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800";
+                e.target.src = place.online_image_url || "/images/dishes/DISH_001.jpg";
               }}
             />
             <button className={styles.closeBtn} onClick={onClose} title="Đóng">
               ✕
             </button>
             <div className={styles.imageOverlay}>
-              <span className={styles.heritageTag}>
-                {catMeta.icon || "📍"} {catMeta.label || "Quán ăn"}
-              </span>
+              <div className={styles.headerTagRow}>
+                <span className={styles.heritageTag}>
+                  {catMeta.icon || "📍"} {catMeta.label || "Quán ăn"}
+                </span>
+                {place.image_source && (
+                  <span className={styles.sourceTag} title={`Nguồn ảnh: ${place.image_source}`}>
+                    📷 {place.image_source}
+                  </span>
+                )}
+              </div>
               <h2 className={styles.sheetTitle}>{place.name}</h2>
               {place.branch_name && <p className={styles.sheetBranch}>{place.branch_name}</p>}
               <div className={styles.headerMetaRow}>
@@ -208,13 +220,16 @@ export default function FoodDetailSheet({
                               className={styles.miniDishThumb}
                               loading="lazy"
                               onError={(e) => {
-                                e.target.src = d.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=200";
+                                e.target.src = d.online_image_url || "/images/dishes/DISH_001.jpg";
                               }}
                             />
                           )}
                           <div>
                             <span className={styles.miniDishName}>{d.dish_name_vi}</span>
                             {d.variant && <span className={styles.miniDishVariant}>({d.variant})</span>}
+                            {d.image_source && (
+                              <span className={styles.miniDishSource}>📷 {d.image_source}</span>
+                            )}
                           </div>
                         </div>
                         <span className={styles.miniDishPrice}>{formatPrice(d.price_min_vnd)}</span>
@@ -239,7 +254,7 @@ export default function FoodDetailSheet({
                             className={styles.menuItemThumb}
                             loading="lazy"
                             onError={(e) => {
-                              e.target.src = item.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=200";
+                              e.target.src = item.online_image_url || "/images/dishes/DISH_001.jpg";
                             }}
                           />
                         )}
@@ -256,6 +271,11 @@ export default function FoodDetailSheet({
                           <div className={styles.menuItemDetails}>
                             {item.variant && <span className={styles.pillTag}>Biến thể: {item.variant}</span>}
                             {item.portion && <span className={styles.pillTag}>Khẩu phần: {item.portion}</span>}
+                            {item.image_source && (
+                              <span className={styles.sourcePill} title="Nguồn ảnh thực tế tại quán">
+                                📷 {item.image_source}
+                              </span>
+                            )}
                           </div>
                         </div>
                       </div>
@@ -292,16 +312,23 @@ export default function FoodDetailSheet({
             alt={dish.name_vi}
             className={styles.headerImage}
             onError={(e) => {
-              e.target.src = dish.online_image_url || "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800";
+              e.target.src = dish.online_image_url || "/images/dishes/DISH_001.jpg";
             }}
           />
           <button className={styles.closeBtn} onClick={onClose} title="Đóng">
             ✕
           </button>
           <div className={styles.imageOverlay}>
-            <span className={styles.heritageTag}>
-              {catMeta.icon || "🍲"} {catMeta.label || "Món ăn"}
-            </span>
+            <div className={styles.headerTagRow}>
+              <span className={styles.heritageTag}>
+                {catMeta.icon || "🍲"} {catMeta.label || "Món ăn"}
+              </span>
+              {dish.image_source && (
+                <span className={styles.sourceTag} title={`Nguồn ảnh: ${dish.image_source}`}>
+                  📷 {dish.image_source}
+                </span>
+              )}
+            </div>
             <h2 className={styles.sheetTitle}>{dish.name_vi}</h2>
             {dish.name_en && <p className={styles.sheetBranch}>{dish.name_en}</p>}
             {dish.taste_profile && dish.taste_profile.length > 0 && (

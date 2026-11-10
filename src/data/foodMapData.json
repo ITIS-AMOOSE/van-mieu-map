@@ -100,98 +100,105 @@
           "dish_name_vi": "Bún chả",
           "dish_name_en": "Bun cha",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_003.jpg",
+          "image_url": "/images/offerings/OFFER_001.jpg",
           "offering_id": "OFFER_001",
           "menu_item_name_vi": "Bún chả",
           "price_min_vnd": 75000.0,
           "price_max_vnd": 90000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Bún chả"
         },
         {
           "dish_id": "DISH_003",
           "dish_name_vi": "Bún chả",
           "dish_name_en": "Bun cha",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_003.jpg",
+          "image_url": "/images/offerings/OFFER_002.jpg",
           "offering_id": "OFFER_002",
           "menu_item_name_vi": "Combo tiết kiệm: Đặc biệt + Nem/ Bánh tôm",
           "price_min_vnd": 115000.0,
           "price_max_vnd": 115000.0,
           "variant": null,
           "portion": "combo",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Combo tiết kiệm: Đặc biệt + Nem/ Bánh tôm"
         },
         {
           "dish_id": "DISH_003",
           "dish_name_vi": "Bún chả",
           "dish_name_en": "Bun cha",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_003.jpg",
+          "image_url": "/images/offerings/OFFER_003.jpg",
           "offering_id": "OFFER_003",
           "menu_item_name_vi": "Combo tiết kiệm: Đặc biệt + Nem + Bánh tôm",
           "price_min_vnd": 145000.0,
           "price_max_vnd": 145000.0,
           "variant": null,
           "portion": "combo",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Combo tiết kiệm: Đặc biệt + Nem + Bánh tôm"
         },
         {
           "dish_id": "DISH_009",
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_004.jpg",
           "offering_id": "OFFER_004",
           "menu_item_name_vi": "Bánh cuốn",
           "price_min_vnd": 75000.0,
           "price_max_vnd": 75000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Bánh cuốn"
         },
         {
           "dish_id": "DISH_007",
           "dish_name_vi": "Nem rán",
           "dish_name_en": "Chả giò",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_007.jpg",
+          "image_url": "/images/offerings/OFFER_005.jpg",
           "offering_id": "OFFER_005",
           "menu_item_name_vi": "Nem hải sản",
           "price_min_vnd": 35000.0,
           "price_max_vnd": 35000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Nem hải sản"
         },
         {
           "dish_id": "DISH_003",
           "dish_name_vi": "Bún chả",
           "dish_name_en": "Bun cha",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_003.jpg",
+          "image_url": "/images/offerings/OFFER_081.jpg",
           "offering_id": "OFFER_081",
           "menu_item_name_vi": "Bún chả truyền thống",
           "price_min_vnd": 60000.0,
           "price_max_vnd": 60000.0,
           "variant": "Truyền thống",
           "portion": "Suất đầy đủ",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Bún chả truyền thống"
         },
         {
           "dish_id": "DISH_007",
           "dish_name_vi": "Nem rán",
           "dish_name_en": "Chả giò",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_007.jpg",
+          "image_url": "/images/offerings/OFFER_082.jpg",
           "offering_id": "OFFER_082",
           "menu_item_name_vi": "Nem cua bể",
           "price_min_vnd": 40000.0,
           "price_max_vnd": 40000.0,
           "variant": null,
           "portion": "Đĩa 2 chiếc",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg",
+          "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến - Nem cua bể"
         }
       ],
       "dish_ids": [
@@ -200,7 +207,8 @@
         "DISH_007"
       ],
       "image_url": "/images/places/PLACE_001.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+      "image_source": "Foody.vn / Bún Chả Sinh Từ - 57A Nguyễn Khuyến"
     },
     {
       "place_id": "PLACE_002",
@@ -222,21 +230,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_006.jpg",
           "offering_id": "OFFER_006",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Phở Gà Nguyệt - 5B Phủ Doãn (Michelin Bib Gourmand) - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_002.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Phở Gà Nguyệt - 5B Phủ Doãn (Michelin Bib Gourmand)"
     },
     {
       "place_id": "PLACE_003",
@@ -258,21 +268,23 @@
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_007.jpg",
           "offering_id": "OFFER_007",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Phở 10 Lý Quốc Sư (Michelin Bib Gourmand) - Phở bò"
         }
       ],
       "dish_ids": [
         "DISH_001"
       ],
       "image_url": "/images/places/PLACE_003.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Phở 10 Lý Quốc Sư (Michelin Bib Gourmand)"
     },
     {
       "place_id": "PLACE_004",
@@ -294,21 +306,23 @@
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_008.jpg",
           "offering_id": "OFFER_008",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Phở Gia Truyền - 49 Bát Đàn (Michelin Selected) - Phở bò"
         }
       ],
       "dish_ids": [
         "DISH_001"
       ],
       "image_url": "/images/places/PLACE_004.jpg",
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ph%E1%BB%91_B%C3%A1t_%C4%90%C3%A0n%2C_H%C3%A0_N%E1%BB%99i_001.JPG/1280px-Ph%E1%BB%91_B%C3%A1t_%C4%90%C3%A0n%2C_H%C3%A0_N%E1%BB%99i_001.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Ph%E1%BB%91_B%C3%A1t_%C4%90%C3%A0n%2C_H%C3%A0_N%E1%BB%99i_001.JPG/1280px-Ph%E1%BB%91_B%C3%A1t_%C4%90%C3%A0n%2C_H%C3%A0_N%E1%BB%99i_001.JPG",
+      "image_source": "Foody.vn / Phở Gia Truyền - 49 Bát Đàn (Michelin Selected)"
     },
     {
       "place_id": "PLACE_005",
@@ -330,21 +344,23 @@
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_009.jpg",
           "offering_id": "OFFER_009",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Phở Bò Khôi Hói - 50 Hàng Vải (Michelin Selected) - Phở bò"
         }
       ],
       "dish_ids": [
         "DISH_001"
       ],
       "image_url": "/images/places/PLACE_005.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Phở Bò Khôi Hói - 50 Hàng Vải (Michelin Selected)"
     },
     {
       "place_id": "PLACE_006",
@@ -366,21 +382,23 @@
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_010.jpg",
           "offering_id": "OFFER_010",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Phở Bò Lâm - 48 Hàng Vải - Phở bò"
         }
       ],
       "dish_ids": [
         "DISH_001"
       ],
       "image_url": "/images/places/PLACE_006.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Phở Bò Lâm - 48 Hàng Vải"
     },
     {
       "place_id": "PLACE_007",
@@ -402,21 +420,23 @@
           "dish_name_vi": "Bún chả",
           "dish_name_en": "Bun cha",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_003.jpg",
+          "image_url": "/images/offerings/OFFER_011.jpg",
           "offering_id": "OFFER_011",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+          "image_source": "Foody.vn / Tuyết - Bún Chả 34 Hàng Than (Michelin Selected) - Bún chả"
         }
       ],
       "dish_ids": [
         "DISH_003"
       ],
       "image_url": "/images/places/PLACE_007.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+      "image_source": "Foody.vn / Tuyết - Bún Chả 34 Hàng Than (Michelin Selected)"
     },
     {
       "place_id": "PLACE_008",
@@ -438,21 +458,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_012.jpg",
           "offering_id": "OFFER_012",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bánh Cuốn Phượng - 16 Đào Duy Từ - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_008.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Foody.vn / Bánh Cuốn Phượng - 16 Đào Duy Từ"
     },
     {
       "place_id": "PLACE_009",
@@ -474,21 +496,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_013.jpg",
           "offering_id": "OFFER_013",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Thanh Vân Bánh Cuốn & Bún Thang - 12 Hàng Gà - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_009.jpg",
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+      "image_source": "Foody.vn / Thanh Vân Bánh Cuốn & Bún Thang - 12 Hàng Gà"
     },
     {
       "place_id": "PLACE_010",
@@ -510,21 +534,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_014.jpg",
           "offering_id": "OFFER_014",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bánh Cuốn Quang An - 71 Hàng Bồ - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_010.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Foody.vn / Bánh Cuốn Quang An - 71 Hàng Bồ"
     },
     {
       "place_id": "PLACE_011",
@@ -546,21 +572,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_015.jpg",
           "offering_id": "OFFER_015",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bánh Cuốn Bà Xuân - 16 Dốc Hòe Nhai (Michelin Selected) - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_011.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Foody.vn / Bánh Cuốn Bà Xuân - 16 Dốc Hòe Nhai (Michelin Selected)"
     },
     {
       "place_id": "PLACE_012",
@@ -582,21 +610,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_016.jpg",
           "offering_id": "OFFER_016",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bánh Cuốn Bà Hanh - 26B Thọ Xương - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_012.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Foody.vn / Bánh Cuốn Bà Hanh - 26B Thọ Xương"
     },
     {
       "place_id": "PLACE_013",
@@ -618,21 +648,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_017.jpg",
           "offering_id": "OFFER_017",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bánh Cuốn & Bánh Giò - 57A Hàng Bồ - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_013.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Foody.vn / Bánh Cuốn & Bánh Giò - 57A Hàng Bồ"
     },
     {
       "place_id": "PLACE_014",
@@ -654,21 +686,23 @@
           "dish_name_vi": "Bánh cuốn",
           "dish_name_en": "Bánh cuốn",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_009.jpg",
+          "image_url": "/images/offerings/OFFER_018.jpg",
           "offering_id": "OFFER_018",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg",
+          "image_source": "Foody.vn / Bánh Cuốn Phủ Lý - 39 Đào Duy Từ - Bánh cuốn"
         }
       ],
       "dish_ids": [
         "DISH_009"
       ],
       "image_url": "/images/places/PLACE_014.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Foody.vn / Bánh Cuốn Phủ Lý - 39 Đào Duy Từ"
     },
     {
       "place_id": "PLACE_015",
@@ -690,21 +724,23 @@
           "dish_name_vi": "Chả cá",
           "dish_name_en": "Chả cá Lã Vọng",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_008.jpg",
+          "image_url": "/images/offerings/OFFER_019.jpg",
           "offering_id": "OFFER_019",
           "menu_item_name_vi": null,
           "price_min_vnd": 350000.0,
           "price_max_vnd": 350000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+          "image_source": "Foody.vn / Chả Cá Lã Vọng - Số 14 Phố Chả Cá (Di tích ẩm thực) - Chả cá"
         }
       ],
       "dish_ids": [
         "DISH_008"
       ],
       "image_url": "/images/places/PLACE_015.jpg",
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Chả Cá Lã Vọng - Số 14 Phố Chả Cá (Di tích ẩm thực)"
     },
     {
       "place_id": "PLACE_016",
@@ -726,21 +762,23 @@
           "dish_name_vi": "Chả cá",
           "dish_name_en": "Chả cá Lã Vọng",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_008.jpg",
+          "image_url": "/images/offerings/OFFER_020.jpg",
           "offering_id": "OFFER_020",
           "menu_item_name_vi": null,
           "price_min_vnd": 30000.0,
           "price_max_vnd": 110000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+          "image_source": "Foody.vn / Chả Cá Lã Vọng - 107 Nguyễn Trường Tộ - Chả cá"
         }
       ],
       "dish_ids": [
         "DISH_008"
       ],
       "image_url": "/images/places/PLACE_016.jpg",
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_%281%29.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_%281%29.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_%281%29.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i_th%C3%A1ng_2_n%C4%83m_2018_%281%29.jpg",
+      "image_source": "Foody.vn / Chả Cá Lã Vọng - 107 Nguyễn Trường Tộ"
     },
     {
       "place_id": "PLACE_017",
@@ -762,21 +800,23 @@
           "dish_name_vi": "Cà phê trứng",
           "dish_name_en": "Egg coffee",
           "category": "drink",
-          "image_url": "/images/dishes/DISH_010.jpg",
+          "image_url": "/images/offerings/OFFER_021.jpg",
           "offering_id": "OFFER_021",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg",
+          "image_source": "Foody.vn / Loading T Cafe - 8 Chân Cầm - Cà phê trứng"
         }
       ],
       "dish_ids": [
         "DISH_010"
       ],
       "image_url": "/images/places/PLACE_017.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Loading T Cafe - 8 Chân Cầm"
     },
     {
       "place_id": "PLACE_018",
@@ -798,21 +838,23 @@
           "dish_name_vi": "Cà phê trứng",
           "dish_name_en": "Egg coffee",
           "category": "drink",
-          "image_url": "/images/dishes/DISH_010.jpg",
+          "image_url": "/images/offerings/OFFER_022.jpg",
           "offering_id": "OFFER_022",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg",
+          "image_source": "Foody.vn / Aroi Dessert Cafe - 9 Tống Duy Tân - Cà phê trứng"
         }
       ],
       "dish_ids": [
         "DISH_010"
       ],
       "image_url": "/images/places/PLACE_018.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Aroi Dessert Cafe - 9 Tống Duy Tân"
     },
     {
       "place_id": "PLACE_019",
@@ -834,21 +876,23 @@
           "dish_name_vi": "Cà phê trứng",
           "dish_name_en": "Egg coffee",
           "category": "drink",
-          "image_url": "/images/dishes/DISH_010.jpg",
+          "image_url": "/images/offerings/OFFER_023.jpg",
           "offering_id": "OFFER_023",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg",
+          "image_source": "Foody.vn / All Day Coffee - 37 Quang Trung - Cà phê trứng"
         }
       ],
       "dish_ids": [
         "DISH_010"
       ],
       "image_url": "/images/places/PLACE_019.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / All Day Coffee - 37 Quang Trung"
     },
     {
       "place_id": "PLACE_020",
@@ -870,21 +914,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_024.jpg",
           "offering_id": "OFFER_024",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Phở Gà Đặc Biệt - 1 Hàng Điếu - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_020.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Phở Gà Đặc Biệt - 1 Hàng Điếu"
     },
     {
       "place_id": "PLACE_021",
@@ -906,21 +952,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_025.jpg",
           "offering_id": "OFFER_025",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Thìn Béo - Phở Gà Ta 195 Xã Đàn - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_021.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Thìn Béo - Phở Gà Ta 195 Xã Đàn"
     },
     {
       "place_id": "PLACE_022",
@@ -942,21 +990,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_026.jpg",
           "offering_id": "OFFER_026",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Phở Gà Đỗ Gia - 9 Nguyễn Đình Thi - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_022.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Phở Gà Đỗ Gia - 9 Nguyễn Đình Thi"
     },
     {
       "place_id": "PLACE_023",
@@ -978,21 +1028,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_027.jpg",
           "offering_id": "OFFER_027",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Tiến Phở Gà Ta - 103 Nguyễn Trường Tộ - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_023.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Tiến Phở Gà Ta - 103 Nguyễn Trường Tộ"
     },
     {
       "place_id": "PLACE_024",
@@ -1014,21 +1066,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_028.jpg",
           "offering_id": "OFFER_028",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Huyền Hương - 20 Bảo Khánh - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_024.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Huyền Hương - 20 Bảo Khánh"
     },
     {
       "place_id": "PLACE_025",
@@ -1050,21 +1104,23 @@
           "dish_name_vi": "Phở gà",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_002.jpg",
+          "image_url": "/images/offerings/OFFER_029.jpg",
           "offering_id": "OFFER_029",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+          "image_source": "Foody.vn / Phở Lâm - 7 Nam Ngư - Phở gà"
         }
       ],
       "dish_ids": [
         "DISH_002"
       ],
       "image_url": "/images/places/PLACE_025.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Foody.vn / Phở Lâm - 7 Nam Ngư"
     },
     {
       "place_id": "PLACE_026",
@@ -1086,21 +1142,23 @@
           "dish_name_vi": "Bún đậu mắm tôm",
           "dish_name_en": null,
           "category": "other",
-          "image_url": "/images/dishes/DISH_006.jpg",
+          "image_url": "/images/offerings/OFFER_030.jpg",
           "offering_id": "OFFER_030",
           "menu_item_name_vi": null,
           "price_min_vnd": 25000.0,
           "price_max_vnd": 50000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG",
+          "image_source": "Foody.vn / Bún Đậu Gốc Đa - 4 Ngõ Gạch - Bún đậu mắm tôm"
         }
       ],
       "dish_ids": [
         "DISH_006"
       ],
       "image_url": "/images/places/PLACE_026.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg/1280px-B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg",
+      "image_source": "Foody.vn / Bún Đậu Gốc Đa - 4 Ngõ Gạch"
     },
     {
       "place_id": "PLACE_027",
@@ -1122,21 +1180,23 @@
           "dish_name_vi": "Bún đậu mắm tôm",
           "dish_name_en": null,
           "category": "other",
-          "image_url": "/images/dishes/DISH_006.jpg",
+          "image_url": "/images/offerings/OFFER_031.jpg",
           "offering_id": "OFFER_031",
           "menu_item_name_vi": null,
           "price_min_vnd": 20000.0,
           "price_max_vnd": 50000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG",
+          "image_source": "Foody.vn / Bún Đậu Mắm Tôm - 1B Ngõ Trạm - Bún đậu mắm tôm"
         }
       ],
       "dish_ids": [
         "DISH_006"
       ],
       "image_url": "/images/places/PLACE_027.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg/1280px-B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg",
+      "image_source": "Foody.vn / Bún Đậu Mắm Tôm - 1B Ngõ Trạm"
     },
     {
       "place_id": "PLACE_028",
@@ -1158,21 +1218,23 @@
           "dish_name_vi": "Bún đậu mắm tôm",
           "dish_name_en": null,
           "category": "other",
-          "image_url": "/images/dishes/DISH_006.jpg",
+          "image_url": "/images/offerings/OFFER_032.jpg",
           "offering_id": "OFFER_032",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG",
+          "image_source": "Foody.vn / Bún Đậu Việt - 29 Hàng Khay - Bún đậu mắm tôm"
         }
       ],
       "dish_ids": [
         "DISH_006"
       ],
       "image_url": "/images/places/PLACE_028.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg/1280px-B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg",
+      "image_source": "Foody.vn / Bún Đậu Việt - 29 Hàng Khay"
     },
     {
       "place_id": "PLACE_029",
@@ -1194,21 +1256,23 @@
           "dish_name_vi": "Chả cá",
           "dish_name_en": "Chả cá Lã Vọng",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_008.jpg",
+          "image_url": "/images/offerings/OFFER_033.jpg",
           "offering_id": "OFFER_033",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+          "image_source": "Foody.vn / Chả Cá Thăng Long - 21 Đường Thành (Michelin Selected) - Chả cá"
         }
       ],
       "dish_ids": [
         "DISH_008"
       ],
       "image_url": "/images/places/PLACE_029.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Chả Cá Thăng Long - 21 Đường Thành (Michelin Selected)"
     },
     {
       "place_id": "PLACE_030",
@@ -1230,49 +1294,53 @@
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_034.jpg",
           "offering_id": "OFFER_034",
           "menu_item_name_vi": null,
           "price_min_vnd": 50000.0,
           "price_max_vnd": 75000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Hương Hậu Phở Bò - 127 Nguyễn Khuyến - Phở bò"
         },
         {
           "dish_id": "DISH_001",
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_079.jpg",
           "offering_id": "OFFER_079",
           "menu_item_name_vi": "Phở bò tái lăn",
           "price_min_vnd": 60000.0,
           "price_max_vnd": 60000.0,
           "variant": "Tái lăn",
           "portion": "Bát đặc biệt",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Hương Hậu Phở Bò - 127 Nguyễn Khuyến - Phở bò tái lăn"
         },
         {
           "dish_id": "DISH_001",
           "dish_name_vi": "Phở bò",
           "dish_name_en": "Pho",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_001.jpg",
+          "image_url": "/images/offerings/OFFER_080.jpg",
           "offering_id": "OFFER_080",
           "menu_item_name_vi": "Phở bò chín nạm",
           "price_min_vnd": 50000.0,
           "price_max_vnd": 50000.0,
           "variant": "Chín nạm",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn / Hương Hậu Phở Bò - 127 Nguyễn Khuyến - Phở bò chín nạm"
         }
       ],
       "dish_ids": [
         "DISH_001"
       ],
       "image_url": "/images/places/PLACE_030.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn / Hương Hậu Phở Bò - 127 Nguyễn Khuyến"
     },
     {
       "place_id": "PLACE_031",
@@ -1294,28 +1362,30 @@
           "dish_name_vi": "Nem rán",
           "dish_name_en": "Chả giò",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_007.jpg",
+          "image_url": "/images/offerings/OFFER_035.jpg",
           "offering_id": "OFFER_035",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg",
+          "image_source": "Foody.vn / Tầm Vị - 4B Yên Thế (Michelin 1 Star 2023-2024) - Nem rán"
         },
         {
           "dish_id": "DISH_008",
           "dish_name_vi": "Chả cá",
           "dish_name_en": "Chả cá Lã Vọng",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_008.jpg",
+          "image_url": "/images/offerings/OFFER_036.jpg",
           "offering_id": "OFFER_036",
           "menu_item_name_vi": null,
           "price_min_vnd": null,
           "price_max_vnd": null,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg",
+          "image_source": "Foody.vn / Tầm Vị - 4B Yên Thế (Michelin 1 Star 2023-2024) - Chả cá"
         }
       ],
       "dish_ids": [
@@ -1323,7 +1393,8 @@
         "DISH_007"
       ],
       "image_url": "/images/places/PLACE_031.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg",
+      "image_source": "Foody.vn / Tầm Vị - 4B Yên Thế (Michelin 1 Star 2023-2024)"
     },
     {
       "place_id": "PLACE_032",
@@ -1345,21 +1416,23 @@
           "dish_name_vi": "Bánh mì",
           "dish_name_en": "Bánh mì",
           "category": "sandwich",
-          "image_url": "/images/dishes/DISH_004.jpg",
+          "image_url": "/images/offerings/OFFER_037.jpg",
           "offering_id": "OFFER_037",
           "menu_item_name_vi": null,
           "price_min_vnd": 25000.0,
           "price_max_vnd": 40000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Banh_mi_PaMi_1.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Banh_mi_PaMi_1.jpg",
+          "image_source": "Foody.vn / Bánh Mì Ngũ Vị - 67 Nguyễn Khuyến - Bánh mì"
         }
       ],
       "dish_ids": [
         "DISH_004"
       ],
       "image_url": "/images/places/PLACE_032.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1626804475297-41608ea09aeb?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/1280px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png",
+      "image_source": "Foody.vn / Bánh Mì Ngũ Vị - 67 Nguyễn Khuyến"
     },
     {
       "place_id": "PLACE_033",
@@ -1381,21 +1454,23 @@
           "dish_name_vi": "Bún thang",
           "dish_name_en": null,
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_005.jpg",
+          "image_url": "/images/offerings/OFFER_038.jpg",
           "offering_id": "OFFER_038",
           "menu_item_name_vi": null,
           "price_min_vnd": 40000.0,
           "price_max_vnd": 55000.0,
           "variant": null,
           "portion": null,
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B%C3%BAn_thang.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B%C3%BAn_thang.JPG",
+          "image_source": "Foody.vn / Bà Tổng Bún Thang - 56 Ngô Sĩ Liên - Bún thang"
         }
       ],
       "dish_ids": [
         "DISH_005"
       ],
       "image_url": "/images/places/PLACE_033.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bun_thang_Hanoi.jpg/1280px-Bun_thang_Hanoi.jpg",
+      "image_source": "Foody.vn / Bà Tổng Bún Thang - 56 Ngô Sĩ Liên"
     },
     {
       "place_id": "PLACE_034",
@@ -1417,21 +1492,23 @@
           "dish_name_vi": "Bún riêu",
           "dish_name_en": "Crab noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_011.jpg",
+          "image_url": "/images/offerings/OFFER_039.jpg",
           "offering_id": "OFFER_039",
           "menu_item_name_vi": "Bún riêu cua giò đậu",
           "price_min_vnd": 45000.0,
           "price_max_vnd": 50000.0,
           "variant": "Giò đậu",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bun_Rieu_close-up_-_Dakao_Hoang.jpg/1280px-Bun_Rieu_close-up_-_Dakao_Hoang.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bun_Rieu_close-up_-_Dakao_Hoang.jpg/1280px-Bun_Rieu_close-up_-_Dakao_Hoang.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Riêu Cua - Hàng Bông (75 Hàng Bông, Phường Hàng Bông, Hoàn Kiếm, Hà Nội) - Bún riêu cua giò đậu"
         }
       ],
       "dish_ids": [
         "DISH_011"
       ],
       "image_url": "/images/places/PLACE_034.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/B%C3%BAn_ri%C3%AAu_cua_%C4%91%E1%BB%93ng_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_ri%C3%AAu_cua_%C4%91%E1%BB%93ng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Riêu Cua - Hàng Bông (75 Hàng Bông, Phường Hàng Bông, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_035",
@@ -1453,21 +1530,23 @@
           "dish_name_vi": "Bún ốc",
           "dish_name_en": "Snail noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_012.jpg",
+          "image_url": "/images/offerings/OFFER_040.jpg",
           "offering_id": "OFFER_040",
           "menu_item_name_vi": "Bún ốc sườn giòn",
           "price_min_vnd": 50000.0,
           "price_max_vnd": 60000.0,
           "variant": "Ốc to sườn",
           "portion": "Bát đầy đủ",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bun_oc_Hoe_Nhai.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bun_oc_Hoe_Nhai.JPG",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Ốc Sườn Cô Sáu (254 Lạc Trung / 354 Bạch Mai (Cơ sở Hai Bà Trưng)) - Bún ốc sườn giòn"
         }
       ],
       "dish_ids": [
         "DISH_012"
       ],
       "image_url": "/images/places/PLACE_035.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/B%C3%BAn_%E1%BB%91c_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_%E1%BB%91c_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Ốc Sườn Cô Sáu (254 Lạc Trung / 354 Bạch Mai (Cơ sở Hai Bà Trưng))"
     },
     {
       "place_id": "PLACE_036",
@@ -1489,21 +1568,23 @@
           "dish_name_vi": "Miến lươn",
           "dish_name_en": "Eel glass noodles",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_013.jpg",
+          "image_url": "/images/offerings/OFFER_041.jpg",
           "offering_id": "OFFER_041",
           "menu_item_name_vi": "Miến lươn giòn nước",
           "price_min_vnd": 55000.0,
           "price_max_vnd": 65000.0,
           "variant": "Lươn giòn",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mien_luon_Hang_Dieu.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mien_luon_Hang_Dieu.JPG",
+          "image_source": "Foody.vn - Miến Lươn Đông Thịnh - 87 Hàng Điếu (Michelin Selected) - Miến lươn giòn nước"
         }
       ],
       "dish_ids": [
         "DISH_013"
       ],
       "image_url": "/images/places/PLACE_036.jpg",
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mien_luon_Hang_Dieu.JPG/1280px-Mien_luon_Hang_Dieu.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Mien_luon_Hang_Dieu.JPG/1280px-Mien_luon_Hang_Dieu.JPG",
+      "image_source": "Foody.vn - Miến Lươn Đông Thịnh - 87 Hàng Điếu (Michelin Selected)"
     },
     {
       "place_id": "PLACE_037",
@@ -1525,21 +1606,23 @@
           "dish_name_vi": "Bánh gối",
           "dish_name_en": "Crispy pillow cake",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_014.jpg",
+          "image_url": "/images/offerings/OFFER_042.jpg",
           "offering_id": "OFFER_042",
           "menu_item_name_vi": "Bánh gối thịt băm trứng cút",
           "price_min_vnd": 24000.0,
           "price_max_vnd": 30000.0,
           "variant": "Thịt băm trứng cút",
           "portion": "Đĩa 2 chiếc",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Banh_goi_01.JPG"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Banh_goi_01.JPG",
+          "image_source": "Foody.vn - Bánh Gối Gốc Đa - 52 Lý Quốc Sư - Bánh gối thịt băm trứng cút"
         }
       ],
       "dish_ids": [
         "DISH_014"
       ],
       "image_url": "/images/places/PLACE_037.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Banh_goi_01.JPG/1280px-Banh_goi_01.JPG",
+      "image_source": "Foody.vn - Bánh Gối Gốc Đa - 52 Lý Quốc Sư"
     },
     {
       "place_id": "PLACE_038",
@@ -1561,21 +1644,23 @@
           "dish_name_vi": "Bánh tôm",
           "dish_name_en": "West Lake shrimp cake",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_015.jpg",
+          "image_url": "/images/offerings/OFFER_043.jpg",
           "offering_id": "OFFER_043",
           "menu_item_name_vi": "Bánh tôm giòn",
           "price_min_vnd": 35000.0,
           "price_max_vnd": 45000.0,
           "variant": "Tôm đồng",
           "portion": "Đĩa 3 chiếc",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg/1280px-L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg/1280px-L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Tôm Cô Ầm (Ngõ Đồng Xuân, Hàng Mã, Hoàn Kiếm, Hà Nội) - Bánh tôm giòn"
         }
       ],
       "dish_ids": [
         "DISH_015"
       ],
       "image_url": "/images/places/PLACE_038.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%282%29.jpg/1280px-L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%282%29.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Tôm Cô Ầm (Ngõ Đồng Xuân, Hàng Mã, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_039",
@@ -1597,21 +1682,23 @@
           "dish_name_vi": "Xôi xéo",
           "dish_name_en": "Sticky rice with mung bean",
           "category": "other",
-          "image_url": "/images/dishes/DISH_016.jpg",
+          "image_url": "/images/offerings/OFFER_044.jpg",
           "offering_id": "OFFER_044",
           "menu_item_name_vi": "Xôi xéo chả quế",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 35000.0,
           "variant": "Chả quế",
           "portion": "Gói tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/X%C3%B4i_x%C3%A9o.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/X%C3%B4i_x%C3%A9o.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Xôi Xéo Bát Đàn (44 Bát Đàn, Phường Cửa Đông, Hoàn Kiếm, Hà Nội) - Xôi xéo chả quế"
         }
       ],
       "dish_ids": [
         "DISH_016"
       ],
       "image_url": "/images/places/PLACE_039.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/X%C3%B4i_x%C3%A9o.jpg/1280px-X%C3%B4i_x%C3%A9o.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Xôi Xéo Bát Đàn (44 Bát Đàn, Phường Cửa Đông, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_040",
@@ -1633,21 +1720,23 @@
           "dish_name_vi": "Mì vằn thắn",
           "dish_name_en": "Wonton noodles",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_017.jpg",
+          "image_url": "/images/offerings/OFFER_045.jpg",
           "offering_id": "OFFER_045",
           "menu_item_name_vi": "Mì vằn thắn thập cẩm",
           "price_min_vnd": 50000.0,
           "price_max_vnd": 60000.0,
           "variant": "Thập cẩm",
           "portion": "Bát lớn",
-          "online_image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Chasyu_Wonton_Men_.jpg/1280px-Chasyu_Wonton_Men_.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Mì Vằn Thắn Phương Béo (9 Hàng Chiếu, Hàng Buồm, Hoàn Kiếm, Hà Nội) - Mì vằn thắn thập cẩm"
         }
       ],
       "dish_ids": [
         "DISH_017"
       ],
       "image_url": "/images/places/PLACE_040.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Chasyu_Wonton_Men_.jpg/1280px-Chasyu_Wonton_Men_.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Mì Vằn Thắn Phương Béo (9 Hàng Chiếu, Hàng Buồm, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_041",
@@ -1669,21 +1758,23 @@
           "dish_name_vi": "Cháo sườn",
           "dish_name_en": "Pork rib rice porridge",
           "category": "other",
-          "image_url": "/images/dishes/DISH_018.jpg",
+          "image_url": "/images/offerings/OFFER_046.jpg",
           "offering_id": "OFFER_046",
           "menu_item_name_vi": "Cháo sườn quẩy ruốc",
           "price_min_vnd": 30000.0,
           "price_max_vnd": 35000.0,
           "variant": "Quẩy ruốc",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Doujiang_and_youtiao_Taipei.jpg/1280px-Doujiang_and_youtiao_Taipei.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Doujiang_and_youtiao_Taipei.jpg/1280px-Doujiang_and_youtiao_Taipei.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Cháo Sườn Ngõ Huyện (61A Ngõ Huyện, Hàng Trống, Hoàn Kiếm, Hà Nội) - Cháo sườn quẩy ruốc"
         }
       ],
       "dish_ids": [
         "DISH_018"
       ],
       "image_url": "/images/places/PLACE_041.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Rice_congee.jpg/1280px-Rice_congee.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Cháo Sườn Ngõ Huyện (61A Ngõ Huyện, Hàng Trống, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_042",
@@ -1705,21 +1796,23 @@
           "dish_name_vi": "Bún ngan",
           "dish_name_en": "Duck/Goose noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_019.jpg",
+          "image_url": "/images/offerings/OFFER_047.jpg",
           "offering_id": "OFFER_047",
           "menu_item_name_vi": "Bún ngan đùi măng tiết",
           "price_min_vnd": 45000.0,
           "price_max_vnd": 55000.0,
           "variant": "Thịt đùi",
           "portion": "Bát đầy đủ",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ngan_Bun_Klang_Ban_01.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ngan_Bun_Klang_Ban_01.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Ngan Hàng Thiếc (71 Hàng Thiếc, Hàng Gai, Hoàn Kiếm, Hà Nội) - Bún ngan đùi măng tiết"
         }
       ],
       "dish_ids": [
         "DISH_019"
       ],
       "image_url": "/images/places/PLACE_042.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/B%C3%BAn_m%E1%BB%8Dc.jpg/1280px-B%C3%BAn_m%E1%BB%8Dc.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Ngan Hàng Thiếc (71 Hàng Thiếc, Hàng Gai, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_043",
@@ -1741,21 +1834,23 @@
           "dish_name_vi": "Bánh đúc nóng",
           "dish_name_en": "Hot savory rice cake",
           "category": "other",
-          "image_url": "/images/dishes/DISH_020.jpg",
+          "image_url": "/images/offerings/OFFER_048.jpg",
           "offering_id": "OFFER_048",
           "menu_item_name_vi": "Bánh đúc nóng thịt mộc nhĩ",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 30000.0,
           "variant": "Thịt mộc nhĩ",
           "portion": "Bát nhỏ",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Banh_te_My_Duc_2.png/1280px-Banh_te_My_Duc_2.png"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Banh_te_My_Duc_2.png/1280px-Banh_te_My_Duc_2.png",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Đúc Nóng Cửa Nam (45 Cửa Nam, Phường Cửa Nam, Hoàn Kiếm, Hà Nội) - Bánh đúc nóng thịt mộc nhĩ"
         }
       ],
       "dish_ids": [
         "DISH_020"
       ],
       "image_url": "/images/places/PLACE_043.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/B%C3%A1nh_%C4%91%C3%BAc_n%C3%B3ng.jpg/1280px-B%C3%A1nh_%C4%91%C3%BAc_n%C3%B3ng.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Đúc Nóng Cửa Nam (45 Cửa Nam, Phường Cửa Nam, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_044",
@@ -1777,28 +1872,30 @@
           "dish_name_vi": "Phở cuốn",
           "dish_name_en": "Rolled pho",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_021.jpg",
+          "image_url": "/images/offerings/OFFER_049.jpg",
           "offering_id": "OFFER_049",
           "menu_item_name_vi": "Phở cuốn thập cẩm",
           "price_min_vnd": 70000.0,
           "price_max_vnd": 80000.0,
           "variant": "Bò xào",
           "portion": "Đĩa 10 cuốn",
-          "online_image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Goi_cuon_-_spring_roll.jpg/1280px-Goi_cuon_-_spring_roll.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Phở Cuốn Hương Mai - Nguyễn Thái Học (108 Nguyễn Thái Học, Ba Đình, Hà Nội) - Phở cuốn thập cẩm"
         },
         {
           "dish_id": "DISH_022",
           "dish_name_vi": "Phở chiên phồng",
           "dish_name_en": "Deep-fried puffed pho",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_022.jpg",
+          "image_url": "/images/offerings/OFFER_050.jpg",
           "offering_id": "OFFER_050",
           "menu_item_name_vi": "Phở chiên phồng bò xào",
           "price_min_vnd": 85000.0,
           "price_max_vnd": 95000.0,
           "variant": "Bò xào cải",
           "portion": "Đĩa lớn",
-          "online_image_url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ph%E1%BB%9F_%C3%A1p_ch%E1%BA%A3o_b%C3%B2.jpg/1280px-Ph%E1%BB%9F_%C3%A1p_ch%E1%BA%A3o_b%C3%B2.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Phở Cuốn Hương Mai - Nguyễn Thái Học (108 Nguyễn Thái Học, Ba Đình, Hà Nội) - Phở chiên phồng bò xào"
         }
       ],
       "dish_ids": [
@@ -1806,7 +1903,8 @@
         "DISH_022"
       ],
       "image_url": "/images/places/PLACE_044.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Goi_cuon_-_spring_roll.jpg/1280px-Goi_cuon_-_spring_roll.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Phở Cuốn Hương Mai - Nguyễn Thái Học (108 Nguyễn Thái Học, Ba Đình, Hà Nội)"
     },
     {
       "place_id": "PLACE_045",
@@ -1828,21 +1926,23 @@
           "dish_name_vi": "Phở trộn",
           "dish_name_en": "Dry mixed pho",
           "category": "rolled",
-          "image_url": "/images/dishes/DISH_023.jpg",
+          "image_url": "/images/offerings/OFFER_051.jpg",
           "offering_id": "OFFER_051",
           "menu_item_name_vi": "Phở gà trộn đặc biệt",
           "price_min_vnd": 45000.0,
           "price_max_vnd": 55000.0,
           "variant": "Gà đùi xé",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/B%C3%BAn_tr%E1%BB%99n%2C_Pho_15%2C_Paris_25_October_2016_001.jpg/1280px-B%C3%BAn_tr%E1%BB%99n%2C_Pho_15%2C_Paris_25_October_2016_001.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Phở Gà Trộn Khánh Béo (22 Hàng Hòm, Hàng Gai, Hoàn Kiếm, Hà Nội) - Phở gà trộn đặc biệt"
         }
       ],
       "dish_ids": [
         "DISH_023"
       ],
       "image_url": "/images/places/PLACE_045.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/B%C3%BAn_tr%E1%BB%99n%2C_Pho_15%2C_Paris_25_October_2016_001.jpg/1280px-B%C3%BAn_tr%E1%BB%99n%2C_Pho_15%2C_Paris_25_October_2016_001.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Phở Gà Trộn Khánh Béo (22 Hàng Hòm, Hàng Gai, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_046",
@@ -1864,21 +1964,23 @@
           "dish_name_vi": "Bún bò Huế",
           "dish_name_en": "Spicy beef noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_024.jpg",
+          "image_url": "/images/offerings/OFFER_052.jpg",
           "offering_id": "OFFER_052",
           "menu_item_name_vi": "Bún bò Huế đầy đủ móng giò chả cua",
           "price_min_vnd": 50000.0,
           "price_max_vnd": 65000.0,
           "variant": "Đầy đủ",
           "portion": "Tô lớn",
-          "online_image_url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bun-Bo-Hue-from-Huong-Giang-2011.jpg/1280px-Bun-Bo-Hue-from-Huong-Giang-2011.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Bò Huế O Xuân - Quang Trung (5D Quang Trung, Tràng Thi, Hoàn Kiếm, Hà Nội) - Bún bò Huế đầy đủ móng giò chả cua"
         }
       ],
       "dish_ids": [
         "DISH_024"
       ],
       "image_url": "/images/places/PLACE_046.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bun-Bo-Hue-from-Huong-Giang-2011.jpg/1280px-Bun-Bo-Hue-from-Huong-Giang-2011.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Bò Huế O Xuân - Quang Trung (5D Quang Trung, Tràng Thi, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_047",
@@ -1900,21 +2002,23 @@
           "dish_name_vi": "Bánh giò",
           "dish_name_en": "Pyramidal rice dumpling",
           "category": "steamed",
-          "image_url": "/images/dishes/DISH_025.jpg",
+          "image_url": "/images/offerings/OFFER_053.jpg",
           "offering_id": "OFFER_053",
           "menu_item_name_vi": "Bánh giò nóng chả cốm giò lụa",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 35000.0,
           "variant": "Kèm chả cốm",
           "portion": "Suất tiêu chuẩn",
-          "online_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Banh_gio.jpg/1280px-Banh_gio.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Giò Nóng Ngô Sĩ Liên (Ngõ 50 Ngô Sĩ Liên, Văn Miếu, Đống Đa, Hà Nội) - Bánh giò nóng chả cốm giò lụa"
         }
       ],
       "dish_ids": [
         "DISH_025"
       ],
       "image_url": "/images/places/PLACE_047.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Banh_gio.jpg/1280px-Banh_gio.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Giò Nóng Ngô Sĩ Liên (Ngõ 50 Ngô Sĩ Liên, Văn Miếu, Đống Đa, Hà Nội)"
     },
     {
       "place_id": "PLACE_048",
@@ -1936,21 +2040,23 @@
           "dish_name_vi": "Nộm bò khô",
           "dish_name_en": "Green papaya salad with dried beef",
           "category": "salad",
-          "image_url": "/images/dishes/DISH_026.jpg",
+          "image_url": "/images/offerings/OFFER_054.jpg",
           "offering_id": "OFFER_054",
           "menu_item_name_vi": "Nộm bò khô truyền thống đầy đủ",
           "price_min_vnd": 40000.0,
           "price_max_vnd": 50000.0,
           "variant": "Đầy đủ gan gân bò",
           "portion": "Đĩa tiêu chuẩn",
-          "online_image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Vietnamese_green_papaya_salad.jpg/1280px-Vietnamese_green_papaya_salad.jpg",
+          "image_source": "Foody.vn - Nộm Bò Khô Long Vi Dung - 23 Hồ Hoàn Kiếm - Nộm bò khô truyền thống đầy đủ"
         }
       ],
       "dish_ids": [
         "DISH_026"
       ],
       "image_url": "/images/places/PLACE_048.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Vietnamese_green_papaya_salad.jpg/1280px-Vietnamese_green_papaya_salad.jpg",
+      "image_source": "Foody.vn - Nộm Bò Khô Long Vi Dung - 23 Hồ Hoàn Kiếm"
     },
     {
       "place_id": "PLACE_049",
@@ -1972,21 +2078,23 @@
           "dish_name_vi": "Bún dọc mùng",
           "dish_name_en": "Taro stem pork noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_027.jpg",
+          "image_url": "/images/offerings/OFFER_055.jpg",
           "offering_id": "OFFER_055",
           "menu_item_name_vi": "Bún sườn mọc dọc mùng thanh ngọt",
           "price_min_vnd": 45000.0,
           "price_max_vnd": 55000.0,
           "variant": "Sườn mọc",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/B%C3%BAn_m%E1%BB%8Dc.jpg/1280px-B%C3%BAn_m%E1%BB%8Dc.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Dọc Mùng Cố Đô - Ngô Sĩ Liên (41 Ngô Sĩ Liên, Văn Miếu, Đống Đa, Hà Nội) - Bún sườn mọc dọc mùng thanh ngọt"
         }
       ],
       "dish_ids": [
         "DISH_027"
       ],
       "image_url": "/images/places/PLACE_049.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/B%C3%BAn_m%E1%BB%8Dc.jpg/1280px-B%C3%BAn_m%E1%BB%8Dc.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Dọc Mùng Cố Đô - Ngô Sĩ Liên (41 Ngô Sĩ Liên, Văn Miếu, Đống Đa, Hà Nội)"
     },
     {
       "place_id": "PLACE_050",
@@ -2008,21 +2116,23 @@
           "dish_name_vi": "Bánh khúc",
           "dish_name_en": "Cudweed sticky rice cake",
           "category": "steamed",
-          "image_url": "/images/dishes/DISH_028.jpg",
+          "image_url": "/images/offerings/OFFER_056.jpg",
           "offering_id": "OFFER_056",
           "menu_item_name_vi": "Bánh khúc nóng lá khúc nếp nhung",
           "price_min_vnd": 15000.0,
           "price_max_vnd": 20000.0,
           "variant": "Bánh khúc nóng",
           "portion": "Cái",
-          "online_image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/B%C3%A1nh_kh%C3%BAc.jpg/1280px-B%C3%A1nh_kh%C3%BAc.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Khúc Cô Lan - Cơ sở Cửa Nam (69 Nguyễn Du, Hai Bà Trưng, Hà Nội) - Bánh khúc nóng lá khúc nếp nhung"
         }
       ],
       "dish_ids": [
         "DISH_028"
       ],
       "image_url": "/images/places/PLACE_050.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/B%C3%A1nh_kh%C3%BAc.jpg/1280px-B%C3%A1nh_kh%C3%BAc.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Khúc Cô Lan - Cơ sở Cửa Nam (69 Nguyễn Du, Hai Bà Trưng, Hà Nội)"
     },
     {
       "place_id": "PLACE_051",
@@ -2044,21 +2154,23 @@
           "dish_name_vi": "Bánh đa cua",
           "dish_name_en": "Crab red noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_029.jpg",
+          "image_url": "/images/offerings/OFFER_057.jpg",
           "offering_id": "OFFER_057",
           "menu_item_name_vi": "Bánh đa cua Hải Phòng chả lá lốt",
           "price_min_vnd": 40000.0,
           "price_max_vnd": 50000.0,
           "variant": "Bánh đa nước đầy đủ",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/BANH_DA_CUA_1.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/BANH_DA_CUA_1.jpg",
+          "image_source": "Foody.vn - Bánh Đa Cua - 6A Phùng Hưng - Bánh đa cua Hải Phòng chả lá lốt"
         }
       ],
       "dish_ids": [
         "DISH_029"
       ],
       "image_url": "/images/places/PLACE_051.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/B%C3%A1nh_%C4%91a_cua.jpg/1280px-B%C3%A1nh_%C4%91a_cua.jpg",
+      "image_source": "Foody.vn - Bánh Đa Cua - 6A Phùng Hưng"
     },
     {
       "place_id": "PLACE_052",
@@ -2080,21 +2192,23 @@
           "dish_name_vi": "Chả rươi",
           "dish_name_en": "Sandworm omelet",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_030.jpg",
+          "image_url": "/images/offerings/OFFER_058.jpg",
           "offering_id": "OFFER_058",
           "menu_item_name_vi": "Chả rươi vỏ quýt gia truyền rán giòn",
           "price_min_vnd": 50000.0,
           "price_max_vnd": 70000.0,
           "variant": "Chả rươi miếng vừa",
           "portion": "Chiếc",
-          "online_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cha_ruoi.JPG/1280px-Cha_ruoi.JPG",
+          "image_source": "Google Maps / Khảo sát thực địa - Chả Rươi Hưng Thịnh (1 Hàng Chiếu, Hàng Buồm, Hoàn Kiếm, Hà Nội) - Chả rươi vỏ quýt gia truyền rán giòn"
         }
       ],
       "dish_ids": [
         "DISH_030"
       ],
       "image_url": "/images/places/PLACE_052.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cha_ruoi.JPG/1280px-Cha_ruoi.JPG",
+      "image_source": "Google Maps / Khảo sát thực địa - Chả Rươi Hưng Thịnh (1 Hàng Chiếu, Hàng Buồm, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_053",
@@ -2116,21 +2230,23 @@
           "dish_name_vi": "Chè sen long nhãn",
           "dish_name_en": "Lotus seed in longan sweet soup",
           "category": "sweet_soup",
-          "image_url": "/images/dishes/DISH_031.jpg",
+          "image_url": "/images/offerings/OFFER_059.jpg",
           "offering_id": "OFFER_059",
           "menu_item_name_vi": "Chè hạt sen long nhãn Phố Hiến",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 35000.0,
           "variant": "Ăn kèm đá",
           "portion": "Cốc",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_m%C3%B3n_ch%C3%A8_Hu%E1%BA%BF_%28ch%C3%A8_h%E1%BA%A1t_sen%29_%282%29.jpg/1280px-thumbnail.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_m%C3%B3n_ch%C3%A8_Hu%E1%BA%BF_%28ch%C3%A8_h%E1%BA%A1t_sen%29_%282%29.jpg/1280px-thumbnail.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Chè Bốn Mùa - Hàng Cân (4 Hàng Cân, Hàng Đào, Hoàn Kiếm, Hà Nội) - Chè hạt sen long nhãn Phố Hiến"
         }
       ],
       "dish_ids": [
         "DISH_031"
       ],
       "image_url": "/images/places/PLACE_053.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ch%C3%A8_h%E1%BA%A1t_sen.jpg/1280px-Ch%C3%A8_h%E1%BA%A1t_sen.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Chè Bốn Mùa - Hàng Cân (4 Hàng Cân, Hàng Đào, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_054",
@@ -2152,21 +2268,23 @@
           "dish_name_vi": "Bún cá",
           "dish_name_en": "Crispy fish noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_032.jpg",
+          "image_url": "/images/offerings/OFFER_060.jpg",
           "offering_id": "OFFER_060",
           "menu_item_name_vi": "Bún cá rô phi rán giòn cuốn thịt cá",
           "price_min_vnd": 40000.0,
           "price_max_vnd": 55000.0,
           "variant": "Cá rô phi rán",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Cá Sâm Cây Si (5 Ngõ Trung Yên, Hàng Bạc, Hoàn Kiếm, Hà Nội) - Bún cá rô phi rán giòn cuốn thịt cá"
         }
       ],
       "dish_ids": [
         "DISH_032"
       ],
       "image_url": "/images/places/PLACE_054.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/B%C3%BAn_c%C3%A1.JPG/1280px-B%C3%BAn_c%C3%A1.JPG",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Cá Sâm Cây Si (5 Ngõ Trung Yên, Hàng Bạc, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_055",
@@ -2188,21 +2306,23 @@
           "dish_name_vi": "Lẩu riêu cua bắp bò",
           "dish_name_en": "Crab hotpot with beef shank",
           "category": "hotpot",
-          "image_url": "/images/dishes/DISH_033.jpg",
+          "image_url": "/images/offerings/OFFER_061.jpg",
           "offering_id": "OFFER_061",
           "menu_item_name_vi": "Set lẩu riêu cua sườn sụn bắp bò tươi",
           "price_min_vnd": 300000.0,
           "price_max_vnd": 450000.0,
           "variant": "Nồi 2-4 người",
           "portion": "Nồi tiêu chuẩn",
-          "online_image_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Lau_thap_cam.jpg/1280px-Lau_thap_cam.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Lẩu Riêu Cua Bắp Bò - Tống Duy Tân (11 Tống Duy Tân, Hàng Bông, Hoàn Kiếm, Hà Nội) - Set lẩu riêu cua sườn sụn bắp bò tươi"
         }
       ],
       "dish_ids": [
         "DISH_033"
       ],
       "image_url": "/images/places/PLACE_055.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Lau_thap_cam.jpg/1280px-Lau_thap_cam.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Lẩu Riêu Cua Bắp Bò - Tống Duy Tân (11 Tống Duy Tân, Hàng Bông, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_056",
@@ -2224,28 +2344,30 @@
           "dish_name_vi": "Bánh tráng nướng",
           "dish_name_en": "Grilled rice paper",
           "category": "snack",
-          "image_url": "/images/dishes/DISH_034.jpg",
+          "image_url": "/images/offerings/OFFER_062.jpg",
           "offering_id": "OFFER_062",
           "menu_item_name_vi": "Bánh tráng nướng Đà Lạt trứng cút phô mai bò khô",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 35000.0,
           "variant": "Thập cẩm bò phô mai",
           "portion": "Cái",
-          "online_image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Banh_trang_nuong_dalat.jpg/1280px-Banh_trang_nuong_dalat.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Tráng Nướng & Trộn Hàng Trống (86 Hàng Trống, Hoàn Kiếm, Hà Nội) - Bánh tráng nướng Đà Lạt trứng cút phô mai bò khô"
         },
         {
           "dish_id": "DISH_035",
           "dish_name_vi": "Bánh tráng trộn",
           "dish_name_en": "Mixed rice paper salad",
           "category": "salad",
-          "image_url": "/images/dishes/DISH_035.jpg",
+          "image_url": "/images/offerings/OFFER_063.jpg",
           "offering_id": "OFFER_063",
           "menu_item_name_vi": "Bánh tráng trộn bò sốt me cay ngọt",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 35000.0,
           "variant": "Sốt me trứng cút",
           "portion": "Suất tiêu chuẩn",
-          "online_image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/B%C3%A1nh_tr%C3%A1ng_tr%E1%BB%99n_S%C3%A0i_G%C3%B2n.jpg/1280px-B%C3%A1nh_tr%C3%A1ng_tr%E1%BB%99n_S%C3%A0i_G%C3%B2n.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Tráng Nướng & Trộn Hàng Trống (86 Hàng Trống, Hoàn Kiếm, Hà Nội) - Bánh tráng trộn bò sốt me cay ngọt"
         }
       ],
       "dish_ids": [
@@ -2253,7 +2375,8 @@
         "DISH_035"
       ],
       "image_url": "/images/places/PLACE_056.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Banh_trang_nuong_dalat.jpg/1280px-Banh_trang_nuong_dalat.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Tráng Nướng & Trộn Hàng Trống (86 Hàng Trống, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_057",
@@ -2275,21 +2398,23 @@
           "dish_name_vi": "Nem chua rán",
           "dish_name_en": "Fried fermented pork rolls",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_036.jpg",
+          "image_url": "/images/offerings/OFFER_064.jpg",
           "offering_id": "OFFER_064",
           "menu_item_name_vi": "Nem chua rán bột xù ngõ Tạm Thương",
           "price_min_vnd": 50000.0,
           "price_max_vnd": 60000.0,
           "variant": "Đĩa 10 cái",
           "portion": "Đĩa 10 cái",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/B%C3%BAn_nem.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/B%C3%BAn_nem.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Nem Chua Rán Bà Già - Tạm Thương (38 Ngõ Tạm Thương, Hàng Bông, Hoàn Kiếm, Hà Nội) - Nem chua rán bột xù ngõ Tạm Thương"
         }
       ],
       "dish_ids": [
         "DISH_036"
       ],
       "image_url": "/images/places/PLACE_057.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nem_chua_ran.jpg/1280px-Nem_chua_ran.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Nem Chua Rán Bà Già - Tạm Thương (38 Ngõ Tạm Thương, Hàng Bông, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_058",
@@ -2311,21 +2436,23 @@
           "dish_name_vi": "Chim quay",
           "dish_name_en": "Roasted spiced pigeon",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_037.jpg",
+          "image_url": "/images/offerings/OFFER_065.jpg",
           "offering_id": "OFFER_065",
           "menu_item_name_vi": "Chim bồ câu quay mật ong lá móc mật giòn rụm",
           "price_min_vnd": 90000.0,
           "price_max_vnd": 120000.0,
           "variant": "Chim bồ câu nguyên con",
           "portion": "Con",
-          "online_image_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Roast_pigeon.jpg/1280px-Roast_pigeon.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Chim Quay Ánh Tuyết - Tống Duy Tân (15 Tống Duy Tân, Hoàn Kiếm, Hà Nội) - Chim bồ câu quay mật ong lá móc mật giòn rụm"
         }
       ],
       "dish_ids": [
         "DISH_037"
       ],
       "image_url": "/images/places/PLACE_058.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Roast_pigeon.jpg/1280px-Roast_pigeon.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Chim Quay Ánh Tuyết - Tống Duy Tân (15 Tống Duy Tân, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_059",
@@ -2347,21 +2474,23 @@
           "dish_name_vi": "Gà tần thuốc bắc",
           "dish_name_en": "Herbal stewed black chicken",
           "category": "other",
-          "image_url": "/images/dishes/DISH_038.jpg",
+          "image_url": "/images/offerings/OFFER_066.jpg",
           "offering_id": "OFFER_066",
           "menu_item_name_vi": "Gà ác tần lon thuốc bắc ngải cứu thanh mát",
           "price_min_vnd": 75000.0,
           "price_max_vnd": 95000.0,
           "variant": "Gà ác nguyên con lon thiếc",
           "portion": "Lon",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg/1280px-G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg/1280px-G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Gà Tần Thuốc Bắc Mai Hương - Tống Duy Tân (12 Tống Duy Tân, Hoàn Kiếm, Hà Nội) - Gà ác tần lon thuốc bắc ngải cứu thanh mát"
         }
       ],
       "dish_ids": [
         "DISH_038"
       ],
       "image_url": "/images/places/PLACE_059.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg/1280px-G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Gà Tần Thuốc Bắc Mai Hương - Tống Duy Tân (12 Tống Duy Tân, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_060",
@@ -2383,21 +2512,23 @@
           "dish_name_vi": "Cơm tấm",
           "dish_name_en": "Broken rice with grilled pork chop",
           "category": "rice",
-          "image_url": "/images/dishes/DISH_039.jpg",
+          "image_url": "/images/offerings/OFFER_067.jpg",
           "offering_id": "OFFER_067",
           "menu_item_name_vi": "Cơm tấm sườn nướng bì chả trứng ốp la giòn rìa",
           "price_min_vnd": 45000.0,
           "price_max_vnd": 60000.0,
           "variant": "Sườn bì chả ốp la",
           "portion": "Dĩa tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Com-Tam-2008.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Com-Tam-2008.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Cơm Tấm 36 - Nguyễn Khuyến (36 Nguyễn Khuyến, Văn Miếu, Đống Đa, Hà Nội) - Cơm tấm sườn nướng bì chả trứng ốp la giòn rìa"
         }
       ],
       "dish_ids": [
         "DISH_039"
       ],
       "image_url": "/images/places/PLACE_060.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/C%C6%A1m_T%E1%BA%A5m%2C_Oakland%2C_California.jpg/1280px-C%C6%A1m_T%E1%BA%A5m%2C_Oakland%2C_California.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Cơm Tấm 36 - Nguyễn Khuyến (36 Nguyễn Khuyến, Văn Miếu, Đống Đa, Hà Nội)"
     },
     {
       "place_id": "PLACE_061",
@@ -2419,21 +2550,23 @@
           "dish_name_vi": "Bún chả cá",
           "dish_name_en": "Fish cake noodle soup",
           "category": "noodle_soup",
-          "image_url": "/images/dishes/DISH_040.jpg",
+          "image_url": "/images/offerings/OFFER_068.jpg",
           "offering_id": "OFFER_068",
           "menu_item_name_vi": "Bún chả cá thu Quy Nhơn ngọt thanh",
           "price_min_vnd": 40000.0,
           "price_max_vnd": 50000.0,
           "variant": "Chả cá chiên hấp kết hợp",
           "portion": "Tô tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bun_cha_ca_nha_trang.jpg/1280px-Bun_cha_ca_nha_trang.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bun_cha_ca_nha_trang.jpg/1280px-Bun_cha_ca_nha_trang.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bún Chả Cá Quy Nhơn - Hai Bà Trưng (21 Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội) - Bún chả cá thu Quy Nhơn ngọt thanh"
         }
       ],
       "dish_ids": [
         "DISH_040"
       ],
       "image_url": "/images/places/PLACE_061.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/B%C3%BAn_ch%E1%BA%A3_c%C3%A1_Quy_Nh%C6%A1n.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_c%C3%A1_Quy_Nh%C6%A1n.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bún Chả Cá Quy Nhơn - Hai Bà Trưng (21 Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_062",
@@ -2455,21 +2588,23 @@
           "dish_name_vi": "Bánh bao hấp",
           "dish_name_en": "Steamed pork bun",
           "category": "steamed",
-          "image_url": "/images/dishes/DISH_041.jpg",
+          "image_url": "/images/offerings/OFFER_069.jpg",
           "offering_id": "OFFER_069",
           "menu_item_name_vi": "Bánh bao nóng nhân xá xíu thịt trứng cút nấm hương",
           "price_min_vnd": 15000.0,
           "price_max_vnd": 20000.0,
           "variant": "Nhân thịt 2 trứng cút",
           "portion": "Cái",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/B%C3%A1nh_bao.jpg/1280px-B%C3%A1nh_bao.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/B%C3%A1nh_bao.jpg/1280px-B%C3%A1nh_bao.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Bao Nóng - Quán Thánh (146 Quán Thánh, Ba Đình, Hà Nội) - Bánh bao nóng nhân xá xíu thịt trứng cút nấm hương"
         }
       ],
       "dish_ids": [
         "DISH_041"
       ],
       "image_url": "/images/places/PLACE_062.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Baozi.jpg/1280px-Baozi.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Bao Nóng - Quán Thánh (146 Quán Thánh, Ba Đình, Hà Nội)"
     },
     {
       "place_id": "PLACE_063",
@@ -2491,28 +2626,30 @@
           "dish_name_vi": "Cháo lòng",
           "dish_name_en": "Pork offal congee",
           "category": "other",
-          "image_url": "/images/dishes/DISH_042.jpg",
+          "image_url": "/images/offerings/OFFER_070.jpg",
           "offering_id": "OFFER_070",
           "menu_item_name_vi": "Bát cháo lòng tiết heo sánh thơm rắc tiêu",
           "price_min_vnd": 35000.0,
           "price_max_vnd": 45000.0,
           "variant": "Lòng tổng hợp",
           "portion": "Bát tiêu chuẩn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A1o_l%C3%B2ng.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A1o_l%C3%B2ng.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Lòng Chần Cháo Lòng - Nguyễn Khuyến (18 Nguyễn Khuyến, Văn Miếu, Đống Đa, Hà Nội) - Bát cháo lòng tiết heo sánh thơm rắc tiêu"
         },
         {
           "dish_id": "DISH_043",
           "dish_name_vi": "Lòng dồi rán",
           "dish_name_en": "Crispy fried pork blood sausage",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_043.jpg",
+          "image_url": "/images/offerings/OFFER_071.jpg",
           "offering_id": "OFFER_071",
           "menu_item_name_vi": "Đĩa lòng dồi rán giòn chấm mắm tôm bọt chanh",
           "price_min_vnd": 80000.0,
           "price_max_vnd": 120000.0,
           "variant": "Đĩa dồi rán thập cẩm",
           "portion": "Đĩa vừa",
-          "online_image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/D%E1%BB%93i_l%E1%BB%A3n.jpg/1280px-D%E1%BB%93i_l%E1%BB%A3n.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Lòng Chần Cháo Lòng - Nguyễn Khuyến (18 Nguyễn Khuyến, Văn Miếu, Đống Đa, Hà Nội) - Đĩa lòng dồi rán giòn chấm mắm tôm bọt chanh"
         }
       ],
       "dish_ids": [
@@ -2520,7 +2657,8 @@
         "DISH_042"
       ],
       "image_url": "/images/places/PLACE_063.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ch%C3%A1o_l%C3%B2ng_Vi%E1%BB%87t_Nam.jpg/1280px-Ch%C3%A1o_l%C3%B2ng_Vi%E1%BB%87t_Nam.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Lòng Chần Cháo Lòng - Nguyễn Khuyến (18 Nguyễn Khuyến, Văn Miếu, Đống Đa, Hà Nội)"
     },
     {
       "place_id": "PLACE_064",
@@ -2542,21 +2680,23 @@
           "dish_name_vi": "Bánh bèo",
           "dish_name_en": "Steamed savory rice cake",
           "category": "steamed",
-          "image_url": "/images/dishes/DISH_044.jpg",
+          "image_url": "/images/offerings/OFFER_072.jpg",
           "offering_id": "OFFER_072",
           "menu_item_name_vi": "Khay bánh bèo chén tôm chấy tóp mỡ giòn chuẩn Huế",
           "price_min_vnd": 40000.0,
           "price_max_vnd": 50000.0,
           "variant": "Khay 8 chén",
           "portion": "Khay 8 chén",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Banh_beo_Thien_Mu.jpg/1280px-Banh_beo_Thien_Mu.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Banh_beo_Thien_Mu.jpg/1280px-Banh_beo_Thien_Mu.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Bèo Huế Ngự Uyển (32A Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội) - Khay bánh bèo chén tôm chấy tóp mỡ giòn chuẩn Huế"
         }
       ],
       "dish_ids": [
         "DISH_044"
       ],
       "image_url": "/images/places/PLACE_064.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/B%C3%A1nh_b%C3%A8o_Hu%E1%BA%BF.jpg/1280px-B%C3%A1nh_b%C3%A8o_Hu%E1%BA%BF.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Bèo Huế Ngự Uyển (32A Hai Bà Trưng, Tràng Tiền, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_065",
@@ -2578,21 +2718,23 @@
           "dish_name_vi": "Nem lụi",
           "dish_name_en": "Lemongrass pork skewers",
           "category": "grilled",
-          "image_url": "/images/dishes/DISH_045.jpg",
+          "image_url": "/images/offerings/OFFER_073.jpg",
           "offering_id": "OFFER_073",
           "menu_item_name_vi": "Nem lụi nướng sả than hoa kèm bánh tráng rau sống",
           "price_min_vnd": 70000.0,
           "price_max_vnd": 85000.0,
           "variant": "Đĩa 10 que nướng",
           "portion": "Đĩa 10 que",
-          "online_image_url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg/1280px-Nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Nem Lụi & Bánh Xèo Cô Năm (15 Phan Bội Châu, Cửa Nam, Hoàn Kiếm, Hà Nội) - Nem lụi nướng sả than hoa kèm bánh tráng rau sống"
         }
       ],
       "dish_ids": [
         "DISH_045"
       ],
       "image_url": "/images/places/PLACE_065.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg/1280px-Nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Nem Lụi & Bánh Xèo Cô Năm (15 Phan Bội Châu, Cửa Nam, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_066",
@@ -2614,21 +2756,23 @@
           "dish_name_vi": "Bánh xèo",
           "dish_name_en": "Crispy Vietnamese pancake",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_046.jpg",
+          "image_url": "/images/offerings/OFFER_074.jpg",
           "offering_id": "OFFER_074",
           "menu_item_name_vi": "Bánh xèo vàng giòn nhân tôm thịt giá đỗ đượm vị",
           "price_min_vnd": 35000.0,
           "price_max_vnd": 45000.0,
           "variant": "Bánh xèo tôm thịt lớn",
           "portion": "Cái lớn",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/B%C3%A1nh_x%C3%A8o_1.jpg/1280px-B%C3%A1nh_x%C3%A8o_1.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/B%C3%A1nh_x%C3%A8o_1.jpg/1280px-B%C3%A1nh_x%C3%A8o_1.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Xèo Nam Bộ - Tôn Đức Thắng (29 Tôn Đức Thắng, Quốc Tử Giám, Đống Đa, Hà Nội) - Bánh xèo vàng giòn nhân tôm thịt giá đỗ đượm vị"
         }
       ],
       "dish_ids": [
         "DISH_046"
       ],
       "image_url": "/images/places/PLACE_066.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/B%C3%A1nh_x%C3%A8o_%2815826153307%29.jpg/1280px-B%C3%A1nh_x%C3%A8o_%2815826153307%29.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Xèo Nam Bộ - Tôn Đức Thắng (29 Tôn Đức Thắng, Quốc Tử Giám, Đống Đa, Hà Nội)"
     },
     {
       "place_id": "PLACE_067",
@@ -2650,21 +2794,23 @@
           "dish_name_vi": "Chè khúc bạch",
           "dish_name_en": "Almond panna cotta sweet soup",
           "category": "sweet_soup",
-          "image_url": "/images/dishes/DISH_047.jpg",
+          "image_url": "/images/offerings/OFFER_075.jpg",
           "offering_id": "OFFER_075",
           "menu_item_name_vi": "Chè khúc bạch phô mai hạnh nhân long nhãn mát lạnh",
           "price_min_vnd": 30000.0,
           "price_max_vnd": 40000.0,
           "variant": "Khúc bạch phô mai truyền thống",
           "portion": "Bát",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg/1280px-Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg/1280px-Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Chè Khúc Bạch Thanh - Hàng Giấy (17 Hàng Giấy, Đồng Xuân, Hoàn Kiếm, Hà Nội) - Chè khúc bạch phô mai hạnh nhân long nhãn mát lạnh"
         }
       ],
       "dish_ids": [
         "DISH_047"
       ],
       "image_url": "/images/places/PLACE_067.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg/1280px-Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Chè Khúc Bạch Thanh - Hàng Giấy (17 Hàng Giấy, Đồng Xuân, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_068",
@@ -2686,21 +2832,23 @@
           "dish_name_vi": "Tào phớ",
           "dish_name_en": "Silken tofu with jasmine syrup",
           "category": "sweet_soup",
-          "image_url": "/images/dishes/DISH_048.jpg",
+          "image_url": "/images/offerings/OFFER_076.jpg",
           "offering_id": "OFFER_076",
           "menu_item_name_vi": "Tào phớ thạch găng trân châu dừa ướp hoa nhài thanh dịu",
           "price_min_vnd": 15000.0,
           "price_max_vnd": 22000.0,
           "variant": "Thập cẩm thạch găng trân châu",
           "portion": "Bát",
-          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A8_xo%C3%A0i.jpg"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A8_xo%C3%A0i.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Tào Phớ Thạch Găng - Quang Trung (24 Quang Trung, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội) - Tào phớ thạch găng trân châu dừa ướp hoa nhài thanh dịu"
         }
       ],
       "dish_ids": [
         "DISH_048"
       ],
       "image_url": "/images/places/PLACE_068.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/T%C3%A0o_ph%E1%BB%9B_H%C3%A0_N%E1%BB%99i.jpg/1280px-T%C3%A0o_ph%E1%BB%9B_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Tào Phớ Thạch Găng - Quang Trung (24 Quang Trung, Trần Hưng Đạo, Hoàn Kiếm, Hà Nội)"
     },
     {
       "place_id": "PLACE_069",
@@ -2722,21 +2870,23 @@
           "dish_name_vi": "Cốm xào",
           "dish_name_en": "Stir-fried young green rice",
           "category": "sweet_soup",
-          "image_url": "/images/dishes/DISH_049.jpg",
+          "image_url": "/images/offerings/OFFER_077.jpg",
           "offering_id": "OFFER_077",
           "menu_item_name_vi": "Đĩa cốm xào dừa Làng Vòng nếp non dẻo quánh",
           "price_min_vnd": 35000.0,
           "price_max_vnd": 50000.0,
           "variant": "Cốm xào dừa đĩa nhỏ",
           "portion": "Đĩa",
-          "online_image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/C%E1%BB%91m_x%C3%A0o_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%E1%BB%91m_x%C3%A0o_H%C3%A0_N%E1%BB%99i.jpg",
+          "image_source": "Foody.vn - Cốm Xào & Bánh Cốm Nguyên Ninh - 11 Hàng Than - Đĩa cốm xào dừa Làng Vòng nếp non dẻo quánh"
         }
       ],
       "dish_ids": [
         "DISH_049"
       ],
       "image_url": "/images/places/PLACE_069.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1559339352-11d035aa65de?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/C%E1%BB%91m_x%C3%A0o_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%E1%BB%91m_x%C3%A0o_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Foody.vn - Cốm Xào & Bánh Cốm Nguyên Ninh - 11 Hàng Than"
     },
     {
       "place_id": "PLACE_070",
@@ -2758,21 +2908,23 @@
           "dish_name_vi": "Bánh chưng rán",
           "dish_name_en": "Crispy fried sticky rice square cake",
           "category": "fried",
-          "image_url": "/images/dishes/DISH_050.jpg",
+          "image_url": "/images/offerings/OFFER_078.jpg",
           "offering_id": "OFFER_078",
           "menu_item_name_vi": "Bánh chưng rán mâm đồng giòn vỏ mềm nhân kèm dưa góp",
           "price_min_vnd": 25000.0,
           "price_max_vnd": 35000.0,
           "variant": "Bánh chưng rán góc kèm dưa",
           "portion": "Đĩa",
-          "online_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85"
+          "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/B%C3%A1nh_ch%C6%B0ng_r%C3%A1n.jpg/1280px-B%C3%A1nh_ch%C6%B0ng_r%C3%A1n.jpg",
+          "image_source": "Google Maps / Khảo sát thực địa - Bánh Chưng Rán Cô Mùi - Đồng Xuân (Cổng chợ Đồng Xuân, Hàng Buồm, Hoàn Kiếm, Hà Nội) - Bánh chưng rán mâm đồng giòn vỏ mềm nhân kèm dưa góp"
         }
       ],
       "dish_ids": [
         "DISH_050"
       ],
       "image_url": "/images/places/PLACE_070.jpg",
-      "online_image_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/B%C3%A1nh_ch%C6%B0ng_r%C3%A1n.jpg/1280px-B%C3%A1nh_ch%C6%B0ng_r%C3%A1n.jpg",
+      "image_source": "Google Maps / Khảo sát thực địa - Bánh Chưng Rán Cô Mùi - Đồng Xuân (Cổng chợ Đồng Xuân, Hàng Buồm, Hoàn Kiếm, Hà Nội)"
     }
   ],
   "dishes": [
@@ -3038,7 +3190,8 @@
       ],
       "serving_places_count": 5,
       "min_distance_m": 196.7,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_002",
@@ -3223,7 +3376,8 @@
       ],
       "serving_places_count": 7,
       "min_distance_m": 798.4,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Feu_%285061986490%29.jpg/1280px-Feu_%285061986490%29.jpg",
+      "image_source": "Wikimedia Commons (CC BY 2.0)"
     },
     {
       "dish_id": "DISH_003",
@@ -3475,7 +3629,8 @@
       ],
       "serving_places_count": 2,
       "min_distance_m": 374.2,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_Vietnamese_food.jpg",
+      "image_source": "Wikimedia Commons (CC BY 2.0)"
     },
     {
       "dish_id": "DISH_004",
@@ -3609,7 +3764,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 334.4,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Banh_mi_PaMi_1.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png/1280px-B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_005",
@@ -3779,7 +3935,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 491.3,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/B%C3%BAn_thang.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bun_thang_Hanoi.jpg/1280px-Bun_thang_Hanoi.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_006",
@@ -4041,7 +4198,8 @@
       ],
       "serving_places_count": 3,
       "min_distance_m": 1135.1,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m%2C_b%C3%BAn_nem_r%C3%A1n.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg/1280px-B%C3%BAn_%C4%91%E1%BA%ADu_m%E1%BA%AFm_t%C3%B4m_%282019%29.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_007",
@@ -4284,7 +4442,8 @@
       ],
       "serving_places_count": 2,
       "min_distance_m": 371.3,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg/1280px-Ch%E1%BA%A3_gi%C3%B2_%28Vietnamese_Spring_Rolls%29_-_12.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_008",
@@ -4484,7 +4643,8 @@
       ],
       "serving_places_count": 4,
       "min_distance_m": 371.3,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg/1280px-Ch%E1%BA%A3_c%C3%A1_L%C3%A3_V%E1%BB%8Dng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_009",
@@ -4697,7 +4857,8 @@
       ],
       "serving_places_count": 8,
       "min_distance_m": 374.2,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Banh_cuon.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Banh_cuon.jpg/1280px-Banh_cuon.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_010",
@@ -4797,7 +4958,8 @@
       ],
       "serving_places_count": 3,
       "min_distance_m": 812.6,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%C3%A0_ph%C3%AA_tr%E1%BB%A9ng_Gi%E1%BA%A3ng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_011",
@@ -4877,7 +5039,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1048.9,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bun_Rieu_close-up_-_Dakao_Hoang.jpg/1280px-Bun_Rieu_close-up_-_Dakao_Hoang.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/B%C3%BAn_ri%C3%AAu_cua_%C4%91%E1%BB%93ng_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_ri%C3%AAu_cua_%C4%91%E1%BB%93ng_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_012",
@@ -4939,7 +5102,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1168.3,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Bun_oc_Hoe_Nhai.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/B%C3%BAn_%E1%BB%91c_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_%E1%BB%91c_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_013",
@@ -5001,7 +5165,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1306.3,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mien_luon_Hang_Dieu.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Mi%E1%BA%BFn_l%C6%B0%C6%A1n_%C4%90%C3%B4ng_Th%E1%BB%8Bnh.jpg/1280px-Mi%E1%BA%BFn_l%C6%B0%C6%A1n_%C4%90%C3%B4ng_Th%E1%BB%8Bnh.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_014",
@@ -5063,7 +5228,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1390.6,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Banh_goi_01.JPG"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Banh_goi_01.JPG/1280px-Banh_goi_01.JPG",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_015",
@@ -5125,7 +5291,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1751.9,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg/1280px-L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%2810%29.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%282%29.jpg/1280px-L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_b%C3%A1nh_t%C3%B4m_H%E1%BB%93_T%C3%A2y_%282%29.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_016",
@@ -5187,7 +5354,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1194.8,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/X%C3%B4i_x%C3%A9o.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/X%C3%B4i_x%C3%A9o.jpg/1280px-X%C3%B4i_x%C3%A9o.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_017",
@@ -5249,7 +5417,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1775.9,
-      "online_image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Chasyu_Wonton_Men_.jpg/1280px-Chasyu_Wonton_Men_.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_018",
@@ -5311,7 +5480,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1290.6,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Doujiang_and_youtiao_Taipei.jpg/1280px-Doujiang_and_youtiao_Taipei.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Rice_congee.jpg/1280px-Rice_congee.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_019",
@@ -5364,7 +5534,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1311.8,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Ngan_Bun_Klang_Ban_01.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/B%C3%BAn_m%E1%BB%8Dc.jpg/1280px-B%C3%BAn_m%E1%BB%8Dc.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_020",
@@ -5426,7 +5597,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 714.6,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Banh_te_My_Duc_2.png/1280px-Banh_te_My_Duc_2.png"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/B%C3%A1nh_%C4%91%C3%BAc_n%C3%B3ng.jpg/1280px-B%C3%A1nh_%C4%91%C3%BAc_n%C3%B3ng.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_021",
@@ -5497,7 +5669,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 311.3,
-      "online_image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Goi_cuon_-_spring_roll.jpg/1280px-Goi_cuon_-_spring_roll.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_022",
@@ -5568,7 +5741,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 311.3,
-      "online_image_url": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ph%E1%BB%9F_%C3%A1p_ch%E1%BA%A3o_b%C3%B2.jpg/1280px-Ph%E1%BB%9F_%C3%A1p_ch%E1%BA%A3o_b%C3%B2.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_023",
@@ -5639,7 +5813,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1386.2,
-      "online_image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/B%C3%BAn_tr%E1%BB%99n%2C_Pho_15%2C_Paris_25_October_2016_001.jpg/1280px-B%C3%BAn_tr%E1%BB%99n%2C_Pho_15%2C_Paris_25_October_2016_001.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_024",
@@ -5710,7 +5885,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1352.7,
-      "online_image_url": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Bun-Bo-Hue-from-Huong-Giang-2011.jpg/1280px-Bun-Bo-Hue-from-Huong-Giang-2011.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_025",
@@ -5781,7 +5957,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 337.7,
-      "online_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Banh_gio.jpg/1280px-Banh_gio.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_026",
@@ -5852,7 +6029,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1780.3,
-      "online_image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Vietnamese_green_papaya_salad.jpg/1280px-Vietnamese_green_papaya_salad.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_027",
@@ -5923,7 +6101,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 344.3,
-      "online_image_url": "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/B%C3%BAn_m%E1%BB%8Dc.jpg/1280px-B%C3%BAn_m%E1%BB%8Dc.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_028",
@@ -5994,7 +6173,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1353.4,
-      "online_image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/B%C3%A1nh_kh%C3%BAc.jpg/1280px-B%C3%A1nh_kh%C3%BAc.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_029",
@@ -6065,7 +6245,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1150.7,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/BANH_DA_CUA_1.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/B%C3%A1nh_%C4%91a_cua.jpg/1280px-B%C3%A1nh_%C4%91a_cua.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_030",
@@ -6136,7 +6317,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1907.0,
-      "online_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cha_ruoi.JPG/1280px-Cha_ruoi.JPG",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_031",
@@ -6207,7 +6389,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1520.7,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/L%E1%BB%85_h%E1%BB%99i_%E1%BA%A9m_th%E1%BB%B1c_C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023_%C4%91%E1%BA%B7c_s%E1%BA%A3n_m%C3%B3n_ch%C3%A8_Hu%E1%BA%BF_%28ch%C3%A8_h%E1%BA%A1t_sen%29_%282%29.jpg/1280px-thumbnail.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ch%C3%A8_h%E1%BA%A1t_sen.jpg/1280px-Ch%C3%A8_h%E1%BA%A1t_sen.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_032",
@@ -6278,7 +6461,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1696.5,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg/1280px-B%C3%BAn_C%C3%A1_H%C3%A0_N%E1%BB%99i.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/B%C3%BAn_c%C3%A1.JPG/1280px-B%C3%BAn_c%C3%A1.JPG",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_033",
@@ -6349,7 +6533,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 748.0,
-      "online_image_url": "https://images.unsplash.com/photo-1547928576-a4a33237cbc3?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Lau_thap_cam.jpg/1280px-Lau_thap_cam.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_034",
@@ -6420,7 +6605,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1449.7,
-      "online_image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Banh_trang_nuong_dalat.jpg/1280px-Banh_trang_nuong_dalat.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_035",
@@ -6491,7 +6677,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1449.7,
-      "online_image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/B%C3%A1nh_tr%C3%A1ng_tr%E1%BB%99n_S%C3%A0i_G%C3%B2n.jpg/1280px-B%C3%A1nh_tr%C3%A1ng_tr%E1%BB%99n_S%C3%A0i_G%C3%B2n.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_036",
@@ -6562,7 +6749,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1100.4,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/B%C3%BAn_nem.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nem_chua_ran.jpg/1280px-Nem_chua_ran.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_037",
@@ -6633,7 +6821,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 763.1,
-      "online_image_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Roast_pigeon.jpg/1280px-Roast_pigeon.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_038",
@@ -6704,7 +6893,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 766.1,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg/1280px-G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg/1280px-G%C3%A0_t%E1%BA%A7n_thu%E1%BB%91c_b%E1%BA%AFc_m%C3%B3n_ngon_b%E1%BB%95_d%C6%B0%E1%BB%A1ng.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_039",
@@ -6775,7 +6965,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 257.9,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Com-Tam-2008.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/C%C6%A1m_T%E1%BA%A5m%2C_Oakland%2C_California.jpg/1280px-C%C6%A1m_T%E1%BA%A5m%2C_Oakland%2C_California.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_040",
@@ -6846,7 +7037,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1652.8,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bun_cha_ca_nha_trang.jpg/1280px-Bun_cha_ca_nha_trang.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/B%C3%BAn_ch%E1%BA%A3_c%C3%A1_Quy_Nh%C6%A1n.jpg/1280px-B%C3%BAn_ch%E1%BA%A3_c%C3%A1_Quy_Nh%C6%A1n.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_041",
@@ -6917,7 +7109,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1568.3,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/B%C3%A1nh_bao.jpg/1280px-B%C3%A1nh_bao.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Baozi.jpg/1280px-Baozi.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_042",
@@ -6988,7 +7181,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 371.4,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ch%C3%A1o_l%C3%B2ng.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ch%C3%A1o_l%C3%B2ng_Vi%E1%BB%87t_Nam.jpg/1280px-Ch%C3%A1o_l%C3%B2ng_Vi%E1%BB%87t_Nam.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_043",
@@ -7059,7 +7253,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 371.4,
-      "online_image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/D%E1%BB%93i_l%E1%BB%A3n.jpg/1280px-D%E1%BB%93i_l%E1%BB%A3n.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_044",
@@ -7130,7 +7325,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1564.6,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Banh_beo_Thien_Mu.jpg/1280px-Banh_beo_Thien_Mu.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/B%C3%A1nh_b%C3%A8o_Hu%E1%BA%BF.jpg/1280px-B%C3%A1nh_b%C3%A8o_Hu%E1%BA%BF.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 3.0)"
     },
     {
       "dish_id": "DISH_045",
@@ -7201,7 +7397,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 863.9,
-      "online_image_url": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg/1280px-Nem_n%C6%B0%E1%BB%9Bng_Nha_Trang.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_046",
@@ -7272,7 +7469,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 527.7,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/B%C3%A1nh_x%C3%A8o_1.jpg/1280px-B%C3%A1nh_x%C3%A8o_1.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/B%C3%A1nh_x%C3%A8o_%2815826153307%29.jpg/1280px-B%C3%A1nh_x%C3%A8o_%2815826153307%29.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 2.0)"
     },
     {
       "dish_id": "DISH_047",
@@ -7343,7 +7541,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1648.0,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg/1280px-Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg/1280px-Ch%C3%A8_kh%C3%BAc_b%E1%BA%A1ch_%E1%BB%9F_qu%C3%A1n_Th%E1%BA%A3o_Vy_2020_09_06.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_048",
@@ -7414,7 +7613,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1371.1,
-      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Ch%C3%A8_xo%C3%A0i.jpg"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/T%C3%A0o_ph%E1%BB%9B_H%C3%A0_N%E1%BB%99i.jpg/1280px-T%C3%A0o_ph%E1%BB%9B_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_049",
@@ -7485,7 +7685,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1639.0,
-      "online_image_url": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/C%E1%BB%91m_x%C3%A0o_H%C3%A0_N%E1%BB%99i.jpg/1280px-C%E1%BB%91m_x%C3%A0o_H%C3%A0_N%E1%BB%99i.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     },
     {
       "dish_id": "DISH_050",
@@ -7556,7 +7757,8 @@
       ],
       "serving_places_count": 1,
       "min_distance_m": 1752.6,
-      "online_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200&q=85"
+      "online_image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/B%C3%A1nh_ch%C6%B0ng_r%C3%A1n.jpg/1280px-B%C3%A1nh_ch%C6%B0ng_r%C3%A1n.jpg",
+      "image_source": "Wikimedia Commons (CC BY-SA 4.0)"
     }
   ],
   "hanoi_boundary": {
