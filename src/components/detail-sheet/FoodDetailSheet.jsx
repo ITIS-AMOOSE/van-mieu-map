@@ -25,7 +25,7 @@ export default function FoodDetailSheet({
         <div className={styles.sheetContainer} onClick={(e) => e.stopPropagation()}>
           <div className={styles.headerImageWrapper}>
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Hanoi_Temple_of_Literature_01.jpg/1200px-Hanoi_Temple_of_Literature_01.jpg"
+              src="https://images.unsplash.com/photo-1599707367072-cd6ada2bc375?w=800"
               alt="Văn Miếu Quốc Tử Giám"
               className={styles.headerImage}
             />
@@ -33,12 +33,7 @@ export default function FoodDetailSheet({
               ✕
             </button>
             <div className={styles.imageOverlay}>
-              <div className={styles.headerTagRow}>
-                <span className={styles.heritageTag}>🏛️ Di Tích Quốc Gia Đặc Biệt</span>
-                <span className={styles.sourceTag} title="Nguồn ảnh: Wikimedia Commons (CC BY-SA)">
-                  📷 Wikimedia Commons (Jean-Pierre Dalbéra)
-                </span>
-              </div>
+              <span className={styles.heritageTag}>🏛️ Di Tích Quốc Gia Đặc Biệt</span>
               <h2 className={styles.sheetTitle}>Văn Miếu – Quốc Tử Giám</h2>
               <p className={styles.sheetSubtitle}>Tâm điểm khảo sát ẩm thực tinh hoa Hà Nội</p>
             </div>
@@ -107,23 +102,16 @@ export default function FoodDetailSheet({
               alt={place.name}
               className={styles.headerImage}
               onError={(e) => {
-                e.target.src = place.online_image_url || "/images/dishes/DISH_001.jpg";
+                e.target.src = "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800";
               }}
             />
             <button className={styles.closeBtn} onClick={onClose} title="Đóng">
               ✕
             </button>
             <div className={styles.imageOverlay}>
-              <div className={styles.headerTagRow}>
-                <span className={styles.heritageTag}>
-                  {catMeta.icon || "📍"} {catMeta.label || "Quán ăn"}
-                </span>
-                {place.image_source && (
-                  <span className={styles.sourceTag} title={`Nguồn ảnh: ${place.image_source}`}>
-                    📷 {place.image_source}
-                  </span>
-                )}
-              </div>
+              <span className={styles.heritageTag}>
+                {catMeta.icon || "📍"} {catMeta.label || "Quán ăn"}
+              </span>
               <h2 className={styles.sheetTitle}>{place.name}</h2>
               {place.branch_name && <p className={styles.sheetBranch}>{place.branch_name}</p>}
               <div className={styles.headerMetaRow}>
@@ -212,26 +200,8 @@ export default function FoodDetailSheet({
                           if (onSelectDish) onSelectDish({ dish_id: d.dish_id });
                         }}
                       >
-                        <div className={styles.miniDishLeft}>
-                          {d.image_url && (
-                            <img
-                              src={d.image_url}
-                              alt={d.dish_name_vi}
-                              className={styles.miniDishThumb}
-                              loading="lazy"
-                              onError={(e) => {
-                                e.target.src = d.online_image_url || "/images/dishes/DISH_001.jpg";
-                              }}
-                            />
-                          )}
-                          <div>
-                            <span className={styles.miniDishName}>{d.dish_name_vi}</span>
-                            {d.variant && <span className={styles.miniDishVariant}>({d.variant})</span>}
-                            {d.image_source && (
-                              <span className={styles.miniDishSource}>📷 {d.image_source}</span>
-                            )}
-                          </div>
-                        </div>
+                        <span className={styles.miniDishName}>{d.dish_name_vi}</span>
+                        {d.variant && <span className={styles.miniDishVariant}>({d.variant})</span>}
                         <span className={styles.miniDishPrice}>{formatPrice(d.price_min_vnd)}</span>
                       </div>
                     ))}
@@ -246,38 +216,18 @@ export default function FoodDetailSheet({
                 <div className={styles.menuList}>
                   {dishesServed.map((item, idx) => (
                     <div key={idx} className={styles.menuItem}>
-                      <div className={styles.menuItemRow}>
-                        {item.image_url && (
-                          <img
-                            src={item.image_url}
-                            alt={item.dish_name_vi}
-                            className={styles.menuItemThumb}
-                            loading="lazy"
-                            onError={(e) => {
-                              e.target.src = item.online_image_url || "/images/dishes/DISH_001.jpg";
-                            }}
-                          />
-                        )}
-                        <div className={styles.menuItemContent}>
-                          <div className={styles.menuItemHeader}>
-                            <h4 className={styles.menuItemName}>{item.menu_item_name_vi || item.dish_name_vi}</h4>
-                            <span className={styles.menuItemPrice}>
-                              {formatPriceRange(item.price_min_vnd, item.price_max_vnd)}
-                            </span>
-                          </div>
-                          {item.menu_item_name_en && (
-                            <p className={styles.menuItemEn}>{item.menu_item_name_en}</p>
-                          )}
-                          <div className={styles.menuItemDetails}>
-                            {item.variant && <span className={styles.pillTag}>Biến thể: {item.variant}</span>}
-                            {item.portion && <span className={styles.pillTag}>Khẩu phần: {item.portion}</span>}
-                            {item.image_source && (
-                              <span className={styles.sourcePill} title="Nguồn ảnh thực tế tại quán">
-                                📷 {item.image_source}
-                              </span>
-                            )}
-                          </div>
-                        </div>
+                      <div className={styles.menuItemHeader}>
+                        <h4 className={styles.menuItemName}>{item.menu_item_name_vi || item.dish_name_vi}</h4>
+                        <span className={styles.menuItemPrice}>
+                          {formatPriceRange(item.price_min_vnd, item.price_max_vnd)}
+                        </span>
+                      </div>
+                      {item.menu_item_name_en && (
+                        <p className={styles.menuItemEn}>{item.menu_item_name_en}</p>
+                      )}
+                      <div className={styles.menuItemDetails}>
+                        {item.variant && <span className={styles.pillTag}>Biến thể: {item.variant}</span>}
+                        {item.portion && <span className={styles.pillTag}>Khẩu phần: {item.portion}</span>}
                       </div>
                     </div>
                   ))}
@@ -312,23 +262,16 @@ export default function FoodDetailSheet({
             alt={dish.name_vi}
             className={styles.headerImage}
             onError={(e) => {
-              e.target.src = dish.online_image_url || "/images/dishes/DISH_001.jpg";
+              e.target.src = "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=800";
             }}
           />
           <button className={styles.closeBtn} onClick={onClose} title="Đóng">
             ✕
           </button>
           <div className={styles.imageOverlay}>
-            <div className={styles.headerTagRow}>
-              <span className={styles.heritageTag}>
-                {catMeta.icon || "🍲"} {catMeta.label || "Món ăn"}
-              </span>
-              {dish.image_source && (
-                <span className={styles.sourceTag} title={`Nguồn ảnh: ${dish.image_source}`}>
-                  📷 {dish.image_source}
-                </span>
-              )}
-            </div>
+            <span className={styles.heritageTag}>
+              {catMeta.icon || "🍲"} {catMeta.label || "Món ăn"}
+            </span>
             <h2 className={styles.sheetTitle}>{dish.name_vi}</h2>
             {dish.name_en && <p className={styles.sheetBranch}>{dish.name_en}</p>}
             {dish.taste_profile && dish.taste_profile.length > 0 && (

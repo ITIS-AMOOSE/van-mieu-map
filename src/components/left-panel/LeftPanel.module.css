@@ -518,17 +518,3 @@
   margin: 0;
 }
 
-.cardSourceText {
-  font-size: 10px;
-  color: #854d0e;
-  background: #fefce8;
-  padding: 2px 6px;
-  border-radius: 4px;
-  margin-top: 5px;
-  border: 1px solid #fef08a;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: block;
-}
-
